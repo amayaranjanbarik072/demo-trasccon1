@@ -1,0 +1,5754 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - img "logo" [ref=e8]
+      - generic [ref=e9]:
+        - generic:
+          - heading [level=4]
+        - list [ref=e10]:
+          - listitem [ref=e11]:
+            - generic [ref=e12] [cursor=pointer]:
+              - generic "Admin Admin" [ref=e14]: A
+              - paragraph [ref=e17]: admin@mail.com
+              - text: 󰅀
+            - text: 󰃨 󰍃 󰝳
+          - listitem [ref=e18]:
+            - generic [ref=e20] [cursor=pointer]: 󰇰
+          - listitem [ref=e22]:
+            - generic [ref=e24] [cursor=pointer]: 󰂜
+            - text: 󰃭
+          - listitem [ref=e25]:
+            - generic [ref=e27] [cursor=pointer]: 󰐥
+        - text: 󰍜
+  - generic [ref=e28]:
+    - navigation [ref=e29]:
+      - list [ref=e32]:
+        - listitem [ref=e33]:
+          - link "Dashboard" [ref=e34] [cursor=pointer]:
+            - /url: /dashboard
+        - listitem [ref=e35]:
+          - generic [ref=e36]: Org Config
+        - listitem [ref=e37]:
+          - generic [ref=e38]: Engineering
+        - listitem [ref=e39]:
+          - generic [ref=e40]: Sales & Marketing
+        - listitem [ref=e41]:
+          - generic [ref=e42]: Sourcing
+        - listitem [ref=e43]:
+          - generic [ref=e44]: Procurement
+        - listitem [ref=e45]:
+          - generic [ref=e46]: Manufacturing
+        - listitem [ref=e47]:
+          - generic [ref=e48]: Warehouse
+        - listitem [ref=e49]:
+          - generic [ref=e50]: Logistic
+        - listitem [ref=e51]:
+          - generic [ref=e52]: Finance
+    - generic [ref=e53]:
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - generic [ref=e59]: User Access
+          - generic [ref=e60]:
+            - generic [ref=e62] [cursor=pointer]: 󰁯
+            - generic [ref=e64] [cursor=pointer]: 󰚡
+            - generic [ref=e66] [cursor=pointer]: 󰌍
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - generic [ref=e75]: Select User Name
+              - generic [ref=e77]:
+                - generic [ref=e78]:
+                  - generic [ref=e79]: amayaranjan
+                  - combobox [ref=e80]:
+                    - textbox [active] [ref=e81]
+                - generic "Clear all" [ref=e82] [cursor=pointer]:
+                  - generic: ×
+            - generic [ref=e85]:
+              - generic [ref=e86]: Role
+              - textbox [ref=e88]: Admin
+          - generic [ref=e90]:
+            - tablist [ref=e91]:
+              - listitem [ref=e92] [cursor=pointer]:
+                - tab "Items" [selected] [ref=e93]
+            - tabpanel "Items" [ref=e95]:
+              - table [ref=e97]:
+                - rowgroup [ref=e98]:
+                  - row "Sl No. Menu Form Name Select All Table Create Edit View Delete Download Upload Approve 1 Approve 2 Print" [ref=e99]:
+                    - columnheader "Sl No." [ref=e100]
+                    - columnheader "Menu" [ref=e101]
+                    - columnheader "Form Name" [ref=e102]
+                    - columnheader "Select All" [ref=e103]
+                    - columnheader "Table" [ref=e104]
+                    - columnheader "Create" [ref=e105]
+                    - columnheader "Edit" [ref=e106]
+                    - columnheader "View" [ref=e107]
+                    - columnheader "Delete" [ref=e108]
+                    - columnheader "Download" [ref=e109]
+                    - columnheader "Upload" [ref=e110]
+                    - columnheader "Approve 1" [ref=e111]
+                    - columnheader "Approve 2" [ref=e112]
+                    - columnheader "Print" [ref=e113]
+                - rowgroup [ref=e114]:
+                  - row "1 Lead NewLead" [ref=e115]:
+                    - cell "1" [ref=e116] [cursor=pointer]
+                    - cell "Lead" [ref=e117] [cursor=pointer]:
+                      - generic [ref=e118]: Lead
+                    - cell "NewLead" [ref=e119] [cursor=pointer]:
+                      - generic [ref=e120]: NewLead
+                    - cell [ref=e121] [cursor=pointer]:
+                      - checkbox [ref=e123]
+                    - cell [ref=e124] [cursor=pointer]:
+                      - checkbox [checked] [ref=e126]
+                    - cell [ref=e127] [cursor=pointer]:
+                      - checkbox [checked] [ref=e129]
+                    - cell [ref=e130] [cursor=pointer]:
+                      - checkbox [checked] [ref=e132]
+                    - cell [ref=e133] [cursor=pointer]:
+                      - checkbox [checked] [ref=e135]
+                    - cell [ref=e136] [cursor=pointer]:
+                      - checkbox [checked] [ref=e138]
+                    - cell [ref=e139] [cursor=pointer]:
+                      - checkbox [checked] [ref=e141]
+                    - cell [ref=e142] [cursor=pointer]:
+                      - checkbox [checked] [ref=e144]
+                    - cell [ref=e145] [cursor=pointer]:
+                      - checkbox [checked] [ref=e147]
+                    - cell [ref=e148] [cursor=pointer]:
+                      - checkbox [checked] [ref=e150]
+                    - cell [ref=e151] [cursor=pointer]:
+                      - checkbox [checked] [ref=e153]
+                  - row "2 Lead LeadMaster" [ref=e154]:
+                    - cell "2" [ref=e155] [cursor=pointer]
+                    - cell "Lead" [ref=e156] [cursor=pointer]:
+                      - generic [ref=e157]: Lead
+                    - cell "LeadMaster" [ref=e158] [cursor=pointer]:
+                      - generic [ref=e159]: LeadMaster
+                    - cell [ref=e160] [cursor=pointer]:
+                      - checkbox [ref=e162]
+                    - cell [ref=e163] [cursor=pointer]:
+                      - checkbox [checked] [ref=e165]
+                    - cell [ref=e166] [cursor=pointer]:
+                      - checkbox [checked] [ref=e168]
+                    - cell [ref=e169] [cursor=pointer]:
+                      - checkbox [checked] [ref=e171]
+                    - cell [ref=e172] [cursor=pointer]:
+                      - checkbox [checked] [ref=e174]
+                    - cell [ref=e175] [cursor=pointer]:
+                      - checkbox [checked] [ref=e177]
+                    - cell [ref=e178] [cursor=pointer]:
+                      - checkbox [checked] [ref=e180]
+                    - cell [ref=e181] [cursor=pointer]:
+                      - checkbox [checked] [ref=e183]
+                    - cell [ref=e184] [cursor=pointer]:
+                      - checkbox [checked] [ref=e186]
+                    - cell [ref=e187] [cursor=pointer]:
+                      - checkbox [checked] [ref=e189]
+                    - cell [ref=e190] [cursor=pointer]:
+                      - checkbox [checked] [ref=e192]
+                  - row "3 Lead DemoStatus" [ref=e193]:
+                    - cell "3" [ref=e194] [cursor=pointer]
+                    - cell "Lead" [ref=e195] [cursor=pointer]:
+                      - generic [ref=e196]: Lead
+                    - cell "DemoStatus" [ref=e197] [cursor=pointer]:
+                      - generic [ref=e198]: DemoStatus
+                    - cell [ref=e199] [cursor=pointer]:
+                      - checkbox [ref=e201]
+                    - cell [ref=e202] [cursor=pointer]:
+                      - checkbox [checked] [ref=e204]
+                    - cell [ref=e205] [cursor=pointer]:
+                      - checkbox [checked] [ref=e207]
+                    - cell [ref=e208] [cursor=pointer]:
+                      - checkbox [checked] [ref=e210]
+                    - cell [ref=e211] [cursor=pointer]:
+                      - checkbox [checked] [ref=e213]
+                    - cell [ref=e214] [cursor=pointer]:
+                      - checkbox [checked] [ref=e216]
+                    - cell [ref=e217] [cursor=pointer]:
+                      - checkbox [checked] [ref=e219]
+                    - cell [ref=e220] [cursor=pointer]:
+                      - checkbox [checked] [ref=e222]
+                    - cell [ref=e223] [cursor=pointer]:
+                      - checkbox [checked] [ref=e225]
+                    - cell [ref=e226] [cursor=pointer]:
+                      - checkbox [checked] [ref=e228]
+                    - cell [ref=e229] [cursor=pointer]:
+                      - checkbox [checked] [ref=e231]
+                  - row "4 Lead LeadStatus" [ref=e232]:
+                    - cell "4" [ref=e233] [cursor=pointer]
+                    - cell "Lead" [ref=e234] [cursor=pointer]:
+                      - generic [ref=e235]: Lead
+                    - cell "LeadStatus" [ref=e236] [cursor=pointer]:
+                      - generic [ref=e237]: LeadStatus
+                    - cell [ref=e238] [cursor=pointer]:
+                      - checkbox [ref=e240]
+                    - cell [ref=e241] [cursor=pointer]:
+                      - checkbox [checked] [ref=e243]
+                    - cell [ref=e244] [cursor=pointer]:
+                      - checkbox [checked] [ref=e246]
+                    - cell [ref=e247] [cursor=pointer]:
+                      - checkbox [checked] [ref=e249]
+                    - cell [ref=e250] [cursor=pointer]:
+                      - checkbox [checked] [ref=e252]
+                    - cell [ref=e253] [cursor=pointer]:
+                      - checkbox [checked] [ref=e255]
+                    - cell [ref=e256] [cursor=pointer]:
+                      - checkbox [checked] [ref=e258]
+                    - cell [ref=e259] [cursor=pointer]:
+                      - checkbox [checked] [ref=e261]
+                    - cell [ref=e262] [cursor=pointer]:
+                      - checkbox [checked] [ref=e264]
+                    - cell [ref=e265] [cursor=pointer]:
+                      - checkbox [checked] [ref=e267]
+                    - cell [ref=e268] [cursor=pointer]:
+                      - checkbox [checked] [ref=e270]
+                  - row "5 Lead LeadType" [ref=e271]:
+                    - cell "5" [ref=e272] [cursor=pointer]
+                    - cell "Lead" [ref=e273] [cursor=pointer]:
+                      - generic [ref=e274]: Lead
+                    - cell "LeadType" [ref=e275] [cursor=pointer]:
+                      - generic [ref=e276]: LeadType
+                    - cell [ref=e277] [cursor=pointer]:
+                      - checkbox [ref=e279]
+                    - cell [ref=e280] [cursor=pointer]:
+                      - checkbox [checked] [ref=e282]
+                    - cell [ref=e283] [cursor=pointer]:
+                      - checkbox [checked] [ref=e285]
+                    - cell [ref=e286] [cursor=pointer]:
+                      - checkbox [checked] [ref=e288]
+                    - cell [ref=e289] [cursor=pointer]:
+                      - checkbox [checked] [ref=e291]
+                    - cell [ref=e292] [cursor=pointer]:
+                      - checkbox [checked] [ref=e294]
+                    - cell [ref=e295] [cursor=pointer]:
+                      - checkbox [checked] [ref=e297]
+                    - cell [ref=e298] [cursor=pointer]:
+                      - checkbox [checked] [ref=e300]
+                    - cell [ref=e301] [cursor=pointer]:
+                      - checkbox [checked] [ref=e303]
+                    - cell [ref=e304] [cursor=pointer]:
+                      - checkbox [checked] [ref=e306]
+                    - cell [ref=e307] [cursor=pointer]:
+                      - checkbox [checked] [ref=e309]
+                  - row "6 Lead Source" [ref=e310]:
+                    - cell "6" [ref=e311] [cursor=pointer]
+                    - cell "Lead" [ref=e312] [cursor=pointer]:
+                      - generic [ref=e313]: Lead
+                    - cell "Source" [ref=e314] [cursor=pointer]:
+                      - generic [ref=e315]: Source
+                    - cell [ref=e316] [cursor=pointer]:
+                      - checkbox [ref=e318]
+                    - cell [ref=e319] [cursor=pointer]:
+                      - checkbox [checked] [ref=e321]
+                    - cell [ref=e322] [cursor=pointer]:
+                      - checkbox [checked] [ref=e324]
+                    - cell [ref=e325] [cursor=pointer]:
+                      - checkbox [checked] [ref=e327]
+                    - cell [ref=e328] [cursor=pointer]:
+                      - checkbox [checked] [ref=e330]
+                    - cell [ref=e331] [cursor=pointer]:
+                      - checkbox [checked] [ref=e333]
+                    - cell [ref=e334] [cursor=pointer]:
+                      - checkbox [checked] [ref=e336]
+                    - cell [ref=e337] [cursor=pointer]:
+                      - checkbox [checked] [ref=e339]
+                    - cell [ref=e340] [cursor=pointer]:
+                      - checkbox [checked] [ref=e342]
+                    - cell [ref=e343] [cursor=pointer]:
+                      - checkbox [checked] [ref=e345]
+                    - cell [ref=e346] [cursor=pointer]:
+                      - checkbox [checked] [ref=e348]
+                  - row "7 Lead SecondarySource" [ref=e349]:
+                    - cell "7" [ref=e350] [cursor=pointer]
+                    - cell "Lead" [ref=e351] [cursor=pointer]:
+                      - generic [ref=e352]: Lead
+                    - cell "SecondarySource" [ref=e353] [cursor=pointer]:
+                      - generic [ref=e354]: SecondarySource
+                    - cell [ref=e355] [cursor=pointer]:
+                      - checkbox [ref=e357]
+                    - cell [ref=e358] [cursor=pointer]:
+                      - checkbox [checked] [ref=e360]
+                    - cell [ref=e361] [cursor=pointer]:
+                      - checkbox [checked] [ref=e363]
+                    - cell [ref=e364] [cursor=pointer]:
+                      - checkbox [checked] [ref=e366]
+                    - cell [ref=e367] [cursor=pointer]:
+                      - checkbox [checked] [ref=e369]
+                    - cell [ref=e370] [cursor=pointer]:
+                      - checkbox [checked] [ref=e372]
+                    - cell [ref=e373] [cursor=pointer]:
+                      - checkbox [checked] [ref=e375]
+                    - cell [ref=e376] [cursor=pointer]:
+                      - checkbox [checked] [ref=e378]
+                    - cell [ref=e379] [cursor=pointer]:
+                      - checkbox [checked] [ref=e381]
+                    - cell [ref=e382] [cursor=pointer]:
+                      - checkbox [checked] [ref=e384]
+                    - cell [ref=e385] [cursor=pointer]:
+                      - checkbox [checked] [ref=e387]
+                  - row "8 Lead Architecture" [ref=e388]:
+                    - cell "8" [ref=e389] [cursor=pointer]
+                    - cell "Lead" [ref=e390] [cursor=pointer]:
+                      - generic [ref=e391]: Lead
+                    - cell "Architecture" [ref=e392] [cursor=pointer]:
+                      - generic [ref=e393]: Architecture
+                    - cell [ref=e394] [cursor=pointer]:
+                      - checkbox [ref=e396]
+                    - cell [ref=e397] [cursor=pointer]:
+                      - checkbox [checked] [ref=e399]
+                    - cell [ref=e400] [cursor=pointer]:
+                      - checkbox [checked] [ref=e402]
+                    - cell [ref=e403] [cursor=pointer]:
+                      - checkbox [checked] [ref=e405]
+                    - cell [ref=e406] [cursor=pointer]:
+                      - checkbox [checked] [ref=e408]
+                    - cell [ref=e409] [cursor=pointer]:
+                      - checkbox [checked] [ref=e411]
+                    - cell [ref=e412] [cursor=pointer]:
+                      - checkbox [checked] [ref=e414]
+                    - cell [ref=e415] [cursor=pointer]:
+                      - checkbox [checked] [ref=e417]
+                    - cell [ref=e418] [cursor=pointer]:
+                      - checkbox [checked] [ref=e420]
+                    - cell [ref=e421] [cursor=pointer]:
+                      - checkbox [checked] [ref=e423]
+                    - cell [ref=e424] [cursor=pointer]:
+                      - checkbox [checked] [ref=e426]
+                  - row "9 Lead BHK" [ref=e427]:
+                    - cell "9" [ref=e428] [cursor=pointer]
+                    - cell "Lead" [ref=e429] [cursor=pointer]:
+                      - generic [ref=e430]: Lead
+                    - cell "BHK" [ref=e431] [cursor=pointer]:
+                      - generic [ref=e432]: BHK
+                    - cell [ref=e433] [cursor=pointer]:
+                      - checkbox [ref=e435]
+                    - cell [ref=e436] [cursor=pointer]:
+                      - checkbox [checked] [ref=e438]
+                    - cell [ref=e439] [cursor=pointer]:
+                      - checkbox [checked] [ref=e441]
+                    - cell [ref=e442] [cursor=pointer]:
+                      - checkbox [checked] [ref=e444]
+                    - cell [ref=e445] [cursor=pointer]:
+                      - checkbox [checked] [ref=e447]
+                    - cell [ref=e448] [cursor=pointer]:
+                      - checkbox [checked] [ref=e450]
+                    - cell [ref=e451] [cursor=pointer]:
+                      - checkbox [checked] [ref=e453]
+                    - cell [ref=e454] [cursor=pointer]:
+                      - checkbox [checked] [ref=e456]
+                    - cell [ref=e457] [cursor=pointer]:
+                      - checkbox [checked] [ref=e459]
+                    - cell [ref=e460] [cursor=pointer]:
+                      - checkbox [checked] [ref=e462]
+                    - cell [ref=e463] [cursor=pointer]:
+                      - checkbox [checked] [ref=e465]
+                  - row "10 Lead City" [ref=e466]:
+                    - cell "10" [ref=e467] [cursor=pointer]
+                    - cell "Lead" [ref=e468] [cursor=pointer]:
+                      - generic [ref=e469]: Lead
+                    - cell "City" [ref=e470] [cursor=pointer]:
+                      - generic [ref=e471]: City
+                    - cell [ref=e472] [cursor=pointer]:
+                      - checkbox [ref=e474]
+                    - cell [ref=e475] [cursor=pointer]:
+                      - checkbox [checked] [ref=e477]
+                    - cell [ref=e478] [cursor=pointer]:
+                      - checkbox [checked] [ref=e480]
+                    - cell [ref=e481] [cursor=pointer]:
+                      - checkbox [checked] [ref=e483]
+                    - cell [ref=e484] [cursor=pointer]:
+                      - checkbox [checked] [ref=e486]
+                    - cell [ref=e487] [cursor=pointer]:
+                      - checkbox [checked] [ref=e489]
+                    - cell [ref=e490] [cursor=pointer]:
+                      - checkbox [checked] [ref=e492]
+                    - cell [ref=e493] [cursor=pointer]:
+                      - checkbox [checked] [ref=e495]
+                    - cell [ref=e496] [cursor=pointer]:
+                      - checkbox [checked] [ref=e498]
+                    - cell [ref=e499] [cursor=pointer]:
+                      - checkbox [checked] [ref=e501]
+                    - cell [ref=e502] [cursor=pointer]:
+                      - checkbox [checked] [ref=e504]
+                  - row "11 Lead LightningDesigner" [ref=e505]:
+                    - cell "11" [ref=e506] [cursor=pointer]
+                    - cell "Lead" [ref=e507] [cursor=pointer]:
+                      - generic [ref=e508]: Lead
+                    - cell "LightningDesigner" [ref=e509] [cursor=pointer]:
+                      - generic [ref=e510]: LightningDesigner
+                    - cell [ref=e511] [cursor=pointer]:
+                      - checkbox [ref=e513]
+                    - cell [ref=e514] [cursor=pointer]:
+                      - checkbox [checked] [ref=e516]
+                    - cell [ref=e517] [cursor=pointer]:
+                      - checkbox [checked] [ref=e519]
+                    - cell [ref=e520] [cursor=pointer]:
+                      - checkbox [checked] [ref=e522]
+                    - cell [ref=e523] [cursor=pointer]:
+                      - checkbox [checked] [ref=e525]
+                    - cell [ref=e526] [cursor=pointer]:
+                      - checkbox [checked] [ref=e528]
+                    - cell [ref=e529] [cursor=pointer]:
+                      - checkbox [checked] [ref=e531]
+                    - cell [ref=e532] [cursor=pointer]:
+                      - checkbox [checked] [ref=e534]
+                    - cell [ref=e535] [cursor=pointer]:
+                      - checkbox [checked] [ref=e537]
+                    - cell [ref=e538] [cursor=pointer]:
+                      - checkbox [checked] [ref=e540]
+                    - cell [ref=e541] [cursor=pointer]:
+                      - checkbox [checked] [ref=e543]
+                  - row "12 Lead PMCContractor" [ref=e544]:
+                    - cell "12" [ref=e545] [cursor=pointer]
+                    - cell "Lead" [ref=e546] [cursor=pointer]:
+                      - generic [ref=e547]: Lead
+                    - cell "PMCContractor" [ref=e548] [cursor=pointer]:
+                      - generic [ref=e549]: PMCContractor
+                    - cell [ref=e550] [cursor=pointer]:
+                      - checkbox [ref=e552]
+                    - cell [ref=e553] [cursor=pointer]:
+                      - checkbox [checked] [ref=e555]
+                    - cell [ref=e556] [cursor=pointer]:
+                      - checkbox [checked] [ref=e558]
+                    - cell [ref=e559] [cursor=pointer]:
+                      - checkbox [checked] [ref=e561]
+                    - cell [ref=e562] [cursor=pointer]:
+                      - checkbox [checked] [ref=e564]
+                    - cell [ref=e565] [cursor=pointer]:
+                      - checkbox [checked] [ref=e567]
+                    - cell [ref=e568] [cursor=pointer]:
+                      - checkbox [checked] [ref=e570]
+                    - cell [ref=e571] [cursor=pointer]:
+                      - checkbox [checked] [ref=e573]
+                    - cell [ref=e574] [cursor=pointer]:
+                      - checkbox [checked] [ref=e576]
+                    - cell [ref=e577] [cursor=pointer]:
+                      - checkbox [checked] [ref=e579]
+                    - cell [ref=e580] [cursor=pointer]:
+                      - checkbox [checked] [ref=e582]
+                  - row "13 Lead ProjectName" [ref=e583]:
+                    - cell "13" [ref=e584] [cursor=pointer]
+                    - cell "Lead" [ref=e585] [cursor=pointer]:
+                      - generic [ref=e586]: Lead
+                    - cell "ProjectName" [ref=e587] [cursor=pointer]:
+                      - generic [ref=e588]: ProjectName
+                    - cell [ref=e589] [cursor=pointer]:
+                      - checkbox [ref=e591]
+                    - cell [ref=e592] [cursor=pointer]:
+                      - checkbox [checked] [ref=e594]
+                    - cell [ref=e595] [cursor=pointer]:
+                      - checkbox [checked] [ref=e597]
+                    - cell [ref=e598] [cursor=pointer]:
+                      - checkbox [checked] [ref=e600]
+                    - cell [ref=e601] [cursor=pointer]:
+                      - checkbox [checked] [ref=e603]
+                    - cell [ref=e604] [cursor=pointer]:
+                      - checkbox [checked] [ref=e606]
+                    - cell [ref=e607] [cursor=pointer]:
+                      - checkbox [checked] [ref=e609]
+                    - cell [ref=e610] [cursor=pointer]:
+                      - checkbox [checked] [ref=e612]
+                    - cell [ref=e613] [cursor=pointer]:
+                      - checkbox [checked] [ref=e615]
+                    - cell [ref=e616] [cursor=pointer]:
+                      - checkbox [checked] [ref=e618]
+                    - cell [ref=e619] [cursor=pointer]:
+                      - checkbox [checked] [ref=e621]
+                  - row "14 Lead SFT" [ref=e622]:
+                    - cell "14" [ref=e623] [cursor=pointer]
+                    - cell "Lead" [ref=e624] [cursor=pointer]:
+                      - generic [ref=e625]: Lead
+                    - cell "SFT" [ref=e626] [cursor=pointer]:
+                      - generic [ref=e627]: SFT
+                    - cell [ref=e628] [cursor=pointer]:
+                      - checkbox [ref=e630]
+                    - cell [ref=e631] [cursor=pointer]:
+                      - checkbox [checked] [ref=e633]
+                    - cell [ref=e634] [cursor=pointer]:
+                      - checkbox [checked] [ref=e636]
+                    - cell [ref=e637] [cursor=pointer]:
+                      - checkbox [checked] [ref=e639]
+                    - cell [ref=e640] [cursor=pointer]:
+                      - checkbox [checked] [ref=e642]
+                    - cell [ref=e643] [cursor=pointer]:
+                      - checkbox [checked] [ref=e645]
+                    - cell [ref=e646] [cursor=pointer]:
+                      - checkbox [checked] [ref=e648]
+                    - cell [ref=e649] [cursor=pointer]:
+                      - checkbox [checked] [ref=e651]
+                    - cell [ref=e652] [cursor=pointer]:
+                      - checkbox [checked] [ref=e654]
+                    - cell [ref=e655] [cursor=pointer]:
+                      - checkbox [checked] [ref=e657]
+                    - cell [ref=e658] [cursor=pointer]:
+                      - checkbox [checked] [ref=e660]
+                  - row "15 Lead SourceDetails" [ref=e661]:
+                    - cell "15" [ref=e662] [cursor=pointer]
+                    - cell "Lead" [ref=e663] [cursor=pointer]:
+                      - generic [ref=e664]: Lead
+                    - cell "SourceDetails" [ref=e665] [cursor=pointer]:
+                      - generic [ref=e666]: SourceDetails
+                    - cell [ref=e667] [cursor=pointer]:
+                      - checkbox [ref=e669]
+                    - cell [ref=e670] [cursor=pointer]:
+                      - checkbox [checked] [ref=e672]
+                    - cell [ref=e673] [cursor=pointer]:
+                      - checkbox [checked] [ref=e675]
+                    - cell [ref=e676] [cursor=pointer]:
+                      - checkbox [checked] [ref=e678]
+                    - cell [ref=e679] [cursor=pointer]:
+                      - checkbox [checked] [ref=e681]
+                    - cell [ref=e682] [cursor=pointer]:
+                      - checkbox [checked] [ref=e684]
+                    - cell [ref=e685] [cursor=pointer]:
+                      - checkbox [checked] [ref=e687]
+                    - cell [ref=e688] [cursor=pointer]:
+                      - checkbox [checked] [ref=e690]
+                    - cell [ref=e691] [cursor=pointer]:
+                      - checkbox [checked] [ref=e693]
+                    - cell [ref=e694] [cursor=pointer]:
+                      - checkbox [checked] [ref=e696]
+                    - cell [ref=e697] [cursor=pointer]:
+                      - checkbox [checked] [ref=e699]
+                  - row "16 Lead StageOfConstruction" [ref=e700]:
+                    - cell "16" [ref=e701] [cursor=pointer]
+                    - cell "Lead" [ref=e702] [cursor=pointer]:
+                      - generic [ref=e703]: Lead
+                    - cell "StageOfConstruction" [ref=e704] [cursor=pointer]:
+                      - generic [ref=e705]: StageOfConstruction
+                    - cell [ref=e706] [cursor=pointer]:
+                      - checkbox [ref=e708]
+                    - cell [ref=e709] [cursor=pointer]:
+                      - checkbox [checked] [ref=e711]
+                    - cell [ref=e712] [cursor=pointer]:
+                      - checkbox [checked] [ref=e714]
+                    - cell [ref=e715] [cursor=pointer]:
+                      - checkbox [checked] [ref=e717]
+                    - cell [ref=e718] [cursor=pointer]:
+                      - checkbox [checked] [ref=e720]
+                    - cell [ref=e721] [cursor=pointer]:
+                      - checkbox [checked] [ref=e723]
+                    - cell [ref=e724] [cursor=pointer]:
+                      - checkbox [checked] [ref=e726]
+                    - cell [ref=e727] [cursor=pointer]:
+                      - checkbox [checked] [ref=e729]
+                    - cell [ref=e730] [cursor=pointer]:
+                      - checkbox [checked] [ref=e732]
+                    - cell [ref=e733] [cursor=pointer]:
+                      - checkbox [checked] [ref=e735]
+                    - cell [ref=e736] [cursor=pointer]:
+                      - checkbox [checked] [ref=e738]
+                  - row "17 Lead State" [ref=e739]:
+                    - cell "17" [ref=e740] [cursor=pointer]
+                    - cell "Lead" [ref=e741] [cursor=pointer]:
+                      - generic [ref=e742]: Lead
+                    - cell "State" [ref=e743] [cursor=pointer]:
+                      - generic [ref=e744]: State
+                    - cell [ref=e745] [cursor=pointer]:
+                      - checkbox [ref=e747]
+                    - cell [ref=e748] [cursor=pointer]:
+                      - checkbox [checked] [ref=e750]
+                    - cell [ref=e751] [cursor=pointer]:
+                      - checkbox [checked] [ref=e753]
+                    - cell [ref=e754] [cursor=pointer]:
+                      - checkbox [checked] [ref=e756]
+                    - cell [ref=e757] [cursor=pointer]:
+                      - checkbox [checked] [ref=e759]
+                    - cell [ref=e760] [cursor=pointer]:
+                      - checkbox [checked] [ref=e762]
+                    - cell [ref=e763] [cursor=pointer]:
+                      - checkbox [checked] [ref=e765]
+                    - cell [ref=e766] [cursor=pointer]:
+                      - checkbox [checked] [ref=e768]
+                    - cell [ref=e769] [cursor=pointer]:
+                      - checkbox [checked] [ref=e771]
+                    - cell [ref=e772] [cursor=pointer]:
+                      - checkbox [checked] [ref=e774]
+                    - cell [ref=e775] [cursor=pointer]:
+                      - checkbox [checked] [ref=e777]
+                  - row "18 Lead TypeOfHome" [ref=e778]:
+                    - cell "18" [ref=e779] [cursor=pointer]
+                    - cell "Lead" [ref=e780] [cursor=pointer]:
+                      - generic [ref=e781]: Lead
+                    - cell "TypeOfHome" [ref=e782] [cursor=pointer]:
+                      - generic [ref=e783]: TypeOfHome
+                    - cell [ref=e784] [cursor=pointer]:
+                      - checkbox [ref=e786]
+                    - cell [ref=e787] [cursor=pointer]:
+                      - checkbox [checked] [ref=e789]
+                    - cell [ref=e790] [cursor=pointer]:
+                      - checkbox [checked] [ref=e792]
+                    - cell [ref=e793] [cursor=pointer]:
+                      - checkbox [checked] [ref=e795]
+                    - cell [ref=e796] [cursor=pointer]:
+                      - checkbox [checked] [ref=e798]
+                    - cell [ref=e799] [cursor=pointer]:
+                      - checkbox [checked] [ref=e801]
+                    - cell [ref=e802] [cursor=pointer]:
+                      - checkbox [checked] [ref=e804]
+                    - cell [ref=e805] [cursor=pointer]:
+                      - checkbox [checked] [ref=e807]
+                    - cell [ref=e808] [cursor=pointer]:
+                      - checkbox [checked] [ref=e810]
+                    - cell [ref=e811] [cursor=pointer]:
+                      - checkbox [checked] [ref=e813]
+                    - cell [ref=e814] [cursor=pointer]:
+                      - checkbox [checked] [ref=e816]
+                  - row "19 Master1 UOM" [ref=e817]:
+                    - cell "19" [ref=e818] [cursor=pointer]
+                    - cell "Master1" [ref=e819] [cursor=pointer]:
+                      - generic [ref=e820]: Master1
+                    - cell "UOM" [ref=e821] [cursor=pointer]:
+                      - generic [ref=e822]: UOM
+                    - cell [ref=e823] [cursor=pointer]:
+                      - checkbox [ref=e825]
+                    - cell [ref=e826] [cursor=pointer]:
+                      - checkbox [checked] [ref=e828]
+                    - cell [ref=e829] [cursor=pointer]:
+                      - checkbox [checked] [ref=e831]
+                    - cell [ref=e832] [cursor=pointer]:
+                      - checkbox [checked] [ref=e834]
+                    - cell [ref=e835] [cursor=pointer]:
+                      - checkbox [checked] [ref=e837]
+                    - cell [ref=e838] [cursor=pointer]:
+                      - checkbox [ref=e840]
+                    - cell [ref=e841] [cursor=pointer]:
+                      - checkbox [ref=e843]
+                    - cell [ref=e844] [cursor=pointer]:
+                      - checkbox [ref=e846]
+                    - cell [ref=e847] [cursor=pointer]:
+                      - checkbox [ref=e849]
+                    - cell [ref=e850] [cursor=pointer]:
+                      - checkbox [ref=e852]
+                    - cell [ref=e853] [cursor=pointer]:
+                      - checkbox [ref=e855]
+                  - row "20 Master1 UOC" [ref=e856]:
+                    - cell "20" [ref=e857] [cursor=pointer]
+                    - cell "Master1" [ref=e858] [cursor=pointer]:
+                      - generic [ref=e859]: Master1
+                    - cell "UOC" [ref=e860] [cursor=pointer]:
+                      - generic [ref=e861]: UOC
+                    - cell [ref=e862] [cursor=pointer]:
+                      - checkbox [ref=e864]
+                    - cell [ref=e865] [cursor=pointer]:
+                      - checkbox [checked] [ref=e867]
+                    - cell [ref=e868] [cursor=pointer]:
+                      - checkbox [checked] [ref=e870]
+                    - cell [ref=e871] [cursor=pointer]:
+                      - checkbox [checked] [ref=e873]
+                    - cell [ref=e874] [cursor=pointer]:
+                      - checkbox [checked] [ref=e876]
+                    - cell [ref=e877] [cursor=pointer]:
+                      - checkbox [ref=e879]
+                    - cell [ref=e880] [cursor=pointer]:
+                      - checkbox [ref=e882]
+                    - cell [ref=e883] [cursor=pointer]:
+                      - checkbox [ref=e885]
+                    - cell [ref=e886] [cursor=pointer]:
+                      - checkbox [ref=e888]
+                    - cell [ref=e889] [cursor=pointer]:
+                      - checkbox [ref=e891]
+                    - cell [ref=e892] [cursor=pointer]:
+                      - checkbox [ref=e894]
+                  - row "21 Master1 COMMODITY" [ref=e895]:
+                    - cell "21" [ref=e896] [cursor=pointer]
+                    - cell "Master1" [ref=e897] [cursor=pointer]:
+                      - generic [ref=e898]: Master1
+                    - cell "COMMODITY" [ref=e899] [cursor=pointer]:
+                      - generic [ref=e900]: COMMODITY
+                    - cell [ref=e901] [cursor=pointer]:
+                      - checkbox [ref=e903]
+                    - cell [ref=e904] [cursor=pointer]:
+                      - checkbox [checked] [ref=e906]
+                    - cell [ref=e907] [cursor=pointer]:
+                      - checkbox [checked] [ref=e909]
+                    - cell [ref=e910] [cursor=pointer]:
+                      - checkbox [checked] [ref=e912]
+                    - cell [ref=e913] [cursor=pointer]:
+                      - checkbox [checked] [ref=e915]
+                    - cell [ref=e916] [cursor=pointer]:
+                      - checkbox [ref=e918]
+                    - cell [ref=e919] [cursor=pointer]:
+                      - checkbox [ref=e921]
+                    - cell [ref=e922] [cursor=pointer]:
+                      - checkbox [ref=e924]
+                    - cell [ref=e925] [cursor=pointer]:
+                      - checkbox [ref=e927]
+                    - cell [ref=e928] [cursor=pointer]:
+                      - checkbox [ref=e930]
+                    - cell [ref=e931] [cursor=pointer]:
+                      - checkbox [ref=e933]
+                  - row "22 Master1 LOCATION" [ref=e934]:
+                    - cell "22" [ref=e935] [cursor=pointer]
+                    - cell "Master1" [ref=e936] [cursor=pointer]:
+                      - generic [ref=e937]: Master1
+                    - cell "LOCATION" [ref=e938] [cursor=pointer]:
+                      - generic [ref=e939]: LOCATION
+                    - cell [ref=e940] [cursor=pointer]:
+                      - checkbox [ref=e942]
+                    - cell [ref=e943] [cursor=pointer]:
+                      - checkbox [checked] [ref=e945]
+                    - cell [ref=e946] [cursor=pointer]:
+                      - checkbox [checked] [ref=e948]
+                    - cell [ref=e949] [cursor=pointer]:
+                      - checkbox [checked] [ref=e951]
+                    - cell [ref=e952] [cursor=pointer]:
+                      - checkbox [checked] [ref=e954]
+                    - cell [ref=e955] [cursor=pointer]:
+                      - checkbox [ref=e957]
+                    - cell [ref=e958] [cursor=pointer]:
+                      - checkbox [ref=e960]
+                    - cell [ref=e961] [cursor=pointer]:
+                      - checkbox [ref=e963]
+                    - cell [ref=e964] [cursor=pointer]:
+                      - checkbox [ref=e966]
+                    - cell [ref=e967] [cursor=pointer]:
+                      - checkbox [ref=e969]
+                    - cell [ref=e970] [cursor=pointer]:
+                      - checkbox [ref=e972]
+                  - row "23 Master1 CUSTOMERTYPE" [ref=e973]:
+                    - cell "23" [ref=e974] [cursor=pointer]
+                    - cell "Master1" [ref=e975] [cursor=pointer]:
+                      - generic [ref=e976]: Master1
+                    - cell "CUSTOMERTYPE" [ref=e977] [cursor=pointer]:
+                      - generic [ref=e978]: CUSTOMERTYPE
+                    - cell [ref=e979] [cursor=pointer]:
+                      - checkbox [ref=e981]
+                    - cell [ref=e982] [cursor=pointer]:
+                      - checkbox [checked] [ref=e984]
+                    - cell [ref=e985] [cursor=pointer]:
+                      - checkbox [checked] [ref=e987]
+                    - cell [ref=e988] [cursor=pointer]:
+                      - checkbox [checked] [ref=e990]
+                    - cell [ref=e991] [cursor=pointer]:
+                      - checkbox [checked] [ref=e993]
+                    - cell [ref=e994] [cursor=pointer]:
+                      - checkbox [ref=e996]
+                    - cell [ref=e997] [cursor=pointer]:
+                      - checkbox [ref=e999]
+                    - cell [ref=e1000] [cursor=pointer]:
+                      - checkbox [ref=e1002]
+                    - cell [ref=e1003] [cursor=pointer]:
+                      - checkbox [ref=e1005]
+                    - cell [ref=e1006] [cursor=pointer]:
+                      - checkbox [ref=e1008]
+                    - cell [ref=e1009] [cursor=pointer]:
+                      - checkbox [ref=e1011]
+                  - row "24 Master1 LEAD TIMES" [ref=e1012]:
+                    - cell "24" [ref=e1013] [cursor=pointer]
+                    - cell "Master1" [ref=e1014] [cursor=pointer]:
+                      - generic [ref=e1015]: Master1
+                    - cell "LEAD TIMES" [ref=e1016] [cursor=pointer]:
+                      - generic [ref=e1017]: LEAD TIMES
+                    - cell [ref=e1018] [cursor=pointer]:
+                      - checkbox [ref=e1020]
+                    - cell [ref=e1021] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1023]
+                    - cell [ref=e1024] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1026]
+                    - cell [ref=e1027] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1029]
+                    - cell [ref=e1030] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1032]
+                    - cell [ref=e1033] [cursor=pointer]:
+                      - checkbox [ref=e1035]
+                    - cell [ref=e1036] [cursor=pointer]:
+                      - checkbox [ref=e1038]
+                    - cell [ref=e1039] [cursor=pointer]:
+                      - checkbox [ref=e1041]
+                    - cell [ref=e1042] [cursor=pointer]:
+                      - checkbox [ref=e1044]
+                    - cell [ref=e1045] [cursor=pointer]:
+                      - checkbox [ref=e1047]
+                    - cell [ref=e1048] [cursor=pointer]:
+                      - checkbox [ref=e1050]
+                  - row "25 Master1 MATERIAL TYPE" [ref=e1051]:
+                    - cell "25" [ref=e1052] [cursor=pointer]
+                    - cell "Master1" [ref=e1053] [cursor=pointer]:
+                      - generic [ref=e1054]: Master1
+                    - cell "MATERIAL TYPE" [ref=e1055] [cursor=pointer]:
+                      - generic [ref=e1056]: MATERIAL TYPE
+                    - cell [ref=e1057] [cursor=pointer]:
+                      - checkbox [ref=e1059]
+                    - cell [ref=e1060] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1062]
+                    - cell [ref=e1063] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1065]
+                    - cell [ref=e1066] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1068]
+                    - cell [ref=e1069] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1071]
+                    - cell [ref=e1072] [cursor=pointer]:
+                      - checkbox [ref=e1074]
+                    - cell [ref=e1075] [cursor=pointer]:
+                      - checkbox [ref=e1077]
+                    - cell [ref=e1078] [cursor=pointer]:
+                      - checkbox [ref=e1080]
+                    - cell [ref=e1081] [cursor=pointer]:
+                      - checkbox [ref=e1083]
+                    - cell [ref=e1084] [cursor=pointer]:
+                      - checkbox [ref=e1086]
+                    - cell [ref=e1087] [cursor=pointer]:
+                      - checkbox [ref=e1089]
+                  - row "26 Master1 PROCUREMENT TYPE" [ref=e1090]:
+                    - cell "26" [ref=e1091] [cursor=pointer]
+                    - cell "Master1" [ref=e1092] [cursor=pointer]:
+                      - generic [ref=e1093]: Master1
+                    - cell "PROCUREMENT TYPE" [ref=e1094] [cursor=pointer]:
+                      - generic [ref=e1095]: PROCUREMENT TYPE
+                    - cell [ref=e1096] [cursor=pointer]:
+                      - checkbox [ref=e1098]
+                    - cell [ref=e1099] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1101]
+                    - cell [ref=e1102] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1104]
+                    - cell [ref=e1105] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1107]
+                    - cell [ref=e1108] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1110]
+                    - cell [ref=e1111] [cursor=pointer]:
+                      - checkbox [ref=e1113]
+                    - cell [ref=e1114] [cursor=pointer]:
+                      - checkbox [ref=e1116]
+                    - cell [ref=e1117] [cursor=pointer]:
+                      - checkbox [ref=e1119]
+                    - cell [ref=e1120] [cursor=pointer]:
+                      - checkbox [ref=e1122]
+                    - cell [ref=e1123] [cursor=pointer]:
+                      - checkbox [ref=e1125]
+                    - cell [ref=e1126] [cursor=pointer]:
+                      - checkbox [ref=e1128]
+                  - row "27 Master1 PART TYPE" [ref=e1129]:
+                    - cell "27" [ref=e1130] [cursor=pointer]
+                    - cell "Master1" [ref=e1131] [cursor=pointer]:
+                      - generic [ref=e1132]: Master1
+                    - cell "PART TYPE" [ref=e1133] [cursor=pointer]:
+                      - generic [ref=e1134]: PART TYPE
+                    - cell [ref=e1135] [cursor=pointer]:
+                      - checkbox [ref=e1137]
+                    - cell [ref=e1138] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1140]
+                    - cell [ref=e1141] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1143]
+                    - cell [ref=e1144] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1146]
+                    - cell [ref=e1147] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1149]
+                    - cell [ref=e1150] [cursor=pointer]:
+                      - checkbox [ref=e1152]
+                    - cell [ref=e1153] [cursor=pointer]:
+                      - checkbox [ref=e1155]
+                    - cell [ref=e1156] [cursor=pointer]:
+                      - checkbox [ref=e1158]
+                    - cell [ref=e1159] [cursor=pointer]:
+                      - checkbox [ref=e1161]
+                    - cell [ref=e1162] [cursor=pointer]:
+                      - checkbox [ref=e1164]
+                    - cell [ref=e1165] [cursor=pointer]:
+                      - checkbox [ref=e1167]
+                  - row "28 Master1 DELIVERY TERMS" [ref=e1168]:
+                    - cell "28" [ref=e1169] [cursor=pointer]
+                    - cell "Master1" [ref=e1170] [cursor=pointer]:
+                      - generic [ref=e1171]: Master1
+                    - cell "DELIVERY TERMS" [ref=e1172] [cursor=pointer]:
+                      - generic [ref=e1173]: DELIVERY TERMS
+                    - cell [ref=e1174] [cursor=pointer]:
+                      - checkbox [ref=e1176]
+                    - cell [ref=e1177] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1179]
+                    - cell [ref=e1180] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1182]
+                    - cell [ref=e1183] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1185]
+                    - cell [ref=e1186] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1188]
+                    - cell [ref=e1189] [cursor=pointer]:
+                      - checkbox [ref=e1191]
+                    - cell [ref=e1192] [cursor=pointer]:
+                      - checkbox [ref=e1194]
+                    - cell [ref=e1195] [cursor=pointer]:
+                      - checkbox [ref=e1197]
+                    - cell [ref=e1198] [cursor=pointer]:
+                      - checkbox [ref=e1200]
+                    - cell [ref=e1201] [cursor=pointer]:
+                      - checkbox [ref=e1203]
+                    - cell [ref=e1204] [cursor=pointer]:
+                      - checkbox [ref=e1206]
+                  - row "29 Master1 DEPARTMENT" [ref=e1207]:
+                    - cell "29" [ref=e1208] [cursor=pointer]
+                    - cell "Master1" [ref=e1209] [cursor=pointer]:
+                      - generic [ref=e1210]: Master1
+                    - cell "DEPARTMENT" [ref=e1211] [cursor=pointer]:
+                      - generic [ref=e1212]: DEPARTMENT
+                    - cell [ref=e1213] [cursor=pointer]:
+                      - checkbox [ref=e1215]
+                    - cell [ref=e1216] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1218]
+                    - cell [ref=e1219] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1221]
+                    - cell [ref=e1222] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1224]
+                    - cell [ref=e1225] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1227]
+                    - cell [ref=e1228] [cursor=pointer]:
+                      - checkbox [ref=e1230]
+                    - cell [ref=e1231] [cursor=pointer]:
+                      - checkbox [ref=e1233]
+                    - cell [ref=e1234] [cursor=pointer]:
+                      - checkbox [ref=e1236]
+                    - cell [ref=e1237] [cursor=pointer]:
+                      - checkbox [ref=e1239]
+                    - cell [ref=e1240] [cursor=pointer]:
+                      - checkbox [ref=e1242]
+                    - cell [ref=e1243] [cursor=pointer]:
+                      - checkbox [ref=e1245]
+                  - row "30 Master1 INCO TERM" [ref=e1246]:
+                    - cell "30" [ref=e1247] [cursor=pointer]
+                    - cell "Master1" [ref=e1248] [cursor=pointer]:
+                      - generic [ref=e1249]: Master1
+                    - cell "INCO TERM" [ref=e1250] [cursor=pointer]:
+                      - generic [ref=e1251]: INCO TERM
+                    - cell [ref=e1252] [cursor=pointer]:
+                      - checkbox [ref=e1254]
+                    - cell [ref=e1255] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1257]
+                    - cell [ref=e1258] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1260]
+                    - cell [ref=e1261] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1263]
+                    - cell [ref=e1264] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1266]
+                    - cell [ref=e1267] [cursor=pointer]:
+                      - checkbox [ref=e1269]
+                    - cell [ref=e1270] [cursor=pointer]:
+                      - checkbox [ref=e1272]
+                    - cell [ref=e1273] [cursor=pointer]:
+                      - checkbox [ref=e1275]
+                    - cell [ref=e1276] [cursor=pointer]:
+                      - checkbox [ref=e1278]
+                    - cell [ref=e1279] [cursor=pointer]:
+                      - checkbox [ref=e1281]
+                    - cell [ref=e1282] [cursor=pointer]:
+                      - checkbox [ref=e1284]
+                  - row "31 Master1 BANK NAME" [ref=e1285]:
+                    - cell "31" [ref=e1286] [cursor=pointer]
+                    - cell "Master1" [ref=e1287] [cursor=pointer]:
+                      - generic [ref=e1288]: Master1
+                    - cell "BANK NAME" [ref=e1289] [cursor=pointer]:
+                      - generic [ref=e1290]: BANK NAME
+                    - cell [ref=e1291] [cursor=pointer]:
+                      - checkbox [ref=e1293]
+                    - cell [ref=e1294] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1296]
+                    - cell [ref=e1297] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1299]
+                    - cell [ref=e1300] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1302]
+                    - cell [ref=e1303] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1305]
+                    - cell [ref=e1306] [cursor=pointer]:
+                      - checkbox [ref=e1308]
+                    - cell [ref=e1309] [cursor=pointer]:
+                      - checkbox [ref=e1311]
+                    - cell [ref=e1312] [cursor=pointer]:
+                      - checkbox [ref=e1314]
+                    - cell [ref=e1315] [cursor=pointer]:
+                      - checkbox [ref=e1317]
+                    - cell [ref=e1318] [cursor=pointer]:
+                      - checkbox [ref=e1320]
+                    - cell [ref=e1321] [cursor=pointer]:
+                      - checkbox [ref=e1323]
+                  - row "32 Master1 VENDOR DEPARTMENT" [ref=e1324]:
+                    - cell "32" [ref=e1325] [cursor=pointer]
+                    - cell "Master1" [ref=e1326] [cursor=pointer]:
+                      - generic [ref=e1327]: Master1
+                    - cell "VENDOR DEPARTMENT" [ref=e1328] [cursor=pointer]:
+                      - generic [ref=e1329]: VENDOR DEPARTMENT
+                    - cell [ref=e1330] [cursor=pointer]:
+                      - checkbox [ref=e1332]
+                    - cell [ref=e1333] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1335]
+                    - cell [ref=e1336] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1338]
+                    - cell [ref=e1339] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1341]
+                    - cell [ref=e1342] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1344]
+                    - cell [ref=e1345] [cursor=pointer]:
+                      - checkbox [ref=e1347]
+                    - cell [ref=e1348] [cursor=pointer]:
+                      - checkbox [ref=e1350]
+                    - cell [ref=e1351] [cursor=pointer]:
+                      - checkbox [ref=e1353]
+                    - cell [ref=e1354] [cursor=pointer]:
+                      - checkbox [ref=e1356]
+                    - cell [ref=e1357] [cursor=pointer]:
+                      - checkbox [ref=e1359]
+                    - cell [ref=e1360] [cursor=pointer]:
+                      - checkbox [ref=e1362]
+                  - row "33 Master1 SCOPE OF SUPPLY" [ref=e1363]:
+                    - cell "33" [ref=e1364] [cursor=pointer]
+                    - cell "Master1" [ref=e1365] [cursor=pointer]:
+                      - generic [ref=e1366]: Master1
+                    - cell "SCOPE OF SUPPLY" [ref=e1367] [cursor=pointer]:
+                      - generic [ref=e1368]: SCOPE OF SUPPLY
+                    - cell [ref=e1369] [cursor=pointer]:
+                      - checkbox [ref=e1371]
+                    - cell [ref=e1372] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1374]
+                    - cell [ref=e1375] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1377]
+                    - cell [ref=e1378] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1380]
+                    - cell [ref=e1381] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1383]
+                    - cell [ref=e1384] [cursor=pointer]:
+                      - checkbox [ref=e1386]
+                    - cell [ref=e1387] [cursor=pointer]:
+                      - checkbox [ref=e1389]
+                    - cell [ref=e1390] [cursor=pointer]:
+                      - checkbox [ref=e1392]
+                    - cell [ref=e1393] [cursor=pointer]:
+                      - checkbox [ref=e1395]
+                    - cell [ref=e1396] [cursor=pointer]:
+                      - checkbox [ref=e1398]
+                    - cell [ref=e1399] [cursor=pointer]:
+                      - checkbox [ref=e1401]
+                  - row "34 Master1 VENDOR CATEGORY" [ref=e1402]:
+                    - cell "34" [ref=e1403] [cursor=pointer]
+                    - cell "Master1" [ref=e1404] [cursor=pointer]:
+                      - generic [ref=e1405]: Master1
+                    - cell "VENDOR CATEGORY" [ref=e1406] [cursor=pointer]:
+                      - generic [ref=e1407]: VENDOR CATEGORY
+                    - cell [ref=e1408] [cursor=pointer]:
+                      - checkbox [ref=e1410]
+                    - cell [ref=e1411] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1413]
+                    - cell [ref=e1414] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1416]
+                    - cell [ref=e1417] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1419]
+                    - cell [ref=e1420] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1422]
+                    - cell [ref=e1423] [cursor=pointer]:
+                      - checkbox [ref=e1425]
+                    - cell [ref=e1426] [cursor=pointer]:
+                      - checkbox [ref=e1428]
+                    - cell [ref=e1429] [cursor=pointer]:
+                      - checkbox [ref=e1431]
+                    - cell [ref=e1432] [cursor=pointer]:
+                      - checkbox [ref=e1434]
+                    - cell [ref=e1435] [cursor=pointer]:
+                      - checkbox [ref=e1437]
+                    - cell [ref=e1438] [cursor=pointer]:
+                      - checkbox [ref=e1440]
+                  - row "35 Master1 BASIS OF APPROVAL" [ref=e1441]:
+                    - cell "35" [ref=e1442] [cursor=pointer]
+                    - cell "Master1" [ref=e1443] [cursor=pointer]:
+                      - generic [ref=e1444]: Master1
+                    - cell "BASIS OF APPROVAL" [ref=e1445] [cursor=pointer]:
+                      - generic [ref=e1446]: BASIS OF APPROVAL
+                    - cell [ref=e1447] [cursor=pointer]:
+                      - checkbox [ref=e1449]
+                    - cell [ref=e1450] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1452]
+                    - cell [ref=e1453] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1455]
+                    - cell [ref=e1456] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1458]
+                    - cell [ref=e1459] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1461]
+                    - cell [ref=e1462] [cursor=pointer]:
+                      - checkbox [ref=e1464]
+                    - cell [ref=e1465] [cursor=pointer]:
+                      - checkbox [ref=e1467]
+                    - cell [ref=e1468] [cursor=pointer]:
+                      - checkbox [ref=e1470]
+                    - cell [ref=e1471] [cursor=pointer]:
+                      - checkbox [ref=e1473]
+                    - cell [ref=e1474] [cursor=pointer]:
+                      - checkbox [ref=e1476]
+                    - cell [ref=e1477] [cursor=pointer]:
+                      - checkbox [ref=e1479]
+                  - row "36 Master1 PURCHASE GROUP" [ref=e1480]:
+                    - cell "36" [ref=e1481] [cursor=pointer]
+                    - cell "Master1" [ref=e1482] [cursor=pointer]:
+                      - generic [ref=e1483]: Master1
+                    - cell "PURCHASE GROUP" [ref=e1484] [cursor=pointer]:
+                      - generic [ref=e1485]: PURCHASE GROUP
+                    - cell [ref=e1486] [cursor=pointer]:
+                      - checkbox [ref=e1488]
+                    - cell [ref=e1489] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1491]
+                    - cell [ref=e1492] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1494]
+                    - cell [ref=e1495] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1497]
+                    - cell [ref=e1498] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1500]
+                    - cell [ref=e1501] [cursor=pointer]:
+                      - checkbox [ref=e1503]
+                    - cell [ref=e1504] [cursor=pointer]:
+                      - checkbox [ref=e1506]
+                    - cell [ref=e1507] [cursor=pointer]:
+                      - checkbox [ref=e1509]
+                    - cell [ref=e1510] [cursor=pointer]:
+                      - checkbox [ref=e1512]
+                    - cell [ref=e1513] [cursor=pointer]:
+                      - checkbox [ref=e1515]
+                    - cell [ref=e1516] [cursor=pointer]:
+                      - checkbox [ref=e1518]
+                  - row "37 Master1 COST CENTER" [ref=e1519]:
+                    - cell "37" [ref=e1520] [cursor=pointer]
+                    - cell "Master1" [ref=e1521] [cursor=pointer]:
+                      - generic [ref=e1522]: Master1
+                    - cell "COST CENTER" [ref=e1523] [cursor=pointer]:
+                      - generic [ref=e1524]: COST CENTER
+                    - cell [ref=e1525] [cursor=pointer]:
+                      - checkbox [ref=e1527]
+                    - cell [ref=e1528] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1530]
+                    - cell [ref=e1531] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1533]
+                    - cell [ref=e1534] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1536]
+                    - cell [ref=e1537] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1539]
+                    - cell [ref=e1540] [cursor=pointer]:
+                      - checkbox [ref=e1542]
+                    - cell [ref=e1543] [cursor=pointer]:
+                      - checkbox [ref=e1545]
+                    - cell [ref=e1546] [cursor=pointer]:
+                      - checkbox [ref=e1548]
+                    - cell [ref=e1549] [cursor=pointer]:
+                      - checkbox [ref=e1551]
+                    - cell [ref=e1552] [cursor=pointer]:
+                      - checkbox [ref=e1554]
+                    - cell [ref=e1555] [cursor=pointer]:
+                      - checkbox [ref=e1557]
+                  - row "38 Master1 COSTING METHOD" [ref=e1558]:
+                    - cell "38" [ref=e1559] [cursor=pointer]
+                    - cell "Master1" [ref=e1560] [cursor=pointer]:
+                      - generic [ref=e1561]: Master1
+                    - cell "COSTING METHOD" [ref=e1562] [cursor=pointer]:
+                      - generic [ref=e1563]: COSTING METHOD
+                    - cell [ref=e1564] [cursor=pointer]:
+                      - checkbox [ref=e1566]
+                    - cell [ref=e1567] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1569]
+                    - cell [ref=e1570] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1572]
+                    - cell [ref=e1573] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1575]
+                    - cell [ref=e1576] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1578]
+                    - cell [ref=e1579] [cursor=pointer]:
+                      - checkbox [ref=e1581]
+                    - cell [ref=e1582] [cursor=pointer]:
+                      - checkbox [ref=e1584]
+                    - cell [ref=e1585] [cursor=pointer]:
+                      - checkbox [ref=e1587]
+                    - cell [ref=e1588] [cursor=pointer]:
+                      - checkbox [ref=e1590]
+                    - cell [ref=e1591] [cursor=pointer]:
+                      - checkbox [ref=e1593]
+                    - cell [ref=e1594] [cursor=pointer]:
+                      - checkbox [ref=e1596]
+                  - row "39 Master1 AUDIT FREQUENCY" [ref=e1597]:
+                    - cell "39" [ref=e1598] [cursor=pointer]
+                    - cell "Master1" [ref=e1599] [cursor=pointer]:
+                      - generic [ref=e1600]: Master1
+                    - cell "AUDIT FREQUENCY" [ref=e1601] [cursor=pointer]:
+                      - generic [ref=e1602]: AUDIT FREQUENCY
+                    - cell [ref=e1603] [cursor=pointer]:
+                      - checkbox [ref=e1605]
+                    - cell [ref=e1606] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1608]
+                    - cell [ref=e1609] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1611]
+                    - cell [ref=e1612] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1614]
+                    - cell [ref=e1615] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1617]
+                    - cell [ref=e1618] [cursor=pointer]:
+                      - checkbox [ref=e1620]
+                    - cell [ref=e1621] [cursor=pointer]:
+                      - checkbox [ref=e1623]
+                    - cell [ref=e1624] [cursor=pointer]:
+                      - checkbox [ref=e1626]
+                    - cell [ref=e1627] [cursor=pointer]:
+                      - checkbox [ref=e1629]
+                    - cell [ref=e1630] [cursor=pointer]:
+                      - checkbox [ref=e1632]
+                    - cell [ref=e1633] [cursor=pointer]:
+                      - checkbox [ref=e1635]
+                  - row "40 Master1 NATURE OF RELATIONSHIP" [ref=e1636]:
+                    - cell "40" [ref=e1637] [cursor=pointer]
+                    - cell "Master1" [ref=e1638] [cursor=pointer]:
+                      - generic [ref=e1639]: Master1
+                    - cell "NATURE OF RELATIONSHIP" [ref=e1640] [cursor=pointer]:
+                      - generic [ref=e1641]: NATURE OF RELATIONSHIP
+                    - cell [ref=e1642] [cursor=pointer]:
+                      - checkbox [ref=e1644]
+                    - cell [ref=e1645] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1647]
+                    - cell [ref=e1648] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1650]
+                    - cell [ref=e1651] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1653]
+                    - cell [ref=e1654] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1656]
+                    - cell [ref=e1657] [cursor=pointer]:
+                      - checkbox [ref=e1659]
+                    - cell [ref=e1660] [cursor=pointer]:
+                      - checkbox [ref=e1662]
+                    - cell [ref=e1663] [cursor=pointer]:
+                      - checkbox [ref=e1665]
+                    - cell [ref=e1666] [cursor=pointer]:
+                      - checkbox [ref=e1668]
+                    - cell [ref=e1669] [cursor=pointer]:
+                      - checkbox [ref=e1671]
+                    - cell [ref=e1672] [cursor=pointer]:
+                      - checkbox [ref=e1674]
+                  - row "41 Master1 LANGUAGE" [ref=e1675]:
+                    - cell "41" [ref=e1676] [cursor=pointer]
+                    - cell "Master1" [ref=e1677] [cursor=pointer]:
+                      - generic [ref=e1678]: Master1
+                    - cell "LANGUAGE" [ref=e1679] [cursor=pointer]:
+                      - generic [ref=e1680]: LANGUAGE
+                    - cell [ref=e1681] [cursor=pointer]:
+                      - checkbox [ref=e1683]
+                    - cell [ref=e1684] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1686]
+                    - cell [ref=e1687] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1689]
+                    - cell [ref=e1690] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1692]
+                    - cell [ref=e1693] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1695]
+                    - cell [ref=e1696] [cursor=pointer]:
+                      - checkbox [ref=e1698]
+                    - cell [ref=e1699] [cursor=pointer]:
+                      - checkbox [ref=e1701]
+                    - cell [ref=e1702] [cursor=pointer]:
+                      - checkbox [ref=e1704]
+                    - cell [ref=e1705] [cursor=pointer]:
+                      - checkbox [ref=e1707]
+                    - cell [ref=e1708] [cursor=pointer]:
+                      - checkbox [ref=e1710]
+                    - cell [ref=e1711] [cursor=pointer]:
+                      - checkbox [ref=e1713]
+                  - row "42 Master1 SALUTATIONS" [ref=e1714]:
+                    - cell "42" [ref=e1715] [cursor=pointer]
+                    - cell "Master1" [ref=e1716] [cursor=pointer]:
+                      - generic [ref=e1717]: Master1
+                    - cell "SALUTATIONS" [ref=e1718] [cursor=pointer]:
+                      - generic [ref=e1719]: SALUTATIONS
+                    - cell [ref=e1720] [cursor=pointer]:
+                      - checkbox [ref=e1722]
+                    - cell [ref=e1723] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1725]
+                    - cell [ref=e1726] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1728]
+                    - cell [ref=e1729] [cursor=pointer]:
+                      - checkbox [ref=e1731]
+                    - cell [ref=e1732] [cursor=pointer]:
+                      - checkbox [ref=e1734]
+                    - cell [ref=e1735] [cursor=pointer]:
+                      - checkbox [ref=e1737]
+                    - cell [ref=e1738] [cursor=pointer]:
+                      - checkbox [ref=e1740]
+                    - cell [ref=e1741] [cursor=pointer]:
+                      - checkbox [ref=e1743]
+                    - cell [ref=e1744] [cursor=pointer]:
+                      - checkbox [ref=e1746]
+                    - cell [ref=e1747] [cursor=pointer]:
+                      - checkbox [ref=e1749]
+                    - cell [ref=e1750] [cursor=pointer]:
+                      - checkbox [ref=e1752]
+                  - row "43 Master1 EXPORT UNIT TYPE" [ref=e1753]:
+                    - cell "43" [ref=e1754] [cursor=pointer]
+                    - cell "Master1" [ref=e1755] [cursor=pointer]:
+                      - generic [ref=e1756]: Master1
+                    - cell "EXPORT UNIT TYPE" [ref=e1757] [cursor=pointer]:
+                      - generic [ref=e1758]: EXPORT UNIT TYPE
+                    - cell [ref=e1759] [cursor=pointer]:
+                      - checkbox [ref=e1761]
+                    - cell [ref=e1762] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1764]
+                    - cell [ref=e1765] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1767]
+                    - cell [ref=e1768] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1770]
+                    - cell [ref=e1771] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1773]
+                    - cell [ref=e1774] [cursor=pointer]:
+                      - checkbox [ref=e1776]
+                    - cell [ref=e1777] [cursor=pointer]:
+                      - checkbox [ref=e1779]
+                    - cell [ref=e1780] [cursor=pointer]:
+                      - checkbox [ref=e1782]
+                    - cell [ref=e1783] [cursor=pointer]:
+                      - checkbox [ref=e1785]
+                    - cell [ref=e1786] [cursor=pointer]:
+                      - checkbox [ref=e1788]
+                    - cell [ref=e1789] [cursor=pointer]:
+                      - checkbox [ref=e1791]
+                  - row "44 Master1 TYPE OF COMPANY" [ref=e1792]:
+                    - cell "44" [ref=e1793] [cursor=pointer]
+                    - cell "Master1" [ref=e1794] [cursor=pointer]:
+                      - generic [ref=e1795]: Master1
+                    - cell "TYPE OF COMPANY" [ref=e1796] [cursor=pointer]:
+                      - generic [ref=e1797]: TYPE OF COMPANY
+                    - cell [ref=e1798] [cursor=pointer]:
+                      - checkbox [ref=e1800]
+                    - cell [ref=e1801] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1803]
+                    - cell [ref=e1804] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1806]
+                    - cell [ref=e1807] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1809]
+                    - cell [ref=e1810] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1812]
+                    - cell [ref=e1813] [cursor=pointer]:
+                      - checkbox [ref=e1815]
+                    - cell [ref=e1816] [cursor=pointer]:
+                      - checkbox [ref=e1818]
+                    - cell [ref=e1819] [cursor=pointer]:
+                      - checkbox [ref=e1821]
+                    - cell [ref=e1822] [cursor=pointer]:
+                      - checkbox [ref=e1824]
+                    - cell [ref=e1825] [cursor=pointer]:
+                      - checkbox [ref=e1827]
+                    - cell [ref=e1828] [cursor=pointer]:
+                      - checkbox [ref=e1830]
+                  - row "45 Master1 PAYMENT TERM" [ref=e1831]:
+                    - cell "45" [ref=e1832] [cursor=pointer]
+                    - cell "Master1" [ref=e1833] [cursor=pointer]:
+                      - generic [ref=e1834]: Master1
+                    - cell "PAYMENT TERM" [ref=e1835] [cursor=pointer]:
+                      - generic [ref=e1836]: PAYMENT TERM
+                    - cell [ref=e1837] [cursor=pointer]:
+                      - checkbox [ref=e1839]
+                    - cell [ref=e1840] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1842]
+                    - cell [ref=e1843] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1845]
+                    - cell [ref=e1846] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1848]
+                    - cell [ref=e1849] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1851]
+                    - cell [ref=e1852] [cursor=pointer]:
+                      - checkbox [ref=e1854]
+                    - cell [ref=e1855] [cursor=pointer]:
+                      - checkbox [ref=e1857]
+                    - cell [ref=e1858] [cursor=pointer]:
+                      - checkbox [ref=e1860]
+                    - cell [ref=e1861] [cursor=pointer]:
+                      - checkbox [ref=e1863]
+                    - cell [ref=e1864] [cursor=pointer]:
+                      - checkbox [ref=e1866]
+                    - cell [ref=e1867] [cursor=pointer]:
+                      - checkbox [ref=e1869]
+                  - row "46 Master1 PREFERRED FREIGHT FORWARDER" [ref=e1870]:
+                    - cell "46" [ref=e1871] [cursor=pointer]
+                    - cell "Master1" [ref=e1872] [cursor=pointer]:
+                      - generic [ref=e1873]: Master1
+                    - cell "PREFERRED FREIGHT FORWARDER" [ref=e1874] [cursor=pointer]:
+                      - generic [ref=e1875]: PREFERRED FREIGHT FORWARDER
+                    - cell [ref=e1876] [cursor=pointer]:
+                      - checkbox [ref=e1878]
+                    - cell [ref=e1879] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1881]
+                    - cell [ref=e1882] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1884]
+                    - cell [ref=e1885] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1887]
+                    - cell [ref=e1888] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1890]
+                    - cell [ref=e1891] [cursor=pointer]:
+                      - checkbox [ref=e1893]
+                    - cell [ref=e1894] [cursor=pointer]:
+                      - checkbox [ref=e1896]
+                    - cell [ref=e1897] [cursor=pointer]:
+                      - checkbox [ref=e1899]
+                    - cell [ref=e1900] [cursor=pointer]:
+                      - checkbox [ref=e1902]
+                    - cell [ref=e1903] [cursor=pointer]:
+                      - checkbox [ref=e1905]
+                    - cell [ref=e1906] [cursor=pointer]:
+                      - checkbox [ref=e1908]
+                  - row "47 Master1 PACKING INSTRUCTION" [ref=e1909]:
+                    - cell "47" [ref=e1910] [cursor=pointer]
+                    - cell "Master1" [ref=e1911] [cursor=pointer]:
+                      - generic [ref=e1912]: Master1
+                    - cell "PACKING INSTRUCTION" [ref=e1913] [cursor=pointer]:
+                      - generic [ref=e1914]: PACKING INSTRUCTION
+                    - cell [ref=e1915] [cursor=pointer]:
+                      - checkbox [ref=e1917]
+                    - cell [ref=e1918] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1920]
+                    - cell [ref=e1921] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1923]
+                    - cell [ref=e1924] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1926]
+                    - cell [ref=e1927] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1929]
+                    - cell [ref=e1930] [cursor=pointer]:
+                      - checkbox [ref=e1932]
+                    - cell [ref=e1933] [cursor=pointer]:
+                      - checkbox [ref=e1935]
+                    - cell [ref=e1936] [cursor=pointer]:
+                      - checkbox [ref=e1938]
+                    - cell [ref=e1939] [cursor=pointer]:
+                      - checkbox [ref=e1941]
+                    - cell [ref=e1942] [cursor=pointer]:
+                      - checkbox [ref=e1944]
+                    - cell [ref=e1945] [cursor=pointer]:
+                      - checkbox [ref=e1947]
+                  - row "48 Master1 SHIPMENT INSTRUCTIONS" [ref=e1948]:
+                    - cell "48" [ref=e1949] [cursor=pointer]
+                    - cell "Master1" [ref=e1950] [cursor=pointer]:
+                      - generic [ref=e1951]: Master1
+                    - cell "SHIPMENT INSTRUCTIONS" [ref=e1952] [cursor=pointer]:
+                      - generic [ref=e1953]: SHIPMENT INSTRUCTIONS
+                    - cell [ref=e1954] [cursor=pointer]:
+                      - checkbox [ref=e1956]
+                    - cell [ref=e1957] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1959]
+                    - cell [ref=e1960] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1962]
+                    - cell [ref=e1963] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1965]
+                    - cell [ref=e1966] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1968]
+                    - cell [ref=e1969] [cursor=pointer]:
+                      - checkbox [ref=e1971]
+                    - cell [ref=e1972] [cursor=pointer]:
+                      - checkbox [ref=e1974]
+                    - cell [ref=e1975] [cursor=pointer]:
+                      - checkbox [ref=e1977]
+                    - cell [ref=e1978] [cursor=pointer]:
+                      - checkbox [ref=e1980]
+                    - cell [ref=e1981] [cursor=pointer]:
+                      - checkbox [ref=e1983]
+                    - cell [ref=e1984] [cursor=pointer]:
+                      - checkbox [ref=e1986]
+                  - row "49 Master1 SEGMENT" [ref=e1987]:
+                    - cell "49" [ref=e1988] [cursor=pointer]
+                    - cell "Master1" [ref=e1989] [cursor=pointer]:
+                      - generic [ref=e1990]: Master1
+                    - cell "SEGMENT" [ref=e1991] [cursor=pointer]:
+                      - generic [ref=e1992]: SEGMENT
+                    - cell [ref=e1993] [cursor=pointer]:
+                      - checkbox [ref=e1995]
+                    - cell [ref=e1996] [cursor=pointer]:
+                      - checkbox [checked] [ref=e1998]
+                    - cell [ref=e1999] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2001]
+                    - cell [ref=e2002] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2004]
+                    - cell [ref=e2005] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2007]
+                    - cell [ref=e2008] [cursor=pointer]:
+                      - checkbox [ref=e2010]
+                    - cell [ref=e2011] [cursor=pointer]:
+                      - checkbox [ref=e2013]
+                    - cell [ref=e2014] [cursor=pointer]:
+                      - checkbox [ref=e2016]
+                    - cell [ref=e2017] [cursor=pointer]:
+                      - checkbox [ref=e2019]
+                    - cell [ref=e2020] [cursor=pointer]:
+                      - checkbox [ref=e2022]
+                    - cell [ref=e2023] [cursor=pointer]:
+                      - checkbox [ref=e2025]
+                  - row "50 Master1 Warehouse" [ref=e2026]:
+                    - cell "50" [ref=e2027] [cursor=pointer]
+                    - cell "Master1" [ref=e2028] [cursor=pointer]:
+                      - generic [ref=e2029]: Master1
+                    - cell "Warehouse" [ref=e2030] [cursor=pointer]:
+                      - generic [ref=e2031]: Warehouse
+                    - cell [ref=e2032] [cursor=pointer]:
+                      - checkbox [ref=e2034]
+                    - cell [ref=e2035] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2037]
+                    - cell [ref=e2038] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2040]
+                    - cell [ref=e2041] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2043]
+                    - cell [ref=e2044] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2046]
+                    - cell [ref=e2047] [cursor=pointer]:
+                      - checkbox [ref=e2049]
+                    - cell [ref=e2050] [cursor=pointer]:
+                      - checkbox [ref=e2052]
+                    - cell [ref=e2053] [cursor=pointer]:
+                      - checkbox [ref=e2055]
+                    - cell [ref=e2056] [cursor=pointer]:
+                      - checkbox [ref=e2058]
+                    - cell [ref=e2059] [cursor=pointer]:
+                      - checkbox [ref=e2061]
+                    - cell [ref=e2062] [cursor=pointer]:
+                      - checkbox [ref=e2064]
+                  - row "51 Master1 Category" [ref=e2065]:
+                    - cell "51" [ref=e2066] [cursor=pointer]
+                    - cell "Master1" [ref=e2067] [cursor=pointer]:
+                      - generic [ref=e2068]: Master1
+                    - cell "Category" [ref=e2069] [cursor=pointer]:
+                      - generic [ref=e2070]: Category
+                    - cell [ref=e2071] [cursor=pointer]:
+                      - checkbox [ref=e2073]
+                    - cell [ref=e2074] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2076]
+                    - cell [ref=e2077] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2079]
+                    - cell [ref=e2080] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2082]
+                    - cell [ref=e2083] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2085]
+                    - cell [ref=e2086] [cursor=pointer]:
+                      - checkbox [ref=e2088]
+                    - cell [ref=e2089] [cursor=pointer]:
+                      - checkbox [ref=e2091]
+                    - cell [ref=e2092] [cursor=pointer]:
+                      - checkbox [ref=e2094]
+                    - cell [ref=e2095] [cursor=pointer]:
+                      - checkbox [ref=e2097]
+                    - cell [ref=e2098] [cursor=pointer]:
+                      - checkbox [ref=e2100]
+                    - cell [ref=e2101] [cursor=pointer]:
+                      - checkbox [ref=e2103]
+                  - row "52 Master1 Risk Category" [ref=e2104]:
+                    - cell "52" [ref=e2105] [cursor=pointer]
+                    - cell "Master1" [ref=e2106] [cursor=pointer]:
+                      - generic [ref=e2107]: Master1
+                    - cell "Risk Category" [ref=e2108] [cursor=pointer]:
+                      - generic [ref=e2109]: Risk Category
+                    - cell [ref=e2110] [cursor=pointer]:
+                      - checkbox [ref=e2112]
+                    - cell [ref=e2113] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2115]
+                    - cell [ref=e2116] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2118]
+                    - cell [ref=e2119] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2121]
+                    - cell [ref=e2122] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2124]
+                    - cell [ref=e2125] [cursor=pointer]:
+                      - checkbox [ref=e2127]
+                    - cell [ref=e2128] [cursor=pointer]:
+                      - checkbox [ref=e2130]
+                    - cell [ref=e2131] [cursor=pointer]:
+                      - checkbox [ref=e2133]
+                    - cell [ref=e2134] [cursor=pointer]:
+                      - checkbox [ref=e2136]
+                    - cell [ref=e2137] [cursor=pointer]:
+                      - checkbox [ref=e2139]
+                    - cell [ref=e2140] [cursor=pointer]:
+                      - checkbox [ref=e2142]
+                  - row "53 Master1 Quote Terms" [ref=e2143]:
+                    - cell "53" [ref=e2144] [cursor=pointer]
+                    - cell "Master1" [ref=e2145] [cursor=pointer]:
+                      - generic [ref=e2146]: Master1
+                    - cell "Quote Terms" [ref=e2147] [cursor=pointer]:
+                      - generic [ref=e2148]: Quote Terms
+                    - cell [ref=e2149] [cursor=pointer]:
+                      - checkbox [ref=e2151]
+                    - cell [ref=e2152] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2154]
+                    - cell [ref=e2155] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2157]
+                    - cell [ref=e2158] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2160]
+                    - cell [ref=e2161] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2163]
+                    - cell [ref=e2164] [cursor=pointer]:
+                      - checkbox [ref=e2166]
+                    - cell [ref=e2167] [cursor=pointer]:
+                      - checkbox [ref=e2169]
+                    - cell [ref=e2170] [cursor=pointer]:
+                      - checkbox [ref=e2172]
+                    - cell [ref=e2173] [cursor=pointer]:
+                      - checkbox [ref=e2175]
+                    - cell [ref=e2176] [cursor=pointer]:
+                      - checkbox [ref=e2178]
+                    - cell [ref=e2179] [cursor=pointer]:
+                      - checkbox [ref=e2181]
+                  - row "54 Master1 GST Percentage" [ref=e2182]:
+                    - cell "54" [ref=e2183] [cursor=pointer]
+                    - cell "Master1" [ref=e2184] [cursor=pointer]:
+                      - generic [ref=e2185]: Master1
+                    - cell "GST Percentage" [ref=e2186] [cursor=pointer]:
+                      - generic [ref=e2187]: GST Percentage
+                    - cell [ref=e2188] [cursor=pointer]:
+                      - checkbox [ref=e2190]
+                    - cell [ref=e2191] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2193]
+                    - cell [ref=e2194] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2196]
+                    - cell [ref=e2197] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2199]
+                    - cell [ref=e2200] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2202]
+                    - cell [ref=e2203] [cursor=pointer]:
+                      - checkbox [ref=e2205]
+                    - cell [ref=e2206] [cursor=pointer]:
+                      - checkbox [ref=e2208]
+                    - cell [ref=e2209] [cursor=pointer]:
+                      - checkbox [ref=e2211]
+                    - cell [ref=e2212] [cursor=pointer]:
+                      - checkbox [ref=e2214]
+                    - cell [ref=e2215] [cursor=pointer]:
+                      - checkbox [ref=e2217]
+                    - cell [ref=e2218] [cursor=pointer]:
+                      - checkbox [ref=e2220]
+                  - row "55 Master1 Price List" [ref=e2221]:
+                    - cell "55" [ref=e2222] [cursor=pointer]
+                    - cell "Master1" [ref=e2223] [cursor=pointer]:
+                      - generic [ref=e2224]: Master1
+                    - cell "Price List" [ref=e2225] [cursor=pointer]:
+                      - generic [ref=e2226]: Price List
+                    - cell [ref=e2227] [cursor=pointer]:
+                      - checkbox [ref=e2229]
+                    - cell [ref=e2230] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2232]
+                    - cell [ref=e2233] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2235]
+                    - cell [ref=e2236] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2238]
+                    - cell [ref=e2239] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2241]
+                    - cell [ref=e2242] [cursor=pointer]:
+                      - checkbox [ref=e2244]
+                    - cell [ref=e2245] [cursor=pointer]:
+                      - checkbox [ref=e2247]
+                    - cell [ref=e2248] [cursor=pointer]:
+                      - checkbox [ref=e2250]
+                    - cell [ref=e2251] [cursor=pointer]:
+                      - checkbox [ref=e2253]
+                    - cell [ref=e2254] [cursor=pointer]:
+                      - checkbox [ref=e2256]
+                    - cell [ref=e2257] [cursor=pointer]:
+                      - checkbox [ref=e2259]
+                  - row "56 Master1 Shipment Mode" [ref=e2260]:
+                    - cell "56" [ref=e2261] [cursor=pointer]
+                    - cell "Master1" [ref=e2262] [cursor=pointer]:
+                      - generic [ref=e2263]: Master1
+                    - cell "Shipment Mode" [ref=e2264] [cursor=pointer]:
+                      - generic [ref=e2265]: Shipment Mode
+                    - cell [ref=e2266] [cursor=pointer]:
+                      - checkbox [ref=e2268]
+                    - cell [ref=e2269] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2271]
+                    - cell [ref=e2272] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2274]
+                    - cell [ref=e2275] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2277]
+                    - cell [ref=e2278] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2280]
+                    - cell [ref=e2281] [cursor=pointer]:
+                      - checkbox [ref=e2283]
+                    - cell [ref=e2284] [cursor=pointer]:
+                      - checkbox [ref=e2286]
+                    - cell [ref=e2287] [cursor=pointer]:
+                      - checkbox [ref=e2289]
+                    - cell [ref=e2290] [cursor=pointer]:
+                      - checkbox [ref=e2292]
+                    - cell [ref=e2293] [cursor=pointer]:
+                      - checkbox [ref=e2295]
+                    - cell [ref=e2296] [cursor=pointer]:
+                      - checkbox [ref=e2298]
+                  - row "57 Master1 Process" [ref=e2299]:
+                    - cell "57" [ref=e2300] [cursor=pointer]
+                    - cell "Master1" [ref=e2301] [cursor=pointer]:
+                      - generic [ref=e2302]: Master1
+                    - cell "Process" [ref=e2303] [cursor=pointer]:
+                      - generic [ref=e2304]: Process
+                    - cell [ref=e2305] [cursor=pointer]:
+                      - checkbox [ref=e2307]
+                    - cell [ref=e2308] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2310]
+                    - cell [ref=e2311] [cursor=pointer]:
+                      - checkbox [ref=e2313]
+                    - cell [ref=e2314] [cursor=pointer]:
+                      - checkbox [ref=e2316]
+                    - cell [ref=e2317] [cursor=pointer]:
+                      - checkbox [ref=e2319]
+                    - cell [ref=e2320] [cursor=pointer]:
+                      - checkbox [ref=e2322]
+                    - cell [ref=e2323] [cursor=pointer]:
+                      - checkbox [ref=e2325]
+                    - cell [ref=e2326] [cursor=pointer]:
+                      - checkbox [ref=e2328]
+                    - cell [ref=e2329] [cursor=pointer]:
+                      - checkbox [ref=e2331]
+                    - cell [ref=e2332] [cursor=pointer]:
+                      - checkbox [ref=e2334]
+                    - cell [ref=e2335] [cursor=pointer]:
+                      - checkbox [ref=e2337]
+                  - row "58 Master1 TYPE OF SOLUTION" [ref=e2338]:
+                    - cell "58" [ref=e2339] [cursor=pointer]
+                    - cell "Master1" [ref=e2340] [cursor=pointer]:
+                      - generic [ref=e2341]: Master1
+                    - cell "TYPE OF SOLUTION" [ref=e2342] [cursor=pointer]:
+                      - generic [ref=e2343]: TYPE OF SOLUTION
+                    - cell [ref=e2344] [cursor=pointer]:
+                      - checkbox [ref=e2346]
+                    - cell [ref=e2347] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2349]
+                    - cell [ref=e2350] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2352]
+                    - cell [ref=e2353] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2355]
+                    - cell [ref=e2356] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2358]
+                    - cell [ref=e2359] [cursor=pointer]:
+                      - checkbox [ref=e2361]
+                    - cell [ref=e2362] [cursor=pointer]:
+                      - checkbox [ref=e2364]
+                    - cell [ref=e2365] [cursor=pointer]:
+                      - checkbox [ref=e2367]
+                    - cell [ref=e2368] [cursor=pointer]:
+                      - checkbox [ref=e2370]
+                    - cell [ref=e2371] [cursor=pointer]:
+                      - checkbox [ref=e2373]
+                    - cell [ref=e2374] [cursor=pointer]:
+                      - checkbox [ref=e2376]
+                  - row "59 Master1 PRODUCT TYPE" [ref=e2377]:
+                    - cell "59" [ref=e2378] [cursor=pointer]
+                    - cell "Master1" [ref=e2379] [cursor=pointer]:
+                      - generic [ref=e2380]: Master1
+                    - cell "PRODUCT TYPE" [ref=e2381] [cursor=pointer]:
+                      - generic [ref=e2382]: PRODUCT TYPE
+                    - cell [ref=e2383] [cursor=pointer]:
+                      - checkbox [ref=e2385]
+                    - cell [ref=e2386] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2388]
+                    - cell [ref=e2389] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2391]
+                    - cell [ref=e2392] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2394]
+                    - cell [ref=e2395] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2397]
+                    - cell [ref=e2398] [cursor=pointer]:
+                      - checkbox [ref=e2400]
+                    - cell [ref=e2401] [cursor=pointer]:
+                      - checkbox [ref=e2403]
+                    - cell [ref=e2404] [cursor=pointer]:
+                      - checkbox [ref=e2406]
+                    - cell [ref=e2407] [cursor=pointer]:
+                      - checkbox [ref=e2409]
+                    - cell [ref=e2410] [cursor=pointer]:
+                      - checkbox [ref=e2412]
+                    - cell [ref=e2413] [cursor=pointer]:
+                      - checkbox [ref=e2415]
+                  - row "60 Master1 ROOM NAME" [ref=e2416]:
+                    - cell "60" [ref=e2417] [cursor=pointer]
+                    - cell "Master1" [ref=e2418] [cursor=pointer]:
+                      - generic [ref=e2419]: Master1
+                    - cell "ROOM NAME" [ref=e2420] [cursor=pointer]:
+                      - generic [ref=e2421]: ROOM NAME
+                    - cell [ref=e2422] [cursor=pointer]:
+                      - checkbox [ref=e2424]
+                    - cell [ref=e2425] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2427]
+                    - cell [ref=e2428] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2430]
+                    - cell [ref=e2431] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2433]
+                    - cell [ref=e2434] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2436]
+                    - cell [ref=e2437] [cursor=pointer]:
+                      - checkbox [ref=e2439]
+                    - cell [ref=e2440] [cursor=pointer]:
+                      - checkbox [ref=e2442]
+                    - cell [ref=e2443] [cursor=pointer]:
+                      - checkbox [ref=e2445]
+                    - cell [ref=e2446] [cursor=pointer]:
+                      - checkbox [ref=e2448]
+                    - cell [ref=e2449] [cursor=pointer]:
+                      - checkbox [ref=e2451]
+                    - cell [ref=e2452] [cursor=pointer]:
+                      - checkbox [ref=e2454]
+                  - row "61 Master1 Order Type" [ref=e2455]:
+                    - cell "61" [ref=e2456] [cursor=pointer]
+                    - cell "Master1" [ref=e2457] [cursor=pointer]:
+                      - generic [ref=e2458]: Master1
+                    - cell "Order Type" [ref=e2459] [cursor=pointer]:
+                      - generic [ref=e2460]: Order Type
+                    - cell [ref=e2461] [cursor=pointer]:
+                      - checkbox [ref=e2463]
+                    - cell [ref=e2464] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2466]
+                    - cell [ref=e2467] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2469]
+                    - cell [ref=e2470] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2472]
+                    - cell [ref=e2473] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2475]
+                    - cell [ref=e2476] [cursor=pointer]:
+                      - checkbox [ref=e2478]
+                    - cell [ref=e2479] [cursor=pointer]:
+                      - checkbox [ref=e2481]
+                    - cell [ref=e2482] [cursor=pointer]:
+                      - checkbox [ref=e2484]
+                    - cell [ref=e2485] [cursor=pointer]:
+                      - checkbox [ref=e2487]
+                    - cell [ref=e2488] [cursor=pointer]:
+                      - checkbox [ref=e2490]
+                    - cell [ref=e2491] [cursor=pointer]:
+                      - checkbox [ref=e2493]
+                  - row "62 Master1 Issuing Stock" [ref=e2494]:
+                    - cell "62" [ref=e2495] [cursor=pointer]
+                    - cell "Master1" [ref=e2496] [cursor=pointer]:
+                      - generic [ref=e2497]: Master1
+                    - cell "Issuing Stock" [ref=e2498] [cursor=pointer]:
+                      - generic [ref=e2499]: Issuing Stock
+                    - cell [ref=e2500] [cursor=pointer]:
+                      - checkbox [ref=e2502]
+                    - cell [ref=e2503] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2505]
+                    - cell [ref=e2506] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2508]
+                    - cell [ref=e2509] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2511]
+                    - cell [ref=e2512] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2514]
+                    - cell [ref=e2515] [cursor=pointer]:
+                      - checkbox [ref=e2517]
+                    - cell [ref=e2518] [cursor=pointer]:
+                      - checkbox [ref=e2520]
+                    - cell [ref=e2521] [cursor=pointer]:
+                      - checkbox [ref=e2523]
+                    - cell [ref=e2524] [cursor=pointer]:
+                      - checkbox [ref=e2526]
+                    - cell [ref=e2527] [cursor=pointer]:
+                      - checkbox [ref=e2529]
+                    - cell [ref=e2530] [cursor=pointer]:
+                      - checkbox [ref=e2532]
+                  - row "63 Master2 Vendor Master" [ref=e2533]:
+                    - cell "63" [ref=e2534] [cursor=pointer]
+                    - cell "Master2" [ref=e2535] [cursor=pointer]:
+                      - generic [ref=e2536]: Master2
+                    - cell "Vendor Master" [ref=e2537] [cursor=pointer]:
+                      - generic [ref=e2538]: Vendor Master
+                    - cell [ref=e2539] [cursor=pointer]:
+                      - checkbox [ref=e2541]
+                    - cell [ref=e2542] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2544]
+                    - cell [ref=e2545] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2547]
+                    - cell [ref=e2548] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2550]
+                    - cell [ref=e2551] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2553]
+                    - cell [ref=e2554] [cursor=pointer]:
+                      - checkbox [ref=e2556]
+                    - cell [ref=e2557] [cursor=pointer]:
+                      - checkbox [ref=e2559]
+                    - cell [ref=e2560] [cursor=pointer]:
+                      - checkbox [ref=e2562]
+                    - cell [ref=e2563] [cursor=pointer]:
+                      - checkbox [ref=e2565]
+                    - cell [ref=e2566] [cursor=pointer]:
+                      - checkbox [ref=e2568]
+                    - cell [ref=e2569] [cursor=pointer]:
+                      - checkbox [ref=e2571]
+                  - row "64 Master2 Customer Master" [ref=e2572]:
+                    - cell "64" [ref=e2573] [cursor=pointer]
+                    - cell "Master2" [ref=e2574] [cursor=pointer]:
+                      - generic [ref=e2575]: Master2
+                    - cell "Customer Master" [ref=e2576] [cursor=pointer]:
+                      - generic [ref=e2577]: Customer Master
+                    - cell [ref=e2578] [cursor=pointer]:
+                      - checkbox [ref=e2580]
+                    - cell [ref=e2581] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2583]
+                    - cell [ref=e2584] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2586]
+                    - cell [ref=e2587] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2589]
+                    - cell [ref=e2590] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2592]
+                    - cell [ref=e2593] [cursor=pointer]:
+                      - checkbox [ref=e2595]
+                    - cell [ref=e2596] [cursor=pointer]:
+                      - checkbox [ref=e2598]
+                    - cell [ref=e2599] [cursor=pointer]:
+                      - checkbox [ref=e2601]
+                    - cell [ref=e2602] [cursor=pointer]:
+                      - checkbox [ref=e2604]
+                    - cell [ref=e2605] [cursor=pointer]:
+                      - checkbox [ref=e2607]
+                    - cell [ref=e2608] [cursor=pointer]:
+                      - checkbox [ref=e2610]
+                  - row "65 Master2 Company Master" [ref=e2611]:
+                    - cell "65" [ref=e2612] [cursor=pointer]
+                    - cell "Master2" [ref=e2613] [cursor=pointer]:
+                      - generic [ref=e2614]: Master2
+                    - cell "Company Master" [ref=e2615] [cursor=pointer]:
+                      - generic [ref=e2616]: Company Master
+                    - cell [ref=e2617] [cursor=pointer]:
+                      - checkbox [ref=e2619]
+                    - cell [ref=e2620] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2622]
+                    - cell [ref=e2623] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2625]
+                    - cell [ref=e2626] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2628]
+                    - cell [ref=e2629] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2631]
+                    - cell [ref=e2632] [cursor=pointer]:
+                      - checkbox [ref=e2634]
+                    - cell [ref=e2635] [cursor=pointer]:
+                      - checkbox [ref=e2637]
+                    - cell [ref=e2638] [cursor=pointer]:
+                      - checkbox [ref=e2640]
+                    - cell [ref=e2641] [cursor=pointer]:
+                      - checkbox [ref=e2643]
+                    - cell [ref=e2644] [cursor=pointer]:
+                      - checkbox [ref=e2646]
+                    - cell [ref=e2647] [cursor=pointer]:
+                      - checkbox [ref=e2649]
+                  - row "66 Engineering Item Master" [ref=e2650]:
+                    - cell "66" [ref=e2651] [cursor=pointer]
+                    - cell "Engineering" [ref=e2652] [cursor=pointer]:
+                      - generic [ref=e2653]: Engineering
+                    - cell "Item Master" [ref=e2654] [cursor=pointer]:
+                      - generic [ref=e2655]: Item Master
+                    - cell [ref=e2656] [cursor=pointer]:
+                      - checkbox [ref=e2658]
+                    - cell [ref=e2659] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2661]
+                    - cell [ref=e2662] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2664]
+                    - cell [ref=e2665] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2667]
+                    - cell [ref=e2668] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2670]
+                    - cell [ref=e2671] [cursor=pointer]:
+                      - checkbox [ref=e2673]
+                    - cell [ref=e2674] [cursor=pointer]:
+                      - checkbox [ref=e2676]
+                    - cell [ref=e2677] [cursor=pointer]:
+                      - checkbox [ref=e2679]
+                    - cell [ref=e2680] [cursor=pointer]:
+                      - checkbox [ref=e2682]
+                    - cell [ref=e2683] [cursor=pointer]:
+                      - checkbox [ref=e2685]
+                    - cell [ref=e2686] [cursor=pointer]:
+                      - checkbox [ref=e2688]
+                  - row "67 Engineering Engg Bom" [ref=e2689]:
+                    - cell "67" [ref=e2690] [cursor=pointer]
+                    - cell "Engineering" [ref=e2691] [cursor=pointer]:
+                      - generic [ref=e2692]: Engineering
+                    - cell "Engg Bom" [ref=e2693] [cursor=pointer]:
+                      - generic [ref=e2694]: Engg Bom
+                    - cell [ref=e2695] [cursor=pointer]:
+                      - checkbox [ref=e2697]
+                    - cell [ref=e2698] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2700]
+                    - cell [ref=e2701] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2703]
+                    - cell [ref=e2704] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2706]
+                    - cell [ref=e2707] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2709]
+                    - cell [ref=e2710] [cursor=pointer]:
+                      - checkbox [ref=e2712]
+                    - cell [ref=e2713] [cursor=pointer]:
+                      - checkbox [ref=e2715]
+                    - cell [ref=e2716] [cursor=pointer]:
+                      - checkbox [ref=e2718]
+                    - cell [ref=e2719] [cursor=pointer]:
+                      - checkbox [ref=e2721]
+                    - cell [ref=e2722] [cursor=pointer]:
+                      - checkbox [ref=e2724]
+                    - cell [ref=e2725] [cursor=pointer]:
+                      - checkbox [ref=e2727]
+                  - row "68 Engineering Release BOM" [ref=e2728]:
+                    - cell "68" [ref=e2729] [cursor=pointer]
+                    - cell "Engineering" [ref=e2730] [cursor=pointer]:
+                      - generic [ref=e2731]: Engineering
+                    - cell "Release BOM" [ref=e2732] [cursor=pointer]:
+                      - generic [ref=e2733]: Release BOM
+                    - cell [ref=e2734] [cursor=pointer]:
+                      - checkbox [ref=e2736]
+                    - cell [ref=e2737] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2739]
+                    - cell [ref=e2740] [cursor=pointer]:
+                      - checkbox [ref=e2742]
+                    - cell [ref=e2743] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2745]
+                    - cell [ref=e2746] [cursor=pointer]:
+                      - checkbox [ref=e2748]
+                    - cell [ref=e2749] [cursor=pointer]:
+                      - checkbox [ref=e2751]
+                    - cell [ref=e2752] [cursor=pointer]:
+                      - checkbox [ref=e2754]
+                    - cell [ref=e2755] [cursor=pointer]:
+                      - checkbox [ref=e2757]
+                    - cell [ref=e2758] [cursor=pointer]:
+                      - checkbox [ref=e2760]
+                    - cell [ref=e2761] [cursor=pointer]:
+                      - checkbox [ref=e2763]
+                    - cell [ref=e2764] [cursor=pointer]:
+                      - checkbox [ref=e2766]
+                  - row "69 Engineering Custom Fields" [ref=e2767]:
+                    - cell "69" [ref=e2768] [cursor=pointer]
+                    - cell "Engineering" [ref=e2769] [cursor=pointer]:
+                      - generic [ref=e2770]: Engineering
+                    - cell "Custom Fields" [ref=e2771] [cursor=pointer]:
+                      - generic [ref=e2772]: Custom Fields
+                    - cell [ref=e2773] [cursor=pointer]:
+                      - checkbox [ref=e2775]
+                    - cell [ref=e2776] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2778]
+                    - cell [ref=e2779] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2781]
+                    - cell [ref=e2782] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2784]
+                    - cell [ref=e2785] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2787]
+                    - cell [ref=e2788] [cursor=pointer]:
+                      - checkbox [ref=e2790]
+                    - cell [ref=e2791] [cursor=pointer]:
+                      - checkbox [ref=e2793]
+                    - cell [ref=e2794] [cursor=pointer]:
+                      - checkbox [ref=e2796]
+                    - cell [ref=e2797] [cursor=pointer]:
+                      - checkbox [ref=e2799]
+                    - cell [ref=e2800] [cursor=pointer]:
+                      - checkbox [ref=e2802]
+                    - cell [ref=e2803] [cursor=pointer]:
+                      - checkbox [ref=e2805]
+                  - row "70 Engineering Bom Group" [ref=e2806]:
+                    - cell "70" [ref=e2807] [cursor=pointer]
+                    - cell "Engineering" [ref=e2808] [cursor=pointer]:
+                      - generic [ref=e2809]: Engineering
+                    - cell "Bom Group" [ref=e2810] [cursor=pointer]:
+                      - generic [ref=e2811]: Bom Group
+                    - cell [ref=e2812] [cursor=pointer]:
+                      - checkbox [ref=e2814]
+                    - cell [ref=e2815] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2817]
+                    - cell [ref=e2818] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2820]
+                    - cell [ref=e2821] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2823]
+                    - cell [ref=e2824] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2826]
+                    - cell [ref=e2827] [cursor=pointer]:
+                      - checkbox [ref=e2829]
+                    - cell [ref=e2830] [cursor=pointer]:
+                      - checkbox [ref=e2832]
+                    - cell [ref=e2833] [cursor=pointer]:
+                      - checkbox [ref=e2835]
+                    - cell [ref=e2836] [cursor=pointer]:
+                      - checkbox [ref=e2838]
+                    - cell [ref=e2839] [cursor=pointer]:
+                      - checkbox [ref=e2841]
+                    - cell [ref=e2842] [cursor=pointer]:
+                      - checkbox [ref=e2844]
+                  - row "71 Sales Item Price List" [ref=e2845]:
+                    - cell "71" [ref=e2846] [cursor=pointer]
+                    - cell "Sales" [ref=e2847] [cursor=pointer]:
+                      - generic [ref=e2848]: Sales
+                    - cell "Item Price List" [ref=e2849] [cursor=pointer]:
+                      - generic [ref=e2850]: Item Price List
+                    - cell [ref=e2851] [cursor=pointer]:
+                      - checkbox [ref=e2853]
+                    - cell [ref=e2854] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2856]
+                    - cell [ref=e2857] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2859]
+                    - cell [ref=e2860] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2862]
+                    - cell [ref=e2863] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2865]
+                    - cell [ref=e2866] [cursor=pointer]:
+                      - checkbox [ref=e2868]
+                    - cell [ref=e2869] [cursor=pointer]:
+                      - checkbox [ref=e2871]
+                    - cell [ref=e2872] [cursor=pointer]:
+                      - checkbox [ref=e2874]
+                    - cell [ref=e2875] [cursor=pointer]:
+                      - checkbox [ref=e2877]
+                    - cell [ref=e2878] [cursor=pointer]:
+                      - checkbox [ref=e2880]
+                    - cell [ref=e2881] [cursor=pointer]:
+                      - checkbox [ref=e2883]
+                  - row "72 Sales RFQ" [ref=e2884]:
+                    - cell "72" [ref=e2885] [cursor=pointer]
+                    - cell "Sales" [ref=e2886] [cursor=pointer]:
+                      - generic [ref=e2887]: Sales
+                    - cell "RFQ" [ref=e2888] [cursor=pointer]:
+                      - generic [ref=e2889]: RFQ
+                    - cell [ref=e2890] [cursor=pointer]:
+                      - checkbox [ref=e2892]
+                    - cell [ref=e2893] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2895]
+                    - cell [ref=e2896] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2898]
+                    - cell [ref=e2899] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2901]
+                    - cell [ref=e2902] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2904]
+                    - cell [ref=e2905] [cursor=pointer]:
+                      - checkbox [ref=e2907]
+                    - cell [ref=e2908] [cursor=pointer]:
+                      - checkbox [ref=e2910]
+                    - cell [ref=e2911] [cursor=pointer]:
+                      - checkbox [ref=e2913]
+                    - cell [ref=e2914] [cursor=pointer]:
+                      - checkbox [ref=e2916]
+                    - cell [ref=e2917] [cursor=pointer]:
+                      - checkbox [ref=e2919]
+                    - cell [ref=e2920] [cursor=pointer]:
+                      - checkbox [ref=e2922]
+                  - row "73 Sales Custom Fields" [ref=e2923]:
+                    - cell "73" [ref=e2924] [cursor=pointer]
+                    - cell "Sales" [ref=e2925] [cursor=pointer]:
+                      - generic [ref=e2926]: Sales
+                    - cell "Custom Fields" [ref=e2927] [cursor=pointer]:
+                      - generic [ref=e2928]: Custom Fields
+                    - cell [ref=e2929] [cursor=pointer]:
+                      - checkbox [ref=e2931]
+                    - cell [ref=e2932] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2934]
+                    - cell [ref=e2935] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2937]
+                    - cell [ref=e2938] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2940]
+                    - cell [ref=e2941] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2943]
+                    - cell [ref=e2944] [cursor=pointer]:
+                      - checkbox [ref=e2946]
+                    - cell [ref=e2947] [cursor=pointer]:
+                      - checkbox [ref=e2949]
+                    - cell [ref=e2950] [cursor=pointer]:
+                      - checkbox [ref=e2952]
+                    - cell [ref=e2953] [cursor=pointer]:
+                      - checkbox [ref=e2955]
+                    - cell [ref=e2956] [cursor=pointer]:
+                      - checkbox [ref=e2958]
+                    - cell [ref=e2959] [cursor=pointer]:
+                      - checkbox [ref=e2961]
+                  - row "74 Sales Custom Groups" [ref=e2962]:
+                    - cell "74" [ref=e2963] [cursor=pointer]
+                    - cell "Sales" [ref=e2964] [cursor=pointer]:
+                      - generic [ref=e2965]: Sales
+                    - cell "Custom Groups" [ref=e2966] [cursor=pointer]:
+                      - generic [ref=e2967]: Custom Groups
+                    - cell [ref=e2968] [cursor=pointer]:
+                      - checkbox [ref=e2970]
+                    - cell [ref=e2971] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2973]
+                    - cell [ref=e2974] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2976]
+                    - cell [ref=e2977] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2979]
+                    - cell [ref=e2980] [cursor=pointer]:
+                      - checkbox [checked] [ref=e2982]
+                    - cell [ref=e2983] [cursor=pointer]:
+                      - checkbox [ref=e2985]
+                    - cell [ref=e2986] [cursor=pointer]:
+                      - checkbox [ref=e2988]
+                    - cell [ref=e2989] [cursor=pointer]:
+                      - checkbox [ref=e2991]
+                    - cell [ref=e2992] [cursor=pointer]:
+                      - checkbox [ref=e2994]
+                    - cell [ref=e2995] [cursor=pointer]:
+                      - checkbox [ref=e2997]
+                    - cell [ref=e2998] [cursor=pointer]:
+                      - checkbox [ref=e3000]
+                  - row "75 Sales Quote" [ref=e3001]:
+                    - cell "75" [ref=e3002] [cursor=pointer]
+                    - cell "Sales" [ref=e3003] [cursor=pointer]:
+                      - generic [ref=e3004]: Sales
+                    - cell "Quote" [ref=e3005] [cursor=pointer]:
+                      - generic [ref=e3006]: Quote
+                    - cell [ref=e3007] [cursor=pointer]:
+                      - checkbox [ref=e3009]
+                    - cell [ref=e3010] [cursor=pointer]:
+                      - checkbox [checked] [ref=e3012]
+                    - cell [ref=e3013] [cursor=pointer]:
+                      - checkbox [checked] [ref=e3015]
+                    - cell [ref=e3016] [cursor=pointer]:
+                      - checkbox [checked] [ref=e3018]
+                    - cell [ref=e3019] [cursor=pointer]:
+                      - checkbox [checked] [ref=e3021]
+                    - cell [ref=e3022] [cursor=pointer]:
+                      - checkbox [ref=e3024]
+                    - cell [ref=e3025] [cursor=pointer]:
+                      - checkbox [ref=e3027]
+                    - cell [ref=e3028] [cursor=pointer]:
+                      - checkbox [ref=e3030]
+                    - cell [ref=e3031] [cursor=pointer]:
+                      - checkbox [ref=e3033]
+                    - cell [ref=e3034] [cursor=pointer]:
+                      - checkbox [ref=e3036]
+                    - cell [ref=e3037] [cursor=pointer]:
+                      - checkbox [ref=e3039]
+                  - row "76 Transactions Sales Order" [ref=e3040]:
+                    - cell "76" [ref=e3041] [cursor=pointer]
+                    - cell "Transactions" [ref=e3042] [cursor=pointer]:
+                      - generic [ref=e3043]: Transactions
+                    - cell "Sales Order" [ref=e3044] [cursor=pointer]:
+                      - generic [ref=e3045]: Sales Order
+                    - cell [ref=e3046] [cursor=pointer]:
+                      - checkbox [ref=e3048]
+                    - cell [ref=e3049] [cursor=pointer]:
+                      - checkbox [ref=e3051]
+                    - cell [ref=e3052] [cursor=pointer]:
+                      - checkbox [ref=e3054]
+                    - cell [ref=e3055] [cursor=pointer]:
+                      - checkbox [ref=e3057]
+                    - cell [ref=e3058] [cursor=pointer]:
+                      - checkbox [ref=e3060]
+                    - cell [ref=e3061] [cursor=pointer]:
+                      - checkbox [ref=e3063]
+                    - cell [ref=e3064] [cursor=pointer]:
+                      - checkbox [ref=e3066]
+                    - cell [ref=e3067] [cursor=pointer]:
+                      - checkbox [ref=e3069]
+                    - cell [ref=e3070] [cursor=pointer]:
+                      - checkbox [ref=e3072]
+                    - cell [ref=e3073] [cursor=pointer]:
+                      - checkbox [ref=e3075]
+                    - cell [ref=e3076] [cursor=pointer]:
+                      - checkbox [ref=e3078]
+                  - row "77 Transactions Purchase Requisition" [ref=e3079]:
+                    - cell "77" [ref=e3080] [cursor=pointer]
+                    - cell "Transactions" [ref=e3081] [cursor=pointer]:
+                      - generic [ref=e3082]: Transactions
+                    - cell "Purchase Requisition" [ref=e3083] [cursor=pointer]:
+                      - generic [ref=e3084]: Purchase Requisition
+                    - cell [ref=e3085] [cursor=pointer]:
+                      - checkbox [ref=e3087]
+                    - cell [ref=e3088] [cursor=pointer]:
+                      - checkbox [ref=e3090]
+                    - cell [ref=e3091] [cursor=pointer]:
+                      - checkbox [ref=e3093]
+                    - cell [ref=e3094] [cursor=pointer]:
+                      - checkbox [ref=e3096]
+                    - cell [ref=e3097] [cursor=pointer]:
+                      - checkbox [ref=e3099]
+                    - cell [ref=e3100] [cursor=pointer]:
+                      - checkbox [ref=e3102]
+                    - cell [ref=e3103] [cursor=pointer]:
+                      - checkbox [ref=e3105]
+                    - cell [ref=e3106] [cursor=pointer]:
+                      - checkbox [ref=e3108]
+                    - cell [ref=e3109] [cursor=pointer]:
+                      - checkbox [ref=e3111]
+                    - cell [ref=e3112] [cursor=pointer]:
+                      - checkbox [ref=e3114]
+                    - cell [ref=e3115] [cursor=pointer]:
+                      - checkbox [ref=e3117]
+                  - row "78 Transactions Purchase Order" [ref=e3118]:
+                    - cell "78" [ref=e3119] [cursor=pointer]
+                    - cell "Transactions" [ref=e3120] [cursor=pointer]:
+                      - generic [ref=e3121]: Transactions
+                    - cell "Purchase Order" [ref=e3122] [cursor=pointer]:
+                      - generic [ref=e3123]: Purchase Order
+                    - cell [ref=e3124] [cursor=pointer]:
+                      - checkbox [ref=e3126]
+                    - cell [ref=e3127] [cursor=pointer]:
+                      - checkbox [ref=e3129]
+                    - cell [ref=e3130] [cursor=pointer]:
+                      - checkbox [ref=e3132]
+                    - cell [ref=e3133] [cursor=pointer]:
+                      - checkbox [ref=e3135]
+                    - cell [ref=e3136] [cursor=pointer]:
+                      - checkbox [ref=e3138]
+                    - cell [ref=e3139] [cursor=pointer]:
+                      - checkbox [ref=e3141]
+                    - cell [ref=e3142] [cursor=pointer]:
+                      - checkbox [ref=e3144]
+                    - cell [ref=e3145] [cursor=pointer]:
+                      - checkbox [ref=e3147]
+                    - cell [ref=e3148] [cursor=pointer]:
+                      - checkbox [ref=e3150]
+                    - cell [ref=e3151] [cursor=pointer]:
+                      - checkbox [ref=e3153]
+                    - cell [ref=e3154] [cursor=pointer]:
+                      - checkbox [ref=e3156]
+                  - row "79 Transactions GRIN" [ref=e3157]:
+                    - cell "79" [ref=e3158] [cursor=pointer]
+                    - cell "Transactions" [ref=e3159] [cursor=pointer]:
+                      - generic [ref=e3160]: Transactions
+                    - cell "GRIN" [ref=e3161] [cursor=pointer]:
+                      - generic [ref=e3162]: GRIN
+                    - cell [ref=e3163] [cursor=pointer]:
+                      - checkbox [ref=e3165]
+                    - cell [ref=e3166] [cursor=pointer]:
+                      - checkbox [ref=e3168]
+                    - cell [ref=e3169] [cursor=pointer]:
+                      - checkbox [ref=e3171]
+                    - cell [ref=e3172] [cursor=pointer]:
+                      - checkbox [ref=e3174]
+                    - cell [ref=e3175] [cursor=pointer]:
+                      - checkbox [ref=e3177]
+                    - cell [ref=e3178] [cursor=pointer]:
+                      - checkbox [ref=e3180]
+                    - cell [ref=e3181] [cursor=pointer]:
+                      - checkbox [ref=e3183]
+                    - cell [ref=e3184] [cursor=pointer]:
+                      - checkbox [ref=e3186]
+                    - cell [ref=e3187] [cursor=pointer]:
+                      - checkbox [ref=e3189]
+                    - cell [ref=e3190] [cursor=pointer]:
+                      - checkbox [ref=e3192]
+                    - cell [ref=e3193] [cursor=pointer]:
+                      - checkbox [ref=e3195]
+                  - row "80 Transactions Return GRIN" [ref=e3196]:
+                    - cell "80" [ref=e3197] [cursor=pointer]
+                    - cell "Transactions" [ref=e3198] [cursor=pointer]:
+                      - generic [ref=e3199]: Transactions
+                    - cell "Return GRIN" [ref=e3200] [cursor=pointer]:
+                      - generic [ref=e3201]: Return GRIN
+                    - cell [ref=e3202] [cursor=pointer]:
+                      - checkbox [ref=e3204]
+                    - cell [ref=e3205] [cursor=pointer]:
+                      - checkbox [ref=e3207]
+                    - cell [ref=e3208] [cursor=pointer]:
+                      - checkbox [ref=e3210]
+                    - cell [ref=e3211] [cursor=pointer]:
+                      - checkbox [ref=e3213]
+                    - cell [ref=e3214] [cursor=pointer]:
+                      - checkbox [ref=e3216]
+                    - cell [ref=e3217] [cursor=pointer]:
+                      - checkbox [ref=e3219]
+                    - cell [ref=e3220] [cursor=pointer]:
+                      - checkbox [ref=e3222]
+                    - cell [ref=e3223] [cursor=pointer]:
+                      - checkbox [ref=e3225]
+                    - cell [ref=e3226] [cursor=pointer]:
+                      - checkbox [ref=e3228]
+                    - cell [ref=e3229] [cursor=pointer]:
+                      - checkbox [ref=e3231]
+                    - cell [ref=e3232] [cursor=pointer]:
+                      - checkbox [ref=e3234]
+                  - row "81 Transactions IQC Confirmation" [ref=e3235]:
+                    - cell "81" [ref=e3236] [cursor=pointer]
+                    - cell "Transactions" [ref=e3237] [cursor=pointer]:
+                      - generic [ref=e3238]: Transactions
+                    - cell "IQC Confirmation" [ref=e3239] [cursor=pointer]:
+                      - generic [ref=e3240]: IQC Confirmation
+                    - cell [ref=e3241] [cursor=pointer]:
+                      - checkbox [ref=e3243]
+                    - cell [ref=e3244] [cursor=pointer]:
+                      - checkbox [ref=e3246]
+                    - cell [ref=e3247] [cursor=pointer]:
+                      - checkbox [ref=e3249]
+                    - cell [ref=e3250] [cursor=pointer]:
+                      - checkbox [ref=e3252]
+                    - cell [ref=e3253] [cursor=pointer]:
+                      - checkbox [ref=e3255]
+                    - cell [ref=e3256] [cursor=pointer]:
+                      - checkbox [ref=e3258]
+                    - cell [ref=e3259] [cursor=pointer]:
+                      - checkbox [ref=e3261]
+                    - cell [ref=e3262] [cursor=pointer]:
+                      - checkbox [ref=e3264]
+                    - cell [ref=e3265] [cursor=pointer]:
+                      - checkbox [ref=e3267]
+                    - cell [ref=e3268] [cursor=pointer]:
+                      - checkbox [ref=e3270]
+                    - cell [ref=e3271] [cursor=pointer]:
+                      - checkbox [ref=e3273]
+                  - row "82 Transactions Binning" [ref=e3274]:
+                    - cell "82" [ref=e3275] [cursor=pointer]
+                    - cell "Transactions" [ref=e3276] [cursor=pointer]:
+                      - generic [ref=e3277]: Transactions
+                    - cell "Binning" [ref=e3278] [cursor=pointer]:
+                      - generic [ref=e3279]: Binning
+                    - cell [ref=e3280] [cursor=pointer]:
+                      - checkbox [ref=e3282]
+                    - cell [ref=e3283] [cursor=pointer]:
+                      - checkbox [ref=e3285]
+                    - cell [ref=e3286] [cursor=pointer]:
+                      - checkbox [ref=e3288]
+                    - cell [ref=e3289] [cursor=pointer]:
+                      - checkbox [ref=e3291]
+                    - cell [ref=e3292] [cursor=pointer]:
+                      - checkbox [ref=e3294]
+                    - cell [ref=e3295] [cursor=pointer]:
+                      - checkbox [ref=e3297]
+                    - cell [ref=e3298] [cursor=pointer]:
+                      - checkbox [ref=e3300]
+                    - cell [ref=e3301] [cursor=pointer]:
+                      - checkbox [ref=e3303]
+                    - cell [ref=e3304] [cursor=pointer]:
+                      - checkbox [ref=e3306]
+                    - cell [ref=e3307] [cursor=pointer]:
+                      - checkbox [ref=e3309]
+                    - cell [ref=e3310] [cursor=pointer]:
+                      - checkbox [ref=e3312]
+                  - row "83 Transactions Shop Order" [ref=e3313]:
+                    - cell "83" [ref=e3314] [cursor=pointer]
+                    - cell "Transactions" [ref=e3315] [cursor=pointer]:
+                      - generic [ref=e3316]: Transactions
+                    - cell "Shop Order" [ref=e3317] [cursor=pointer]:
+                      - generic [ref=e3318]: Shop Order
+                    - cell [ref=e3319] [cursor=pointer]:
+                      - checkbox [ref=e3321]
+                    - cell [ref=e3322] [cursor=pointer]:
+                      - checkbox [ref=e3324]
+                    - cell [ref=e3325] [cursor=pointer]:
+                      - checkbox [ref=e3327]
+                    - cell [ref=e3328] [cursor=pointer]:
+                      - checkbox [ref=e3330]
+                    - cell [ref=e3331] [cursor=pointer]:
+                      - checkbox [ref=e3333]
+                    - cell [ref=e3334] [cursor=pointer]:
+                      - checkbox [ref=e3336]
+                    - cell [ref=e3337] [cursor=pointer]:
+                      - checkbox [ref=e3339]
+                    - cell [ref=e3340] [cursor=pointer]:
+                      - checkbox [ref=e3342]
+                    - cell [ref=e3343] [cursor=pointer]:
+                      - checkbox [ref=e3345]
+                    - cell [ref=e3346] [cursor=pointer]:
+                      - checkbox [ref=e3348]
+                    - cell [ref=e3349] [cursor=pointer]:
+                      - checkbox [ref=e3351]
+                  - row "84 Transactions Shop Order Confirm" [ref=e3352]:
+                    - cell "84" [ref=e3353] [cursor=pointer]
+                    - cell "Transactions" [ref=e3354] [cursor=pointer]:
+                      - generic [ref=e3355]: Transactions
+                    - cell "Shop Order Confirm" [ref=e3356] [cursor=pointer]:
+                      - generic [ref=e3357]: Shop Order Confirm
+                    - cell [ref=e3358] [cursor=pointer]:
+                      - checkbox [ref=e3360]
+                    - cell [ref=e3361] [cursor=pointer]:
+                      - checkbox [ref=e3363]
+                    - cell [ref=e3364] [cursor=pointer]:
+                      - checkbox [ref=e3366]
+                    - cell [ref=e3367] [cursor=pointer]:
+                      - checkbox [ref=e3369]
+                    - cell [ref=e3370] [cursor=pointer]:
+                      - checkbox [ref=e3372]
+                    - cell [ref=e3373] [cursor=pointer]:
+                      - checkbox [ref=e3375]
+                    - cell [ref=e3376] [cursor=pointer]:
+                      - checkbox [ref=e3378]
+                    - cell [ref=e3379] [cursor=pointer]:
+                      - checkbox [ref=e3381]
+                    - cell [ref=e3382] [cursor=pointer]:
+                      - checkbox [ref=e3384]
+                    - cell [ref=e3385] [cursor=pointer]:
+                      - checkbox [ref=e3387]
+                    - cell [ref=e3388] [cursor=pointer]:
+                      - checkbox [ref=e3390]
+                  - row "85 Transactions Delivery Order" [ref=e3391]:
+                    - cell "85" [ref=e3392] [cursor=pointer]
+                    - cell "Transactions" [ref=e3393] [cursor=pointer]:
+                      - generic [ref=e3394]: Transactions
+                    - cell "Delivery Order" [ref=e3395] [cursor=pointer]:
+                      - generic [ref=e3396]: Delivery Order
+                    - cell [ref=e3397] [cursor=pointer]:
+                      - checkbox [ref=e3399]
+                    - cell [ref=e3400] [cursor=pointer]:
+                      - checkbox [ref=e3402]
+                    - cell [ref=e3403] [cursor=pointer]:
+                      - checkbox [ref=e3405]
+                    - cell [ref=e3406] [cursor=pointer]:
+                      - checkbox [ref=e3408]
+                    - cell [ref=e3409] [cursor=pointer]:
+                      - checkbox [ref=e3411]
+                    - cell [ref=e3412] [cursor=pointer]:
+                      - checkbox [ref=e3414]
+                    - cell [ref=e3415] [cursor=pointer]:
+                      - checkbox [ref=e3417]
+                    - cell [ref=e3418] [cursor=pointer]:
+                      - checkbox [ref=e3420]
+                    - cell [ref=e3421] [cursor=pointer]:
+                      - checkbox [ref=e3423]
+                    - cell [ref=e3424] [cursor=pointer]:
+                      - checkbox [ref=e3426]
+                    - cell [ref=e3427] [cursor=pointer]:
+                      - checkbox [ref=e3429]
+                  - row "86 Transactions Return DO List" [ref=e3430]:
+                    - cell "86" [ref=e3431] [cursor=pointer]
+                    - cell "Transactions" [ref=e3432] [cursor=pointer]:
+                      - generic [ref=e3433]: Transactions
+                    - cell "Return DO List" [ref=e3434] [cursor=pointer]:
+                      - generic [ref=e3435]: Return DO List
+                    - cell [ref=e3436] [cursor=pointer]:
+                      - checkbox [ref=e3438]
+                    - cell [ref=e3439] [cursor=pointer]:
+                      - checkbox [ref=e3441]
+                    - cell [ref=e3442] [cursor=pointer]:
+                      - checkbox [ref=e3444]
+                    - cell [ref=e3445] [cursor=pointer]:
+                      - checkbox [ref=e3447]
+                    - cell [ref=e3448] [cursor=pointer]:
+                      - checkbox [ref=e3450]
+                    - cell [ref=e3451] [cursor=pointer]:
+                      - checkbox [ref=e3453]
+                    - cell [ref=e3454] [cursor=pointer]:
+                      - checkbox [ref=e3456]
+                    - cell [ref=e3457] [cursor=pointer]:
+                      - checkbox [ref=e3459]
+                    - cell [ref=e3460] [cursor=pointer]:
+                      - checkbox [ref=e3462]
+                    - cell [ref=e3463] [cursor=pointer]:
+                      - checkbox [ref=e3465]
+                    - cell [ref=e3466] [cursor=pointer]:
+                      - checkbox [ref=e3468]
+                  - row "87 Transactions Open Delivery Order" [ref=e3469]:
+                    - cell "87" [ref=e3470] [cursor=pointer]
+                    - cell "Transactions" [ref=e3471] [cursor=pointer]:
+                      - generic [ref=e3472]: Transactions
+                    - cell "Open Delivery Order" [ref=e3473] [cursor=pointer]:
+                      - generic [ref=e3474]: Open Delivery Order
+                    - cell [ref=e3475] [cursor=pointer]:
+                      - checkbox [ref=e3477]
+                    - cell [ref=e3478] [cursor=pointer]:
+                      - checkbox [ref=e3480]
+                    - cell [ref=e3481] [cursor=pointer]:
+                      - checkbox [ref=e3483]
+                    - cell [ref=e3484] [cursor=pointer]:
+                      - checkbox [ref=e3486]
+                    - cell [ref=e3487] [cursor=pointer]:
+                      - checkbox [ref=e3489]
+                    - cell [ref=e3490] [cursor=pointer]:
+                      - checkbox [ref=e3492]
+                    - cell [ref=e3493] [cursor=pointer]:
+                      - checkbox [ref=e3495]
+                    - cell [ref=e3496] [cursor=pointer]:
+                      - checkbox [ref=e3498]
+                    - cell [ref=e3499] [cursor=pointer]:
+                      - checkbox [ref=e3501]
+                    - cell [ref=e3502] [cursor=pointer]:
+                      - checkbox [ref=e3504]
+                    - cell [ref=e3505] [cursor=pointer]:
+                      - checkbox [ref=e3507]
+                  - row "88 Transactions Return Open Delivery Order List" [ref=e3508]:
+                    - cell "88" [ref=e3509] [cursor=pointer]
+                    - cell "Transactions" [ref=e3510] [cursor=pointer]:
+                      - generic [ref=e3511]: Transactions
+                    - cell "Return Open Delivery Order List" [ref=e3512] [cursor=pointer]:
+                      - generic [ref=e3513]: Return Open Delivery Order List
+                    - cell [ref=e3514] [cursor=pointer]:
+                      - checkbox [ref=e3516]
+                    - cell [ref=e3517] [cursor=pointer]:
+                      - checkbox [ref=e3519]
+                    - cell [ref=e3520] [cursor=pointer]:
+                      - checkbox [ref=e3522]
+                    - cell [ref=e3523] [cursor=pointer]:
+                      - checkbox [ref=e3525]
+                    - cell [ref=e3526] [cursor=pointer]:
+                      - checkbox [ref=e3528]
+                    - cell [ref=e3529] [cursor=pointer]:
+                      - checkbox [ref=e3531]
+                    - cell [ref=e3532] [cursor=pointer]:
+                      - checkbox [ref=e3534]
+                    - cell [ref=e3535] [cursor=pointer]:
+                      - checkbox [ref=e3537]
+                    - cell [ref=e3538] [cursor=pointer]:
+                      - checkbox [ref=e3540]
+                    - cell [ref=e3541] [cursor=pointer]:
+                      - checkbox [ref=e3543]
+                    - cell [ref=e3544] [cursor=pointer]:
+                      - checkbox [ref=e3546]
+                  - row "89 Transactions OQC" [ref=e3547]:
+                    - cell "89" [ref=e3548] [cursor=pointer]
+                    - cell "Transactions" [ref=e3549] [cursor=pointer]:
+                      - generic [ref=e3550]: Transactions
+                    - cell "OQC" [ref=e3551] [cursor=pointer]:
+                      - generic [ref=e3552]: OQC
+                    - cell [ref=e3553] [cursor=pointer]:
+                      - checkbox [ref=e3555]
+                    - cell [ref=e3556] [cursor=pointer]:
+                      - checkbox [ref=e3558]
+                    - cell [ref=e3559] [cursor=pointer]:
+                      - checkbox [ref=e3561]
+                    - cell [ref=e3562] [cursor=pointer]:
+                      - checkbox [ref=e3564]
+                    - cell [ref=e3565] [cursor=pointer]:
+                      - checkbox [ref=e3567]
+                    - cell [ref=e3568] [cursor=pointer]:
+                      - checkbox [ref=e3570]
+                    - cell [ref=e3571] [cursor=pointer]:
+                      - checkbox [ref=e3573]
+                    - cell [ref=e3574] [cursor=pointer]:
+                      - checkbox [ref=e3576]
+                    - cell [ref=e3577] [cursor=pointer]:
+                      - checkbox [ref=e3579]
+                    - cell [ref=e3580] [cursor=pointer]:
+                      - checkbox [ref=e3582]
+                    - cell [ref=e3583] [cursor=pointer]:
+                      - checkbox [ref=e3585]
+                  - row "90 Transactions Invoice" [ref=e3586]:
+                    - cell "90" [ref=e3587] [cursor=pointer]
+                    - cell "Transactions" [ref=e3588] [cursor=pointer]:
+                      - generic [ref=e3589]: Transactions
+                    - cell "Invoice" [ref=e3590] [cursor=pointer]:
+                      - generic [ref=e3591]: Invoice
+                    - cell [ref=e3592] [cursor=pointer]:
+                      - checkbox [ref=e3594]
+                    - cell [ref=e3595] [cursor=pointer]:
+                      - checkbox [ref=e3597]
+                    - cell [ref=e3598] [cursor=pointer]:
+                      - checkbox [ref=e3600]
+                    - cell [ref=e3601] [cursor=pointer]:
+                      - checkbox [ref=e3603]
+                    - cell [ref=e3604] [cursor=pointer]:
+                      - checkbox [ref=e3606]
+                    - cell [ref=e3607] [cursor=pointer]:
+                      - checkbox [ref=e3609]
+                    - cell [ref=e3610] [cursor=pointer]:
+                      - checkbox [ref=e3612]
+                    - cell [ref=e3613] [cursor=pointer]:
+                      - checkbox [ref=e3615]
+                    - cell [ref=e3616] [cursor=pointer]:
+                      - checkbox [ref=e3618]
+                    - cell [ref=e3619] [cursor=pointer]:
+                      - checkbox [ref=e3621]
+                    - cell [ref=e3622] [cursor=pointer]:
+                      - checkbox [ref=e3624]
+                  - row "91 Transactions Return Invoice List" [ref=e3625]:
+                    - cell "91" [ref=e3626] [cursor=pointer]
+                    - cell "Transactions" [ref=e3627] [cursor=pointer]:
+                      - generic [ref=e3628]: Transactions
+                    - cell "Return Invoice List" [ref=e3629] [cursor=pointer]:
+                      - generic [ref=e3630]: Return Invoice List
+                    - cell [ref=e3631] [cursor=pointer]:
+                      - checkbox [ref=e3633]
+                    - cell [ref=e3634] [cursor=pointer]:
+                      - checkbox [ref=e3636]
+                    - cell [ref=e3637] [cursor=pointer]:
+                      - checkbox [ref=e3639]
+                    - cell [ref=e3640] [cursor=pointer]:
+                      - checkbox [ref=e3642]
+                    - cell [ref=e3643] [cursor=pointer]:
+                      - checkbox [ref=e3645]
+                    - cell [ref=e3646] [cursor=pointer]:
+                      - checkbox [ref=e3648]
+                    - cell [ref=e3649] [cursor=pointer]:
+                      - checkbox [ref=e3651]
+                    - cell [ref=e3652] [cursor=pointer]:
+                      - checkbox [ref=e3654]
+                    - cell [ref=e3655] [cursor=pointer]:
+                      - checkbox [ref=e3657]
+                    - cell [ref=e3658] [cursor=pointer]:
+                      - checkbox [ref=e3660]
+                    - cell [ref=e3661] [cursor=pointer]:
+                      - checkbox [ref=e3663]
+                  - row "92 Transactions Material Issue" [ref=e3664]:
+                    - cell "92" [ref=e3665] [cursor=pointer]
+                    - cell "Transactions" [ref=e3666] [cursor=pointer]:
+                      - generic [ref=e3667]: Transactions
+                    - cell "Material Issue" [ref=e3668] [cursor=pointer]:
+                      - generic [ref=e3669]: Material Issue
+                    - cell [ref=e3670] [cursor=pointer]:
+                      - checkbox [ref=e3672]
+                    - cell [ref=e3673] [cursor=pointer]:
+                      - checkbox [ref=e3675]
+                    - cell [ref=e3676] [cursor=pointer]:
+                      - checkbox [ref=e3678]
+                    - cell [ref=e3679] [cursor=pointer]:
+                      - checkbox [ref=e3681]
+                    - cell [ref=e3682] [cursor=pointer]:
+                      - checkbox [ref=e3684]
+                    - cell [ref=e3685] [cursor=pointer]:
+                      - checkbox [ref=e3687]
+                    - cell [ref=e3688] [cursor=pointer]:
+                      - checkbox [ref=e3690]
+                    - cell [ref=e3691] [cursor=pointer]:
+                      - checkbox [ref=e3693]
+                    - cell [ref=e3694] [cursor=pointer]:
+                      - checkbox [ref=e3696]
+                    - cell [ref=e3697] [cursor=pointer]:
+                      - checkbox [ref=e3699]
+                    - cell [ref=e3700] [cursor=pointer]:
+                      - checkbox [ref=e3702]
+                  - row "93 Transactions Material Request" [ref=e3703]:
+                    - cell "93" [ref=e3704] [cursor=pointer]
+                    - cell "Transactions" [ref=e3705] [cursor=pointer]:
+                      - generic [ref=e3706]: Transactions
+                    - cell "Material Request" [ref=e3707] [cursor=pointer]:
+                      - generic [ref=e3708]: Material Request
+                    - cell [ref=e3709] [cursor=pointer]:
+                      - checkbox [ref=e3711]
+                    - cell [ref=e3712] [cursor=pointer]:
+                      - checkbox [ref=e3714]
+                    - cell [ref=e3715] [cursor=pointer]:
+                      - checkbox [ref=e3717]
+                    - cell [ref=e3718] [cursor=pointer]:
+                      - checkbox [ref=e3720]
+                    - cell [ref=e3721] [cursor=pointer]:
+                      - checkbox [ref=e3723]
+                    - cell [ref=e3724] [cursor=pointer]:
+                      - checkbox [ref=e3726]
+                    - cell [ref=e3727] [cursor=pointer]:
+                      - checkbox [ref=e3729]
+                    - cell [ref=e3730] [cursor=pointer]:
+                      - checkbox [ref=e3732]
+                    - cell [ref=e3733] [cursor=pointer]:
+                      - checkbox [ref=e3735]
+                    - cell [ref=e3736] [cursor=pointer]:
+                      - checkbox [ref=e3738]
+                    - cell [ref=e3739] [cursor=pointer]:
+                      - checkbox [ref=e3741]
+                  - row "94 Transactions Material Return Note" [ref=e3742]:
+                    - cell "94" [ref=e3743] [cursor=pointer]
+                    - cell "Transactions" [ref=e3744] [cursor=pointer]:
+                      - generic [ref=e3745]: Transactions
+                    - cell "Material Return Note" [ref=e3746] [cursor=pointer]:
+                      - generic [ref=e3747]: Material Return Note
+                    - cell [ref=e3748] [cursor=pointer]:
+                      - checkbox [ref=e3750]
+                    - cell [ref=e3751] [cursor=pointer]:
+                      - checkbox [ref=e3753]
+                    - cell [ref=e3754] [cursor=pointer]:
+                      - checkbox [ref=e3756]
+                    - cell [ref=e3757] [cursor=pointer]:
+                      - checkbox [ref=e3759]
+                    - cell [ref=e3760] [cursor=pointer]:
+                      - checkbox [ref=e3762]
+                    - cell [ref=e3763] [cursor=pointer]:
+                      - checkbox [ref=e3765]
+                    - cell [ref=e3766] [cursor=pointer]:
+                      - checkbox [ref=e3768]
+                    - cell [ref=e3769] [cursor=pointer]:
+                      - checkbox [ref=e3771]
+                    - cell [ref=e3772] [cursor=pointer]:
+                      - checkbox [ref=e3774]
+                    - cell [ref=e3775] [cursor=pointer]:
+                      - checkbox [ref=e3777]
+                    - cell [ref=e3778] [cursor=pointer]:
+                      - checkbox [ref=e3780]
+                  - row "95 Transactions Open Material Return Note" [ref=e3781]:
+                    - cell "95" [ref=e3782] [cursor=pointer]
+                    - cell "Transactions" [ref=e3783] [cursor=pointer]:
+                      - generic [ref=e3784]: Transactions
+                    - cell "Open Material Return Note" [ref=e3785] [cursor=pointer]:
+                      - generic [ref=e3786]: Open Material Return Note
+                    - cell [ref=e3787] [cursor=pointer]:
+                      - checkbox [ref=e3789]
+                    - cell [ref=e3790] [cursor=pointer]:
+                      - checkbox [ref=e3792]
+                    - cell [ref=e3793] [cursor=pointer]:
+                      - checkbox [ref=e3795]
+                    - cell [ref=e3796] [cursor=pointer]:
+                      - checkbox [ref=e3798]
+                    - cell [ref=e3799] [cursor=pointer]:
+                      - checkbox [ref=e3801]
+                    - cell [ref=e3802] [cursor=pointer]:
+                      - checkbox [ref=e3804]
+                    - cell [ref=e3805] [cursor=pointer]:
+                      - checkbox [ref=e3807]
+                    - cell [ref=e3808] [cursor=pointer]:
+                      - checkbox [ref=e3810]
+                    - cell [ref=e3811] [cursor=pointer]:
+                      - checkbox [ref=e3813]
+                    - cell [ref=e3814] [cursor=pointer]:
+                      - checkbox [ref=e3816]
+                    - cell [ref=e3817] [cursor=pointer]:
+                      - checkbox [ref=e3819]
+                  - row "96 Transactions Location Transfer" [ref=e3820]:
+                    - cell "96" [ref=e3821] [cursor=pointer]
+                    - cell "Transactions" [ref=e3822] [cursor=pointer]:
+                      - generic [ref=e3823]: Transactions
+                    - cell "Location Transfer" [ref=e3824] [cursor=pointer]:
+                      - generic [ref=e3825]: Location Transfer
+                    - cell [ref=e3826] [cursor=pointer]:
+                      - checkbox [ref=e3828]
+                    - cell [ref=e3829] [cursor=pointer]:
+                      - checkbox [ref=e3831]
+                    - cell [ref=e3832] [cursor=pointer]:
+                      - checkbox [ref=e3834]
+                    - cell [ref=e3835] [cursor=pointer]:
+                      - checkbox [ref=e3837]
+                    - cell [ref=e3838] [cursor=pointer]:
+                      - checkbox [ref=e3840]
+                    - cell [ref=e3841] [cursor=pointer]:
+                      - checkbox [ref=e3843]
+                    - cell [ref=e3844] [cursor=pointer]:
+                      - checkbox [ref=e3846]
+                    - cell [ref=e3847] [cursor=pointer]:
+                      - checkbox [ref=e3849]
+                    - cell [ref=e3850] [cursor=pointer]:
+                      - checkbox [ref=e3852]
+                    - cell [ref=e3853] [cursor=pointer]:
+                      - checkbox [ref=e3855]
+                    - cell [ref=e3856] [cursor=pointer]:
+                      - checkbox [ref=e3858]
+                  - row "97 Forecast Forecast" [ref=e3859]:
+                    - cell "97" [ref=e3860] [cursor=pointer]
+                    - cell "Forecast" [ref=e3861] [cursor=pointer]:
+                      - generic [ref=e3862]: Forecast
+                    - cell "Forecast" [ref=e3863] [cursor=pointer]:
+                      - generic [ref=e3864]: Forecast
+                    - cell [ref=e3865] [cursor=pointer]:
+                      - checkbox [ref=e3867]
+                    - cell [ref=e3868] [cursor=pointer]:
+                      - checkbox [ref=e3870]
+                    - cell [ref=e3871] [cursor=pointer]:
+                      - checkbox [ref=e3873]
+                    - cell [ref=e3874] [cursor=pointer]:
+                      - checkbox [ref=e3876]
+                    - cell [ref=e3877] [cursor=pointer]:
+                      - checkbox [ref=e3879]
+                    - cell [ref=e3880] [cursor=pointer]:
+                      - checkbox [ref=e3882]
+                    - cell [ref=e3883] [cursor=pointer]:
+                      - checkbox [ref=e3885]
+                    - cell [ref=e3886] [cursor=pointer]:
+                      - checkbox [ref=e3888]
+                    - cell [ref=e3889] [cursor=pointer]:
+                      - checkbox [ref=e3891]
+                    - cell [ref=e3892] [cursor=pointer]:
+                      - checkbox [ref=e3894]
+                    - cell [ref=e3895] [cursor=pointer]:
+                      - checkbox [ref=e3897]
+                  - row "98 Forecast Custom Fields" [ref=e3898]:
+                    - cell "98" [ref=e3899] [cursor=pointer]
+                    - cell "Forecast" [ref=e3900] [cursor=pointer]:
+                      - generic [ref=e3901]: Forecast
+                    - cell "Custom Fields" [ref=e3902] [cursor=pointer]:
+                      - generic [ref=e3903]: Custom Fields
+                    - cell [ref=e3904] [cursor=pointer]:
+                      - checkbox [ref=e3906]
+                    - cell [ref=e3907] [cursor=pointer]:
+                      - checkbox [ref=e3909]
+                    - cell [ref=e3910] [cursor=pointer]:
+                      - checkbox [ref=e3912]
+                    - cell [ref=e3913] [cursor=pointer]:
+                      - checkbox [ref=e3915]
+                    - cell [ref=e3916] [cursor=pointer]:
+                      - checkbox [ref=e3918]
+                    - cell [ref=e3919] [cursor=pointer]:
+                      - checkbox [ref=e3921]
+                    - cell [ref=e3922] [cursor=pointer]:
+                      - checkbox [ref=e3924]
+                    - cell [ref=e3925] [cursor=pointer]:
+                      - checkbox [ref=e3927]
+                    - cell [ref=e3928] [cursor=pointer]:
+                      - checkbox [ref=e3930]
+                    - cell [ref=e3931] [cursor=pointer]:
+                      - checkbox [ref=e3933]
+                    - cell [ref=e3934] [cursor=pointer]:
+                      - checkbox [ref=e3936]
+                  - row "99 Forecast Custom Groups" [ref=e3937]:
+                    - cell "99" [ref=e3938] [cursor=pointer]
+                    - cell "Forecast" [ref=e3939] [cursor=pointer]:
+                      - generic [ref=e3940]: Forecast
+                    - cell "Custom Groups" [ref=e3941] [cursor=pointer]:
+                      - generic [ref=e3942]: Custom Groups
+                    - cell [ref=e3943] [cursor=pointer]:
+                      - checkbox [ref=e3945]
+                    - cell [ref=e3946] [cursor=pointer]:
+                      - checkbox [ref=e3948]
+                    - cell [ref=e3949] [cursor=pointer]:
+                      - checkbox [ref=e3951]
+                    - cell [ref=e3952] [cursor=pointer]:
+                      - checkbox [ref=e3954]
+                    - cell [ref=e3955] [cursor=pointer]:
+                      - checkbox [ref=e3957]
+                    - cell [ref=e3958] [cursor=pointer]:
+                      - checkbox [ref=e3960]
+                    - cell [ref=e3961] [cursor=pointer]:
+                      - checkbox [ref=e3963]
+                    - cell [ref=e3964] [cursor=pointer]:
+                      - checkbox [ref=e3966]
+                    - cell [ref=e3967] [cursor=pointer]:
+                      - checkbox [ref=e3969]
+                    - cell [ref=e3970] [cursor=pointer]:
+                      - checkbox [ref=e3972]
+                    - cell [ref=e3973] [cursor=pointer]:
+                      - checkbox [ref=e3975]
+                  - row "100 Forecast Forecast Sourcing" [ref=e3976]:
+                    - cell "100" [ref=e3977] [cursor=pointer]
+                    - cell "Forecast" [ref=e3978] [cursor=pointer]:
+                      - generic [ref=e3979]: Forecast
+                    - cell "Forecast Sourcing" [ref=e3980] [cursor=pointer]:
+                      - generic [ref=e3981]: Forecast Sourcing
+                    - cell [ref=e3982] [cursor=pointer]:
+                      - checkbox [ref=e3984]
+                    - cell [ref=e3985] [cursor=pointer]:
+                      - checkbox [ref=e3987]
+                    - cell [ref=e3988] [cursor=pointer]:
+                      - checkbox [ref=e3990]
+                    - cell [ref=e3991] [cursor=pointer]:
+                      - checkbox [ref=e3993]
+                    - cell [ref=e3994] [cursor=pointer]:
+                      - checkbox [ref=e3996]
+                    - cell [ref=e3997] [cursor=pointer]:
+                      - checkbox [ref=e3999]
+                    - cell [ref=e4000] [cursor=pointer]:
+                      - checkbox [ref=e4002]
+                    - cell [ref=e4003] [cursor=pointer]:
+                      - checkbox [ref=e4005]
+                    - cell [ref=e4006] [cursor=pointer]:
+                      - checkbox [ref=e4008]
+                    - cell [ref=e4009] [cursor=pointer]:
+                      - checkbox [ref=e4011]
+                    - cell [ref=e4012] [cursor=pointer]:
+                      - checkbox [ref=e4014]
+                  - row "101 Forecast Forecast LP Costing" [ref=e4015]:
+                    - cell "101" [ref=e4016] [cursor=pointer]
+                    - cell "Forecast" [ref=e4017] [cursor=pointer]:
+                      - generic [ref=e4018]: Forecast
+                    - cell "Forecast LP Costing" [ref=e4019] [cursor=pointer]:
+                      - generic [ref=e4020]: Forecast LP Costing
+                    - cell [ref=e4021] [cursor=pointer]:
+                      - checkbox [ref=e4023]
+                    - cell [ref=e4024] [cursor=pointer]:
+                      - checkbox [ref=e4026]
+                    - cell [ref=e4027] [cursor=pointer]:
+                      - checkbox [ref=e4029]
+                    - cell [ref=e4030] [cursor=pointer]:
+                      - checkbox [ref=e4032]
+                    - cell [ref=e4033] [cursor=pointer]:
+                      - checkbox [ref=e4035]
+                    - cell [ref=e4036] [cursor=pointer]:
+                      - checkbox [ref=e4038]
+                    - cell [ref=e4039] [cursor=pointer]:
+                      - checkbox [ref=e4041]
+                    - cell [ref=e4042] [cursor=pointer]:
+                      - checkbox [ref=e4044]
+                    - cell [ref=e4045] [cursor=pointer]:
+                      - checkbox [ref=e4047]
+                    - cell [ref=e4048] [cursor=pointer]:
+                      - checkbox [ref=e4050]
+                    - cell [ref=e4051] [cursor=pointer]:
+                      - checkbox [ref=e4053]
+                  - row "102 Finance Collection Tracker" [ref=e4054]:
+                    - cell "102" [ref=e4055] [cursor=pointer]
+                    - cell "Finance" [ref=e4056] [cursor=pointer]:
+                      - generic [ref=e4057]: Finance
+                    - cell "Collection Tracker" [ref=e4058] [cursor=pointer]:
+                      - generic [ref=e4059]: Collection Tracker
+                    - cell [ref=e4060] [cursor=pointer]:
+                      - checkbox [ref=e4062]
+                    - cell [ref=e4063] [cursor=pointer]:
+                      - checkbox [ref=e4065]
+                    - cell [ref=e4066] [cursor=pointer]:
+                      - checkbox [ref=e4068]
+                    - cell [ref=e4069] [cursor=pointer]:
+                      - checkbox [ref=e4071]
+                    - cell [ref=e4072] [cursor=pointer]:
+                      - checkbox [ref=e4074]
+                    - cell [ref=e4075] [cursor=pointer]:
+                      - checkbox [ref=e4077]
+                    - cell [ref=e4078] [cursor=pointer]:
+                      - checkbox [ref=e4080]
+                    - cell [ref=e4081] [cursor=pointer]:
+                      - checkbox [ref=e4083]
+                    - cell [ref=e4084] [cursor=pointer]:
+                      - checkbox [ref=e4086]
+                    - cell [ref=e4087] [cursor=pointer]:
+                      - checkbox [ref=e4089]
+                    - cell [ref=e4090] [cursor=pointer]:
+                      - checkbox [ref=e4092]
+                  - row "103 Sales CS" [ref=e4093]:
+                    - cell "103" [ref=e4094] [cursor=pointer]
+                    - cell "Sales" [ref=e4095] [cursor=pointer]:
+                      - generic [ref=e4096]: Sales
+                    - cell "CS" [ref=e4097] [cursor=pointer]:
+                      - generic [ref=e4098]: CS
+                    - cell [ref=e4099] [cursor=pointer]:
+                      - checkbox [ref=e4101]
+                    - cell [ref=e4102] [cursor=pointer]:
+                      - checkbox [ref=e4104]
+                    - cell [ref=e4105] [cursor=pointer]:
+                      - checkbox [ref=e4107]
+                    - cell [ref=e4108] [cursor=pointer]:
+                      - checkbox [ref=e4110]
+                    - cell [ref=e4111] [cursor=pointer]:
+                      - checkbox [ref=e4113]
+                    - cell [ref=e4114] [cursor=pointer]:
+                      - checkbox [ref=e4116]
+                    - cell [ref=e4117] [cursor=pointer]:
+                      - checkbox [ref=e4119]
+                    - cell [ref=e4120] [cursor=pointer]:
+                      - checkbox [ref=e4122]
+                    - cell [ref=e4123] [cursor=pointer]:
+                      - checkbox [ref=e4125]
+                    - cell [ref=e4126] [cursor=pointer]:
+                      - checkbox [ref=e4128]
+                    - cell [ref=e4129] [cursor=pointer]:
+                      - checkbox [ref=e4131]
+                  - row "104 Sales Engg" [ref=e4132]:
+                    - cell "104" [ref=e4133] [cursor=pointer]
+                    - cell "Sales" [ref=e4134] [cursor=pointer]:
+                      - generic [ref=e4135]: Sales
+                    - cell "Engg" [ref=e4136] [cursor=pointer]:
+                      - generic [ref=e4137]: Engg
+                    - cell [ref=e4138] [cursor=pointer]:
+                      - checkbox [ref=e4140]
+                    - cell [ref=e4141] [cursor=pointer]:
+                      - checkbox [ref=e4143]
+                    - cell [ref=e4144] [cursor=pointer]:
+                      - checkbox [ref=e4146]
+                    - cell [ref=e4147] [cursor=pointer]:
+                      - checkbox [ref=e4149]
+                    - cell [ref=e4150] [cursor=pointer]:
+                      - checkbox [ref=e4152]
+                    - cell [ref=e4153] [cursor=pointer]:
+                      - checkbox [ref=e4155]
+                    - cell [ref=e4156] [cursor=pointer]:
+                      - checkbox [ref=e4158]
+                    - cell [ref=e4159] [cursor=pointer]:
+                      - checkbox [ref=e4161]
+                    - cell [ref=e4162] [cursor=pointer]:
+                      - checkbox [ref=e4164]
+                    - cell [ref=e4165] [cursor=pointer]:
+                      - checkbox [ref=e4167]
+                    - cell [ref=e4168] [cursor=pointer]:
+                      - checkbox [ref=e4170]
+                  - row "105 Sales Sourcing" [ref=e4171]:
+                    - cell "105" [ref=e4172] [cursor=pointer]
+                    - cell "Sales" [ref=e4173] [cursor=pointer]:
+                      - generic [ref=e4174]: Sales
+                    - cell "Sourcing" [ref=e4175] [cursor=pointer]:
+                      - generic [ref=e4176]: Sourcing
+                    - cell [ref=e4177] [cursor=pointer]:
+                      - checkbox [ref=e4179]
+                    - cell [ref=e4180] [cursor=pointer]:
+                      - checkbox [ref=e4182]
+                    - cell [ref=e4183] [cursor=pointer]:
+                      - checkbox [ref=e4185]
+                    - cell [ref=e4186] [cursor=pointer]:
+                      - checkbox [ref=e4188]
+                    - cell [ref=e4189] [cursor=pointer]:
+                      - checkbox [ref=e4191]
+                    - cell [ref=e4192] [cursor=pointer]:
+                      - checkbox [ref=e4194]
+                    - cell [ref=e4195] [cursor=pointer]:
+                      - checkbox [ref=e4197]
+                    - cell [ref=e4198] [cursor=pointer]:
+                      - checkbox [ref=e4200]
+                    - cell [ref=e4201] [cursor=pointer]:
+                      - checkbox [ref=e4203]
+                    - cell [ref=e4204] [cursor=pointer]:
+                      - checkbox [ref=e4206]
+                    - cell [ref=e4207] [cursor=pointer]:
+                      - checkbox [ref=e4209]
+                  - row "106 Sales lp-Costing" [ref=e4210]:
+                    - cell "106" [ref=e4211] [cursor=pointer]
+                    - cell "Sales" [ref=e4212] [cursor=pointer]:
+                      - generic [ref=e4213]: Sales
+                    - cell "lp-Costing" [ref=e4214] [cursor=pointer]:
+                      - generic [ref=e4215]: lp-Costing
+                    - cell [ref=e4216] [cursor=pointer]:
+                      - checkbox [ref=e4218]
+                    - cell [ref=e4219] [cursor=pointer]:
+                      - checkbox [ref=e4221]
+                    - cell [ref=e4222] [cursor=pointer]:
+                      - checkbox [ref=e4224]
+                    - cell [ref=e4225] [cursor=pointer]:
+                      - checkbox [ref=e4227]
+                    - cell [ref=e4228] [cursor=pointer]:
+                      - checkbox [ref=e4230]
+                    - cell [ref=e4231] [cursor=pointer]:
+                      - checkbox [ref=e4233]
+                    - cell [ref=e4234] [cursor=pointer]:
+                      - checkbox [ref=e4236]
+                    - cell [ref=e4237] [cursor=pointer]:
+                      - checkbox [ref=e4239]
+                    - cell [ref=e4240] [cursor=pointer]:
+                      - checkbox [ref=e4242]
+                    - cell [ref=e4243] [cursor=pointer]:
+                      - checkbox [ref=e4245]
+                    - cell [ref=e4246] [cursor=pointer]:
+                      - checkbox [ref=e4248]
+                  - row "107 Master1 Other Charges" [ref=e4249]:
+                    - cell "107" [ref=e4250] [cursor=pointer]
+                    - cell "Master1" [ref=e4251] [cursor=pointer]:
+                      - generic [ref=e4252]: Master1
+                    - cell "Other Charges" [ref=e4253] [cursor=pointer]:
+                      - generic [ref=e4254]: Other Charges
+                    - cell [ref=e4255] [cursor=pointer]:
+                      - checkbox [ref=e4257]
+                    - cell [ref=e4258] [cursor=pointer]:
+                      - checkbox [ref=e4260]
+                    - cell [ref=e4261] [cursor=pointer]:
+                      - checkbox [ref=e4263]
+                    - cell [ref=e4264] [cursor=pointer]:
+                      - checkbox [ref=e4266]
+                    - cell [ref=e4267] [cursor=pointer]:
+                      - checkbox [ref=e4269]
+                    - cell [ref=e4270] [cursor=pointer]:
+                      - checkbox [ref=e4272]
+                    - cell [ref=e4273] [cursor=pointer]:
+                      - checkbox [ref=e4275]
+                    - cell [ref=e4276] [cursor=pointer]:
+                      - checkbox [ref=e4278]
+                    - cell [ref=e4279] [cursor=pointer]:
+                      - checkbox [ref=e4281]
+                    - cell [ref=e4282] [cursor=pointer]:
+                      - checkbox [ref=e4284]
+                    - cell [ref=e4285] [cursor=pointer]:
+                      - checkbox [ref=e4287]
+                  - row "108 Master1 Additional Charges" [ref=e4288]:
+                    - cell "108" [ref=e4289] [cursor=pointer]
+                    - cell "Master1" [ref=e4290] [cursor=pointer]:
+                      - generic [ref=e4291]: Master1
+                    - cell "Additional Charges" [ref=e4292] [cursor=pointer]:
+                      - generic [ref=e4293]: Additional Charges
+                    - cell [ref=e4294] [cursor=pointer]:
+                      - checkbox [ref=e4296]
+                    - cell [ref=e4297] [cursor=pointer]:
+                      - checkbox [ref=e4299]
+                    - cell [ref=e4300] [cursor=pointer]:
+                      - checkbox [ref=e4302]
+                    - cell [ref=e4303] [cursor=pointer]:
+                      - checkbox [ref=e4305]
+                    - cell [ref=e4306] [cursor=pointer]:
+                      - checkbox [ref=e4308]
+                    - cell [ref=e4309] [cursor=pointer]:
+                      - checkbox [ref=e4311]
+                    - cell [ref=e4312] [cursor=pointer]:
+                      - checkbox [ref=e4314]
+                    - cell [ref=e4315] [cursor=pointer]:
+                      - checkbox [ref=e4317]
+                    - cell [ref=e4318] [cursor=pointer]:
+                      - checkbox [ref=e4320]
+                    - cell [ref=e4321] [cursor=pointer]:
+                      - checkbox [ref=e4323]
+                    - cell [ref=e4324] [cursor=pointer]:
+                      - checkbox [ref=e4326]
+                  - row "109 Master1 Customer Category" [ref=e4327]:
+                    - cell "109" [ref=e4328] [cursor=pointer]
+                    - cell "Master1" [ref=e4329] [cursor=pointer]:
+                      - generic [ref=e4330]: Master1
+                    - cell "Customer Category" [ref=e4331] [cursor=pointer]:
+                      - generic [ref=e4332]: Customer Category
+                    - cell [ref=e4333] [cursor=pointer]:
+                      - checkbox [ref=e4335]
+                    - cell [ref=e4336] [cursor=pointer]:
+                      - checkbox [ref=e4338]
+                    - cell [ref=e4339] [cursor=pointer]:
+                      - checkbox [ref=e4341]
+                    - cell [ref=e4342] [cursor=pointer]:
+                      - checkbox [ref=e4344]
+                    - cell [ref=e4345] [cursor=pointer]:
+                      - checkbox [ref=e4347]
+                    - cell [ref=e4348] [cursor=pointer]:
+                      - checkbox [ref=e4350]
+                    - cell [ref=e4351] [cursor=pointer]:
+                      - checkbox [ref=e4353]
+                    - cell [ref=e4354] [cursor=pointer]:
+                      - checkbox [ref=e4356]
+                    - cell [ref=e4357] [cursor=pointer]:
+                      - checkbox [ref=e4359]
+                    - cell [ref=e4360] [cursor=pointer]:
+                      - checkbox [ref=e4362]
+                    - cell [ref=e4363] [cursor=pointer]:
+                      - checkbox [ref=e4365]
+                  - row "110 Master1 Company Category" [ref=e4366]:
+                    - cell "110" [ref=e4367] [cursor=pointer]
+                    - cell "Master1" [ref=e4368] [cursor=pointer]:
+                      - generic [ref=e4369]: Master1
+                    - cell "Company Category" [ref=e4370] [cursor=pointer]:
+                      - generic [ref=e4371]: Company Category
+                    - cell [ref=e4372] [cursor=pointer]:
+                      - checkbox [ref=e4374]
+                    - cell [ref=e4375] [cursor=pointer]:
+                      - checkbox [ref=e4377]
+                    - cell [ref=e4378] [cursor=pointer]:
+                      - checkbox [ref=e4380]
+                    - cell [ref=e4381] [cursor=pointer]:
+                      - checkbox [ref=e4383]
+                    - cell [ref=e4384] [cursor=pointer]:
+                      - checkbox [ref=e4386]
+                    - cell [ref=e4387] [cursor=pointer]:
+                      - checkbox [ref=e4389]
+                    - cell [ref=e4390] [cursor=pointer]:
+                      - checkbox [ref=e4392]
+                    - cell [ref=e4393] [cursor=pointer]:
+                      - checkbox [ref=e4395]
+                    - cell [ref=e4396] [cursor=pointer]:
+                      - checkbox [ref=e4398]
+                    - cell [ref=e4399] [cursor=pointer]:
+                      - checkbox [ref=e4401]
+                    - cell [ref=e4402] [cursor=pointer]:
+                      - checkbox [ref=e4404]
+                  - row "111 Transactions Open Grin" [ref=e4405]:
+                    - cell "111" [ref=e4406] [cursor=pointer]
+                    - cell "Transactions" [ref=e4407] [cursor=pointer]:
+                      - generic [ref=e4408]: Transactions
+                    - cell "Open Grin" [ref=e4409] [cursor=pointer]:
+                      - generic [ref=e4410]: Open Grin
+                    - cell [ref=e4411] [cursor=pointer]:
+                      - checkbox [ref=e4413]
+                    - cell [ref=e4414] [cursor=pointer]:
+                      - checkbox [ref=e4416]
+                    - cell [ref=e4417] [cursor=pointer]:
+                      - checkbox [ref=e4419]
+                    - cell [ref=e4420] [cursor=pointer]:
+                      - checkbox [ref=e4422]
+                    - cell [ref=e4423] [cursor=pointer]:
+                      - checkbox [ref=e4425]
+                    - cell [ref=e4426] [cursor=pointer]:
+                      - checkbox [ref=e4428]
+                    - cell [ref=e4429] [cursor=pointer]:
+                      - checkbox [ref=e4431]
+                    - cell [ref=e4432] [cursor=pointer]:
+                      - checkbox [ref=e4434]
+                    - cell [ref=e4435] [cursor=pointer]:
+                      - checkbox [ref=e4437]
+                    - cell [ref=e4438] [cursor=pointer]:
+                      - checkbox [ref=e4440]
+                    - cell [ref=e4441] [cursor=pointer]:
+                      - checkbox [ref=e4443]
+                  - row "112 Finance PO-Collection Tracker" [ref=e4444]:
+                    - cell "112" [ref=e4445] [cursor=pointer]
+                    - cell "Finance" [ref=e4446] [cursor=pointer]:
+                      - generic [ref=e4447]: Finance
+                    - cell "PO-Collection Tracker" [ref=e4448] [cursor=pointer]:
+                      - generic [ref=e4449]: PO-Collection Tracker
+                    - cell [ref=e4450] [cursor=pointer]:
+                      - checkbox [ref=e4452]
+                    - cell [ref=e4453] [cursor=pointer]:
+                      - checkbox [ref=e4455]
+                    - cell [ref=e4456] [cursor=pointer]:
+                      - checkbox [ref=e4458]
+                    - cell [ref=e4459] [cursor=pointer]:
+                      - checkbox [ref=e4461]
+                    - cell [ref=e4462] [cursor=pointer]:
+                      - checkbox [ref=e4464]
+                    - cell [ref=e4465] [cursor=pointer]:
+                      - checkbox [ref=e4467]
+                    - cell [ref=e4468] [cursor=pointer]:
+                      - checkbox [ref=e4470]
+                    - cell [ref=e4471] [cursor=pointer]:
+                      - checkbox [ref=e4473]
+                    - cell [ref=e4474] [cursor=pointer]:
+                      - checkbox [ref=e4476]
+                    - cell [ref=e4477] [cursor=pointer]:
+                      - checkbox [ref=e4479]
+                    - cell [ref=e4480] [cursor=pointer]:
+                      - checkbox [ref=e4482]
+                  - row "113 Admin Role" [ref=e4483]:
+                    - cell "113" [ref=e4484] [cursor=pointer]
+                    - cell "Admin" [ref=e4485] [cursor=pointer]:
+                      - generic [ref=e4486]: Admin
+                    - cell "Role" [ref=e4487] [cursor=pointer]:
+                      - generic [ref=e4488]: Role
+                    - cell [ref=e4489] [cursor=pointer]:
+                      - checkbox [ref=e4491]
+                    - cell [ref=e4492] [cursor=pointer]:
+                      - checkbox [ref=e4494]
+                    - cell [ref=e4495] [cursor=pointer]:
+                      - checkbox [ref=e4497]
+                    - cell [ref=e4498] [cursor=pointer]:
+                      - checkbox [ref=e4500]
+                    - cell [ref=e4501] [cursor=pointer]:
+                      - checkbox [ref=e4503]
+                    - cell [ref=e4504] [cursor=pointer]:
+                      - checkbox [ref=e4506]
+                    - cell [ref=e4507] [cursor=pointer]:
+                      - checkbox [ref=e4509]
+                    - cell [ref=e4510] [cursor=pointer]:
+                      - checkbox [ref=e4512]
+                    - cell [ref=e4513] [cursor=pointer]:
+                      - checkbox [ref=e4515]
+                    - cell [ref=e4516] [cursor=pointer]:
+                      - checkbox [ref=e4518]
+                    - cell [ref=e4519] [cursor=pointer]:
+                      - checkbox [ref=e4521]
+                  - row "114 Admin Unit" [ref=e4522]:
+                    - cell "114" [ref=e4523] [cursor=pointer]
+                    - cell "Admin" [ref=e4524] [cursor=pointer]:
+                      - generic [ref=e4525]: Admin
+                    - cell "Unit" [ref=e4526] [cursor=pointer]:
+                      - generic [ref=e4527]: Unit
+                    - cell [ref=e4528] [cursor=pointer]:
+                      - checkbox [ref=e4530]
+                    - cell [ref=e4531] [cursor=pointer]:
+                      - checkbox [ref=e4533]
+                    - cell [ref=e4534] [cursor=pointer]:
+                      - checkbox [ref=e4536]
+                    - cell [ref=e4537] [cursor=pointer]:
+                      - checkbox [ref=e4539]
+                    - cell [ref=e4540] [cursor=pointer]:
+                      - checkbox [ref=e4542]
+                    - cell [ref=e4543] [cursor=pointer]:
+                      - checkbox [ref=e4545]
+                    - cell [ref=e4546] [cursor=pointer]:
+                      - checkbox [ref=e4548]
+                    - cell [ref=e4549] [cursor=pointer]:
+                      - checkbox [ref=e4551]
+                    - cell [ref=e4552] [cursor=pointer]:
+                      - checkbox [ref=e4554]
+                    - cell [ref=e4555] [cursor=pointer]:
+                      - checkbox [ref=e4557]
+                    - cell [ref=e4558] [cursor=pointer]:
+                      - checkbox [ref=e4560]
+                  - row "115 Admin Registration" [ref=e4561]:
+                    - cell "115" [ref=e4562] [cursor=pointer]
+                    - cell "Admin" [ref=e4563] [cursor=pointer]:
+                      - generic [ref=e4564]: Admin
+                    - cell "Registration" [ref=e4565] [cursor=pointer]:
+                      - generic [ref=e4566]: Registration
+                    - cell [ref=e4567] [cursor=pointer]:
+                      - checkbox [ref=e4569]
+                    - cell [ref=e4570] [cursor=pointer]:
+                      - checkbox [ref=e4572]
+                    - cell [ref=e4573] [cursor=pointer]:
+                      - checkbox [ref=e4575]
+                    - cell [ref=e4576] [cursor=pointer]:
+                      - checkbox [ref=e4578]
+                    - cell [ref=e4579] [cursor=pointer]:
+                      - checkbox [ref=e4581]
+                    - cell [ref=e4582] [cursor=pointer]:
+                      - checkbox [ref=e4584]
+                    - cell [ref=e4585] [cursor=pointer]:
+                      - checkbox [ref=e4587]
+                    - cell [ref=e4588] [cursor=pointer]:
+                      - checkbox [ref=e4590]
+                    - cell [ref=e4591] [cursor=pointer]:
+                      - checkbox [ref=e4593]
+                    - cell [ref=e4594] [cursor=pointer]:
+                      - checkbox [ref=e4596]
+                    - cell [ref=e4597] [cursor=pointer]:
+                      - checkbox [ref=e4599]
+                  - row "116 Admin Role Access" [ref=e4600]:
+                    - cell "116" [ref=e4601] [cursor=pointer]
+                    - cell "Admin" [ref=e4602] [cursor=pointer]:
+                      - generic [ref=e4603]: Admin
+                    - cell "Role Access" [ref=e4604] [cursor=pointer]:
+                      - generic [ref=e4605]: Role Access
+                    - cell [ref=e4606] [cursor=pointer]:
+                      - checkbox [ref=e4608]
+                    - cell [ref=e4609] [cursor=pointer]:
+                      - checkbox [ref=e4611]
+                    - cell [ref=e4612] [cursor=pointer]:
+                      - checkbox [ref=e4614]
+                    - cell [ref=e4615] [cursor=pointer]:
+                      - checkbox [ref=e4617]
+                    - cell [ref=e4618] [cursor=pointer]:
+                      - checkbox [ref=e4620]
+                    - cell [ref=e4621] [cursor=pointer]:
+                      - checkbox [ref=e4623]
+                    - cell [ref=e4624] [cursor=pointer]:
+                      - checkbox [ref=e4626]
+                    - cell [ref=e4627] [cursor=pointer]:
+                      - checkbox [ref=e4629]
+                    - cell [ref=e4630] [cursor=pointer]:
+                      - checkbox [ref=e4632]
+                    - cell [ref=e4633] [cursor=pointer]:
+                      - checkbox [ref=e4635]
+                    - cell [ref=e4636] [cursor=pointer]:
+                      - checkbox [ref=e4638]
+                  - row "117 Admin User Access" [ref=e4639]:
+                    - cell "117" [ref=e4640] [cursor=pointer]
+                    - cell "Admin" [ref=e4641] [cursor=pointer]:
+                      - generic [ref=e4642]: Admin
+                    - cell "User Access" [ref=e4643] [cursor=pointer]:
+                      - generic [ref=e4644]: User Access
+                    - cell [ref=e4645] [cursor=pointer]:
+                      - checkbox [ref=e4647]
+                    - cell [ref=e4648] [cursor=pointer]:
+                      - checkbox [ref=e4650]
+                    - cell [ref=e4651] [cursor=pointer]:
+                      - checkbox [ref=e4653]
+                    - cell [ref=e4654] [cursor=pointer]:
+                      - checkbox [ref=e4656]
+                    - cell [ref=e4657] [cursor=pointer]:
+                      - checkbox [ref=e4659]
+                    - cell [ref=e4660] [cursor=pointer]:
+                      - checkbox [ref=e4662]
+                    - cell [ref=e4663] [cursor=pointer]:
+                      - checkbox [ref=e4665]
+                    - cell [ref=e4666] [cursor=pointer]:
+                      - checkbox [ref=e4668]
+                    - cell [ref=e4669] [cursor=pointer]:
+                      - checkbox [ref=e4671]
+                    - cell [ref=e4672] [cursor=pointer]:
+                      - checkbox [ref=e4674]
+                    - cell [ref=e4675] [cursor=pointer]:
+                      - checkbox [ref=e4677]
+                  - row "118 Reports Item Master Report" [ref=e4678]:
+                    - cell "118" [ref=e4679] [cursor=pointer]
+                    - cell "Reports" [ref=e4680] [cursor=pointer]:
+                      - generic [ref=e4681]: Reports
+                    - cell "Item Master Report" [ref=e4682] [cursor=pointer]:
+                      - generic [ref=e4683]: Item Master Report
+                    - cell [ref=e4684] [cursor=pointer]:
+                      - checkbox [ref=e4686]
+                    - cell [ref=e4687] [cursor=pointer]:
+                      - checkbox [ref=e4689]
+                    - cell [ref=e4690] [cursor=pointer]:
+                      - checkbox [ref=e4692]
+                    - cell [ref=e4693] [cursor=pointer]:
+                      - checkbox [ref=e4695]
+                    - cell [ref=e4696] [cursor=pointer]:
+                      - checkbox [ref=e4698]
+                    - cell [ref=e4699] [cursor=pointer]:
+                      - checkbox [ref=e4701]
+                    - cell [ref=e4702] [cursor=pointer]:
+                      - checkbox [ref=e4704]
+                    - cell [ref=e4705] [cursor=pointer]:
+                      - checkbox [ref=e4707]
+                    - cell [ref=e4708] [cursor=pointer]:
+                      - checkbox [ref=e4710]
+                    - cell [ref=e4711] [cursor=pointer]:
+                      - checkbox [ref=e4713]
+                    - cell [ref=e4714] [cursor=pointer]:
+                      - checkbox [ref=e4716]
+                  - row "119 Reports Sales Order Report" [ref=e4717]:
+                    - cell "119" [ref=e4718] [cursor=pointer]
+                    - cell "Reports" [ref=e4719] [cursor=pointer]:
+                      - generic [ref=e4720]: Reports
+                    - cell "Sales Order Report" [ref=e4721] [cursor=pointer]:
+                      - generic [ref=e4722]: Sales Order Report
+                    - cell [ref=e4723] [cursor=pointer]:
+                      - checkbox [ref=e4725]
+                    - cell [ref=e4726] [cursor=pointer]:
+                      - checkbox [ref=e4728]
+                    - cell [ref=e4729] [cursor=pointer]:
+                      - checkbox [ref=e4731]
+                    - cell [ref=e4732] [cursor=pointer]:
+                      - checkbox [ref=e4734]
+                    - cell [ref=e4735] [cursor=pointer]:
+                      - checkbox [ref=e4737]
+                    - cell [ref=e4738] [cursor=pointer]:
+                      - checkbox [ref=e4740]
+                    - cell [ref=e4741] [cursor=pointer]:
+                      - checkbox [ref=e4743]
+                    - cell [ref=e4744] [cursor=pointer]:
+                      - checkbox [ref=e4746]
+                    - cell [ref=e4747] [cursor=pointer]:
+                      - checkbox [ref=e4749]
+                    - cell [ref=e4750] [cursor=pointer]:
+                      - checkbox [ref=e4752]
+                    - cell [ref=e4753] [cursor=pointer]:
+                      - checkbox [ref=e4755]
+                  - row "120 Reports Purchase Order Report" [ref=e4756]:
+                    - cell "120" [ref=e4757] [cursor=pointer]
+                    - cell "Reports" [ref=e4758] [cursor=pointer]:
+                      - generic [ref=e4759]: Reports
+                    - cell "Purchase Order Report" [ref=e4760] [cursor=pointer]:
+                      - generic [ref=e4761]: Purchase Order Report
+                    - cell [ref=e4762] [cursor=pointer]:
+                      - checkbox [ref=e4764]
+                    - cell [ref=e4765] [cursor=pointer]:
+                      - checkbox [ref=e4767]
+                    - cell [ref=e4768] [cursor=pointer]:
+                      - checkbox [ref=e4770]
+                    - cell [ref=e4771] [cursor=pointer]:
+                      - checkbox [ref=e4773]
+                    - cell [ref=e4774] [cursor=pointer]:
+                      - checkbox [ref=e4776]
+                    - cell [ref=e4777] [cursor=pointer]:
+                      - checkbox [ref=e4779]
+                    - cell [ref=e4780] [cursor=pointer]:
+                      - checkbox [ref=e4782]
+                    - cell [ref=e4783] [cursor=pointer]:
+                      - checkbox [ref=e4785]
+                    - cell [ref=e4786] [cursor=pointer]:
+                      - checkbox [ref=e4788]
+                    - cell [ref=e4789] [cursor=pointer]:
+                      - checkbox [ref=e4791]
+                    - cell [ref=e4792] [cursor=pointer]:
+                      - checkbox [ref=e4794]
+                  - row "121 Reports Purchase Requisition Report" [ref=e4795]:
+                    - cell "121" [ref=e4796] [cursor=pointer]
+                    - cell "Reports" [ref=e4797] [cursor=pointer]:
+                      - generic [ref=e4798]: Reports
+                    - cell "Purchase Requisition Report" [ref=e4799] [cursor=pointer]:
+                      - generic [ref=e4800]: Purchase Requisition Report
+                    - cell [ref=e4801] [cursor=pointer]:
+                      - checkbox [ref=e4803]
+                    - cell [ref=e4804] [cursor=pointer]:
+                      - checkbox [ref=e4806]
+                    - cell [ref=e4807] [cursor=pointer]:
+                      - checkbox [ref=e4809]
+                    - cell [ref=e4810] [cursor=pointer]:
+                      - checkbox [ref=e4812]
+                    - cell [ref=e4813] [cursor=pointer]:
+                      - checkbox [ref=e4815]
+                    - cell [ref=e4816] [cursor=pointer]:
+                      - checkbox [ref=e4818]
+                    - cell [ref=e4819] [cursor=pointer]:
+                      - checkbox [ref=e4821]
+                    - cell [ref=e4822] [cursor=pointer]:
+                      - checkbox [ref=e4824]
+                    - cell [ref=e4825] [cursor=pointer]:
+                      - checkbox [ref=e4827]
+                    - cell [ref=e4828] [cursor=pointer]:
+                      - checkbox [ref=e4830]
+                    - cell [ref=e4831] [cursor=pointer]:
+                      - checkbox [ref=e4833]
+                  - row "122 Reports GRIN Report" [ref=e4834]:
+                    - cell "122" [ref=e4835] [cursor=pointer]
+                    - cell "Reports" [ref=e4836] [cursor=pointer]:
+                      - generic [ref=e4837]: Reports
+                    - cell "GRIN Report" [ref=e4838] [cursor=pointer]:
+                      - generic [ref=e4839]: GRIN Report
+                    - cell [ref=e4840] [cursor=pointer]:
+                      - checkbox [ref=e4842]
+                    - cell [ref=e4843] [cursor=pointer]:
+                      - checkbox [ref=e4845]
+                    - cell [ref=e4846] [cursor=pointer]:
+                      - checkbox [ref=e4848]
+                    - cell [ref=e4849] [cursor=pointer]:
+                      - checkbox [ref=e4851]
+                    - cell [ref=e4852] [cursor=pointer]:
+                      - checkbox [ref=e4854]
+                    - cell [ref=e4855] [cursor=pointer]:
+                      - checkbox [ref=e4857]
+                    - cell [ref=e4858] [cursor=pointer]:
+                      - checkbox [ref=e4860]
+                    - cell [ref=e4861] [cursor=pointer]:
+                      - checkbox [ref=e4863]
+                    - cell [ref=e4864] [cursor=pointer]:
+                      - checkbox [ref=e4866]
+                    - cell [ref=e4867] [cursor=pointer]:
+                      - checkbox [ref=e4869]
+                    - cell [ref=e4870] [cursor=pointer]:
+                      - checkbox [ref=e4872]
+                  - row "123 Reports IQC Confirmation Report" [ref=e4873]:
+                    - cell "123" [ref=e4874] [cursor=pointer]
+                    - cell "Reports" [ref=e4875] [cursor=pointer]:
+                      - generic [ref=e4876]: Reports
+                    - cell "IQC Confirmation Report" [ref=e4877] [cursor=pointer]:
+                      - generic [ref=e4878]: IQC Confirmation Report
+                    - cell [ref=e4879] [cursor=pointer]:
+                      - checkbox [ref=e4881]
+                    - cell [ref=e4882] [cursor=pointer]:
+                      - checkbox [ref=e4884]
+                    - cell [ref=e4885] [cursor=pointer]:
+                      - checkbox [ref=e4887]
+                    - cell [ref=e4888] [cursor=pointer]:
+                      - checkbox [ref=e4890]
+                    - cell [ref=e4891] [cursor=pointer]:
+                      - checkbox [ref=e4893]
+                    - cell [ref=e4894] [cursor=pointer]:
+                      - checkbox [ref=e4896]
+                    - cell [ref=e4897] [cursor=pointer]:
+                      - checkbox [ref=e4899]
+                    - cell [ref=e4900] [cursor=pointer]:
+                      - checkbox [ref=e4902]
+                    - cell [ref=e4903] [cursor=pointer]:
+                      - checkbox [ref=e4905]
+                    - cell [ref=e4906] [cursor=pointer]:
+                      - checkbox [ref=e4908]
+                    - cell [ref=e4909] [cursor=pointer]:
+                      - checkbox [ref=e4911]
+                  - row "124 Reports Binning Report" [ref=e4912]:
+                    - cell "124" [ref=e4913] [cursor=pointer]
+                    - cell "Reports" [ref=e4914] [cursor=pointer]:
+                      - generic [ref=e4915]: Reports
+                    - cell "Binning Report" [ref=e4916] [cursor=pointer]:
+                      - generic [ref=e4917]: Binning Report
+                    - cell [ref=e4918] [cursor=pointer]:
+                      - checkbox [ref=e4920]
+                    - cell [ref=e4921] [cursor=pointer]:
+                      - checkbox [ref=e4923]
+                    - cell [ref=e4924] [cursor=pointer]:
+                      - checkbox [ref=e4926]
+                    - cell [ref=e4927] [cursor=pointer]:
+                      - checkbox [ref=e4929]
+                    - cell [ref=e4930] [cursor=pointer]:
+                      - checkbox [ref=e4932]
+                    - cell [ref=e4933] [cursor=pointer]:
+                      - checkbox [ref=e4935]
+                    - cell [ref=e4936] [cursor=pointer]:
+                      - checkbox [ref=e4938]
+                    - cell [ref=e4939] [cursor=pointer]:
+                      - checkbox [ref=e4941]
+                    - cell [ref=e4942] [cursor=pointer]:
+                      - checkbox [ref=e4944]
+                    - cell [ref=e4945] [cursor=pointer]:
+                      - checkbox [ref=e4947]
+                    - cell [ref=e4948] [cursor=pointer]:
+                      - checkbox [ref=e4950]
+                  - row "125 Reports Shop Order Report" [ref=e4951]:
+                    - cell "125" [ref=e4952] [cursor=pointer]
+                    - cell "Reports" [ref=e4953] [cursor=pointer]:
+                      - generic [ref=e4954]: Reports
+                    - cell "Shop Order Report" [ref=e4955] [cursor=pointer]:
+                      - generic [ref=e4956]: Shop Order Report
+                    - cell [ref=e4957] [cursor=pointer]:
+                      - checkbox [ref=e4959]
+                    - cell [ref=e4960] [cursor=pointer]:
+                      - checkbox [ref=e4962]
+                    - cell [ref=e4963] [cursor=pointer]:
+                      - checkbox [ref=e4965]
+                    - cell [ref=e4966] [cursor=pointer]:
+                      - checkbox [ref=e4968]
+                    - cell [ref=e4969] [cursor=pointer]:
+                      - checkbox [ref=e4971]
+                    - cell [ref=e4972] [cursor=pointer]:
+                      - checkbox [ref=e4974]
+                    - cell [ref=e4975] [cursor=pointer]:
+                      - checkbox [ref=e4977]
+                    - cell [ref=e4978] [cursor=pointer]:
+                      - checkbox [ref=e4980]
+                    - cell [ref=e4981] [cursor=pointer]:
+                      - checkbox [ref=e4983]
+                    - cell [ref=e4984] [cursor=pointer]:
+                      - checkbox [ref=e4986]
+                    - cell [ref=e4987] [cursor=pointer]:
+                      - checkbox [ref=e4989]
+                  - row "126 Reports Delivery Order Report" [ref=e4990]:
+                    - cell "126" [ref=e4991] [cursor=pointer]
+                    - cell "Reports" [ref=e4992] [cursor=pointer]:
+                      - generic [ref=e4993]: Reports
+                    - cell "Delivery Order Report" [ref=e4994] [cursor=pointer]:
+                      - generic [ref=e4995]: Delivery Order Report
+                    - cell [ref=e4996] [cursor=pointer]:
+                      - checkbox [ref=e4998]
+                    - cell [ref=e4999] [cursor=pointer]:
+                      - checkbox [ref=e5001]
+                    - cell [ref=e5002] [cursor=pointer]:
+                      - checkbox [ref=e5004]
+                    - cell [ref=e5005] [cursor=pointer]:
+                      - checkbox [ref=e5007]
+                    - cell [ref=e5008] [cursor=pointer]:
+                      - checkbox [ref=e5010]
+                    - cell [ref=e5011] [cursor=pointer]:
+                      - checkbox [ref=e5013]
+                    - cell [ref=e5014] [cursor=pointer]:
+                      - checkbox [ref=e5016]
+                    - cell [ref=e5017] [cursor=pointer]:
+                      - checkbox [ref=e5019]
+                    - cell [ref=e5020] [cursor=pointer]:
+                      - checkbox [ref=e5022]
+                    - cell [ref=e5023] [cursor=pointer]:
+                      - checkbox [ref=e5025]
+                    - cell [ref=e5026] [cursor=pointer]:
+                      - checkbox [ref=e5028]
+                  - row "127 Reports Open Delivery Order Report" [ref=e5029]:
+                    - cell "127" [ref=e5030] [cursor=pointer]
+                    - cell "Reports" [ref=e5031] [cursor=pointer]:
+                      - generic [ref=e5032]: Reports
+                    - cell "Open Delivery Order Report" [ref=e5033] [cursor=pointer]:
+                      - generic [ref=e5034]: Open Delivery Order Report
+                    - cell [ref=e5035] [cursor=pointer]:
+                      - checkbox [ref=e5037]
+                    - cell [ref=e5038] [cursor=pointer]:
+                      - checkbox [ref=e5040]
+                    - cell [ref=e5041] [cursor=pointer]:
+                      - checkbox [ref=e5043]
+                    - cell [ref=e5044] [cursor=pointer]:
+                      - checkbox [ref=e5046]
+                    - cell [ref=e5047] [cursor=pointer]:
+                      - checkbox [ref=e5049]
+                    - cell [ref=e5050] [cursor=pointer]:
+                      - checkbox [ref=e5052]
+                    - cell [ref=e5053] [cursor=pointer]:
+                      - checkbox [ref=e5055]
+                    - cell [ref=e5056] [cursor=pointer]:
+                      - checkbox [ref=e5058]
+                    - cell [ref=e5059] [cursor=pointer]:
+                      - checkbox [ref=e5061]
+                    - cell [ref=e5062] [cursor=pointer]:
+                      - checkbox [ref=e5064]
+                    - cell [ref=e5065] [cursor=pointer]:
+                      - checkbox [ref=e5067]
+                  - row "128 Reports OQC Report" [ref=e5068]:
+                    - cell "128" [ref=e5069] [cursor=pointer]
+                    - cell "Reports" [ref=e5070] [cursor=pointer]:
+                      - generic [ref=e5071]: Reports
+                    - cell "OQC Report" [ref=e5072] [cursor=pointer]:
+                      - generic [ref=e5073]: OQC Report
+                    - cell [ref=e5074] [cursor=pointer]:
+                      - checkbox [ref=e5076]
+                    - cell [ref=e5077] [cursor=pointer]:
+                      - checkbox [ref=e5079]
+                    - cell [ref=e5080] [cursor=pointer]:
+                      - checkbox [ref=e5082]
+                    - cell [ref=e5083] [cursor=pointer]:
+                      - checkbox [ref=e5085]
+                    - cell [ref=e5086] [cursor=pointer]:
+                      - checkbox [ref=e5088]
+                    - cell [ref=e5089] [cursor=pointer]:
+                      - checkbox [ref=e5091]
+                    - cell [ref=e5092] [cursor=pointer]:
+                      - checkbox [ref=e5094]
+                    - cell [ref=e5095] [cursor=pointer]:
+                      - checkbox [ref=e5097]
+                    - cell [ref=e5098] [cursor=pointer]:
+                      - checkbox [ref=e5100]
+                    - cell [ref=e5101] [cursor=pointer]:
+                      - checkbox [ref=e5103]
+                    - cell [ref=e5104] [cursor=pointer]:
+                      - checkbox [ref=e5106]
+                  - row "129 Reports Invoice Report" [ref=e5107]:
+                    - cell "129" [ref=e5108] [cursor=pointer]
+                    - cell "Reports" [ref=e5109] [cursor=pointer]:
+                      - generic [ref=e5110]: Reports
+                    - cell "Invoice Report" [ref=e5111] [cursor=pointer]:
+                      - generic [ref=e5112]: Invoice Report
+                    - cell [ref=e5113] [cursor=pointer]:
+                      - checkbox [ref=e5115]
+                    - cell [ref=e5116] [cursor=pointer]:
+                      - checkbox [ref=e5118]
+                    - cell [ref=e5119] [cursor=pointer]:
+                      - checkbox [ref=e5121]
+                    - cell [ref=e5122] [cursor=pointer]:
+                      - checkbox [ref=e5124]
+                    - cell [ref=e5125] [cursor=pointer]:
+                      - checkbox [ref=e5127]
+                    - cell [ref=e5128] [cursor=pointer]:
+                      - checkbox [ref=e5130]
+                    - cell [ref=e5131] [cursor=pointer]:
+                      - checkbox [ref=e5133]
+                    - cell [ref=e5134] [cursor=pointer]:
+                      - checkbox [ref=e5136]
+                    - cell [ref=e5137] [cursor=pointer]:
+                      - checkbox [ref=e5139]
+                    - cell [ref=e5140] [cursor=pointer]:
+                      - checkbox [ref=e5142]
+                    - cell [ref=e5143] [cursor=pointer]:
+                      - checkbox [ref=e5145]
+                  - row "130 Reports Material Issue Report" [ref=e5146]:
+                    - cell "130" [ref=e5147] [cursor=pointer]
+                    - cell "Reports" [ref=e5148] [cursor=pointer]:
+                      - generic [ref=e5149]: Reports
+                    - cell "Material Issue Report" [ref=e5150] [cursor=pointer]:
+                      - generic [ref=e5151]: Material Issue Report
+                    - cell [ref=e5152] [cursor=pointer]:
+                      - checkbox [ref=e5154]
+                    - cell [ref=e5155] [cursor=pointer]:
+                      - checkbox [ref=e5157]
+                    - cell [ref=e5158] [cursor=pointer]:
+                      - checkbox [ref=e5160]
+                    - cell [ref=e5161] [cursor=pointer]:
+                      - checkbox [ref=e5163]
+                    - cell [ref=e5164] [cursor=pointer]:
+                      - checkbox [ref=e5166]
+                    - cell [ref=e5167] [cursor=pointer]:
+                      - checkbox [ref=e5169]
+                    - cell [ref=e5170] [cursor=pointer]:
+                      - checkbox [ref=e5172]
+                    - cell [ref=e5173] [cursor=pointer]:
+                      - checkbox [ref=e5175]
+                    - cell [ref=e5176] [cursor=pointer]:
+                      - checkbox [ref=e5178]
+                    - cell [ref=e5179] [cursor=pointer]:
+                      - checkbox [ref=e5181]
+                    - cell [ref=e5182] [cursor=pointer]:
+                      - checkbox [ref=e5184]
+                  - row "131 Reports Material Request Report" [ref=e5185]:
+                    - cell "131" [ref=e5186] [cursor=pointer]
+                    - cell "Reports" [ref=e5187] [cursor=pointer]:
+                      - generic [ref=e5188]: Reports
+                    - cell "Material Request Report" [ref=e5189] [cursor=pointer]:
+                      - generic [ref=e5190]: Material Request Report
+                    - cell [ref=e5191] [cursor=pointer]:
+                      - checkbox [ref=e5193]
+                    - cell [ref=e5194] [cursor=pointer]:
+                      - checkbox [ref=e5196]
+                    - cell [ref=e5197] [cursor=pointer]:
+                      - checkbox [ref=e5199]
+                    - cell [ref=e5200] [cursor=pointer]:
+                      - checkbox [ref=e5202]
+                    - cell [ref=e5203] [cursor=pointer]:
+                      - checkbox [ref=e5205]
+                    - cell [ref=e5206] [cursor=pointer]:
+                      - checkbox [ref=e5208]
+                    - cell [ref=e5209] [cursor=pointer]:
+                      - checkbox [ref=e5211]
+                    - cell [ref=e5212] [cursor=pointer]:
+                      - checkbox [ref=e5214]
+                    - cell [ref=e5215] [cursor=pointer]:
+                      - checkbox [ref=e5217]
+                    - cell [ref=e5218] [cursor=pointer]:
+                      - checkbox [ref=e5220]
+                    - cell [ref=e5221] [cursor=pointer]:
+                      - checkbox [ref=e5223]
+                  - row "132 Reports Material Return Note Report" [ref=e5224]:
+                    - cell "132" [ref=e5225] [cursor=pointer]
+                    - cell "Reports" [ref=e5226] [cursor=pointer]:
+                      - generic [ref=e5227]: Reports
+                    - cell "Material Return Note Report" [ref=e5228] [cursor=pointer]:
+                      - generic [ref=e5229]: Material Return Note Report
+                    - cell [ref=e5230] [cursor=pointer]:
+                      - checkbox [ref=e5232]
+                    - cell [ref=e5233] [cursor=pointer]:
+                      - checkbox [ref=e5235]
+                    - cell [ref=e5236] [cursor=pointer]:
+                      - checkbox [ref=e5238]
+                    - cell [ref=e5239] [cursor=pointer]:
+                      - checkbox [ref=e5241]
+                    - cell [ref=e5242] [cursor=pointer]:
+                      - checkbox [ref=e5244]
+                    - cell [ref=e5245] [cursor=pointer]:
+                      - checkbox [ref=e5247]
+                    - cell [ref=e5248] [cursor=pointer]:
+                      - checkbox [ref=e5250]
+                    - cell [ref=e5251] [cursor=pointer]:
+                      - checkbox [ref=e5253]
+                    - cell [ref=e5254] [cursor=pointer]:
+                      - checkbox [ref=e5256]
+                    - cell [ref=e5257] [cursor=pointer]:
+                      - checkbox [ref=e5259]
+                    - cell [ref=e5260] [cursor=pointer]:
+                      - checkbox [ref=e5262]
+                  - row "133 Reports Location Transfer Report" [ref=e5263]:
+                    - cell "133" [ref=e5264] [cursor=pointer]
+                    - cell "Reports" [ref=e5265] [cursor=pointer]:
+                      - generic [ref=e5266]: Reports
+                    - cell "Location Transfer Report" [ref=e5267] [cursor=pointer]:
+                      - generic [ref=e5268]: Location Transfer Report
+                    - cell [ref=e5269] [cursor=pointer]:
+                      - checkbox [ref=e5271]
+                    - cell [ref=e5272] [cursor=pointer]:
+                      - checkbox [ref=e5274]
+                    - cell [ref=e5275] [cursor=pointer]:
+                      - checkbox [ref=e5277]
+                    - cell [ref=e5278] [cursor=pointer]:
+                      - checkbox [ref=e5280]
+                    - cell [ref=e5281] [cursor=pointer]:
+                      - checkbox [ref=e5283]
+                    - cell [ref=e5284] [cursor=pointer]:
+                      - checkbox [ref=e5286]
+                    - cell [ref=e5287] [cursor=pointer]:
+                      - checkbox [ref=e5289]
+                    - cell [ref=e5290] [cursor=pointer]:
+                      - checkbox [ref=e5292]
+                    - cell [ref=e5293] [cursor=pointer]:
+                      - checkbox [ref=e5295]
+                    - cell [ref=e5296] [cursor=pointer]:
+                      - checkbox [ref=e5298]
+                    - cell [ref=e5299] [cursor=pointer]:
+                      - checkbox [ref=e5301]
+                  - row "134 Reports Inventory Report Sum" [ref=e5302]:
+                    - cell "134" [ref=e5303] [cursor=pointer]
+                    - cell "Reports" [ref=e5304] [cursor=pointer]:
+                      - generic [ref=e5305]: Reports
+                    - cell "Inventory Report Sum" [ref=e5306] [cursor=pointer]:
+                      - generic [ref=e5307]: Inventory Report Sum
+                    - cell [ref=e5308] [cursor=pointer]:
+                      - checkbox [ref=e5310]
+                    - cell [ref=e5311] [cursor=pointer]:
+                      - checkbox [ref=e5313]
+                    - cell [ref=e5314] [cursor=pointer]:
+                      - checkbox [ref=e5316]
+                    - cell [ref=e5317] [cursor=pointer]:
+                      - checkbox [ref=e5319]
+                    - cell [ref=e5320] [cursor=pointer]:
+                      - checkbox [ref=e5322]
+                    - cell [ref=e5323] [cursor=pointer]:
+                      - checkbox [ref=e5325]
+                    - cell [ref=e5326] [cursor=pointer]:
+                      - checkbox [ref=e5328]
+                    - cell [ref=e5329] [cursor=pointer]:
+                      - checkbox [ref=e5331]
+                    - cell [ref=e5332] [cursor=pointer]:
+                      - checkbox [ref=e5334]
+                    - cell [ref=e5335] [cursor=pointer]:
+                      - checkbox [ref=e5337]
+                    - cell [ref=e5338] [cursor=pointer]:
+                      - checkbox [ref=e5340]
+                  - row "135 Reports Inventory Report with Location" [ref=e5341]:
+                    - cell "135" [ref=e5342] [cursor=pointer]
+                    - cell "Reports" [ref=e5343] [cursor=pointer]:
+                      - generic [ref=e5344]: Reports
+                    - cell "Inventory Report with Location" [ref=e5345] [cursor=pointer]:
+                      - generic [ref=e5346]: Inventory Report with Location
+                    - cell [ref=e5347] [cursor=pointer]:
+                      - checkbox [ref=e5349]
+                    - cell [ref=e5350] [cursor=pointer]:
+                      - checkbox [ref=e5352]
+                    - cell [ref=e5353] [cursor=pointer]:
+                      - checkbox [ref=e5355]
+                    - cell [ref=e5356] [cursor=pointer]:
+                      - checkbox [ref=e5358]
+                    - cell [ref=e5359] [cursor=pointer]:
+                      - checkbox [ref=e5361]
+                    - cell [ref=e5362] [cursor=pointer]:
+                      - checkbox [ref=e5364]
+                    - cell [ref=e5365] [cursor=pointer]:
+                      - checkbox [ref=e5367]
+                    - cell [ref=e5368] [cursor=pointer]:
+                      - checkbox [ref=e5370]
+                    - cell [ref=e5371] [cursor=pointer]:
+                      - checkbox [ref=e5373]
+                    - cell [ref=e5374] [cursor=pointer]:
+                      - checkbox [ref=e5376]
+                    - cell [ref=e5377] [cursor=pointer]:
+                      - checkbox [ref=e5379]
+                  - row "136 Reports Coverage Report" [ref=e5380]:
+                    - cell "136" [ref=e5381] [cursor=pointer]
+                    - cell "Reports" [ref=e5382] [cursor=pointer]:
+                      - generic [ref=e5383]: Reports
+                    - cell "Coverage Report" [ref=e5384] [cursor=pointer]:
+                      - generic [ref=e5385]: Coverage Report
+                    - cell [ref=e5386] [cursor=pointer]:
+                      - checkbox [ref=e5388]
+                    - cell [ref=e5389] [cursor=pointer]:
+                      - checkbox [ref=e5391]
+                    - cell [ref=e5392] [cursor=pointer]:
+                      - checkbox [ref=e5394]
+                    - cell [ref=e5395] [cursor=pointer]:
+                      - checkbox [ref=e5397]
+                    - cell [ref=e5398] [cursor=pointer]:
+                      - checkbox [ref=e5400]
+                    - cell [ref=e5401] [cursor=pointer]:
+                      - checkbox [ref=e5403]
+                    - cell [ref=e5404] [cursor=pointer]:
+                      - checkbox [ref=e5406]
+                    - cell [ref=e5407] [cursor=pointer]:
+                      - checkbox [ref=e5409]
+                    - cell [ref=e5410] [cursor=pointer]:
+                      - checkbox [ref=e5412]
+                    - cell [ref=e5413] [cursor=pointer]:
+                      - checkbox [ref=e5415]
+                    - cell [ref=e5416] [cursor=pointer]:
+                      - checkbox [ref=e5418]
+                  - row "137 Reports Weighted Average Report" [ref=e5419]:
+                    - cell "137" [ref=e5420] [cursor=pointer]
+                    - cell "Reports" [ref=e5421] [cursor=pointer]:
+                      - generic [ref=e5422]: Reports
+                    - cell "Weighted Average Report" [ref=e5423] [cursor=pointer]:
+                      - generic [ref=e5424]: Weighted Average Report
+                    - cell [ref=e5425] [cursor=pointer]:
+                      - checkbox [ref=e5427]
+                    - cell [ref=e5428] [cursor=pointer]:
+                      - checkbox [ref=e5430]
+                    - cell [ref=e5431] [cursor=pointer]:
+                      - checkbox [ref=e5433]
+                    - cell [ref=e5434] [cursor=pointer]:
+                      - checkbox [ref=e5436]
+                    - cell [ref=e5437] [cursor=pointer]:
+                      - checkbox [ref=e5439]
+                    - cell [ref=e5440] [cursor=pointer]:
+                      - checkbox [ref=e5442]
+                    - cell [ref=e5443] [cursor=pointer]:
+                      - checkbox [ref=e5445]
+                    - cell [ref=e5446] [cursor=pointer]:
+                      - checkbox [ref=e5448]
+                    - cell [ref=e5449] [cursor=pointer]:
+                      - checkbox [ref=e5451]
+                    - cell [ref=e5452] [cursor=pointer]:
+                      - checkbox [ref=e5454]
+                    - cell [ref=e5455] [cursor=pointer]:
+                      - checkbox [ref=e5457]
+                  - row "138 Reports Coverage Report Fg child" [ref=e5458]:
+                    - cell "138" [ref=e5459] [cursor=pointer]
+                    - cell "Reports" [ref=e5460] [cursor=pointer]:
+                      - generic [ref=e5461]: Reports
+                    - cell "Coverage Report Fg child" [ref=e5462] [cursor=pointer]:
+                      - generic [ref=e5463]: Coverage Report Fg child
+                    - cell [ref=e5464] [cursor=pointer]:
+                      - checkbox [ref=e5466]
+                    - cell [ref=e5467] [cursor=pointer]:
+                      - checkbox [ref=e5469]
+                    - cell [ref=e5470] [cursor=pointer]:
+                      - checkbox [ref=e5472]
+                    - cell [ref=e5473] [cursor=pointer]:
+                      - checkbox [ref=e5475]
+                    - cell [ref=e5476] [cursor=pointer]:
+                      - checkbox [ref=e5478]
+                    - cell [ref=e5479] [cursor=pointer]:
+                      - checkbox [ref=e5481]
+                    - cell [ref=e5482] [cursor=pointer]:
+                      - checkbox [ref=e5484]
+                    - cell [ref=e5485] [cursor=pointer]:
+                      - checkbox [ref=e5487]
+                    - cell [ref=e5488] [cursor=pointer]:
+                      - checkbox [ref=e5490]
+                    - cell [ref=e5491] [cursor=pointer]:
+                      - checkbox [ref=e5493]
+                    - cell [ref=e5494] [cursor=pointer]:
+                      - checkbox [ref=e5496]
+                  - row "139 Reports Open Grin Report" [ref=e5497]:
+                    - cell "139" [ref=e5498] [cursor=pointer]
+                    - cell "Reports" [ref=e5499] [cursor=pointer]:
+                      - generic [ref=e5500]: Reports
+                    - cell "Open Grin Report" [ref=e5501] [cursor=pointer]:
+                      - generic [ref=e5502]: Open Grin Report
+                    - cell [ref=e5503] [cursor=pointer]:
+                      - checkbox [ref=e5505]
+                    - cell [ref=e5506] [cursor=pointer]:
+                      - checkbox [ref=e5508]
+                    - cell [ref=e5509] [cursor=pointer]:
+                      - checkbox [ref=e5511]
+                    - cell [ref=e5512] [cursor=pointer]:
+                      - checkbox [ref=e5514]
+                    - cell [ref=e5515] [cursor=pointer]:
+                      - checkbox [ref=e5517]
+                    - cell [ref=e5518] [cursor=pointer]:
+                      - checkbox [ref=e5520]
+                    - cell [ref=e5521] [cursor=pointer]:
+                      - checkbox [ref=e5523]
+                    - cell [ref=e5524] [cursor=pointer]:
+                      - checkbox [ref=e5526]
+                    - cell [ref=e5527] [cursor=pointer]:
+                      - checkbox [ref=e5529]
+                    - cell [ref=e5530] [cursor=pointer]:
+                      - checkbox [ref=e5532]
+                    - cell [ref=e5533] [cursor=pointer]:
+                      - checkbox [ref=e5535]
+                  - row "140 Reports DO Return Report" [ref=e5536]:
+                    - cell "140" [ref=e5537] [cursor=pointer]
+                    - cell "Reports" [ref=e5538] [cursor=pointer]:
+                      - generic [ref=e5539]: Reports
+                    - cell "DO Return Report" [ref=e5540] [cursor=pointer]:
+                      - generic [ref=e5541]: DO Return Report
+                    - cell [ref=e5542] [cursor=pointer]:
+                      - checkbox [ref=e5544]
+                    - cell [ref=e5545] [cursor=pointer]:
+                      - checkbox [ref=e5547]
+                    - cell [ref=e5548] [cursor=pointer]:
+                      - checkbox [ref=e5550]
+                    - cell [ref=e5551] [cursor=pointer]:
+                      - checkbox [ref=e5553]
+                    - cell [ref=e5554] [cursor=pointer]:
+                      - checkbox [ref=e5556]
+                    - cell [ref=e5557] [cursor=pointer]:
+                      - checkbox [ref=e5559]
+                    - cell [ref=e5560] [cursor=pointer]:
+                      - checkbox [ref=e5562]
+                    - cell [ref=e5563] [cursor=pointer]:
+                      - checkbox [ref=e5565]
+                    - cell [ref=e5566] [cursor=pointer]:
+                      - checkbox [ref=e5568]
+                    - cell [ref=e5569] [cursor=pointer]:
+                      - checkbox [ref=e5571]
+                    - cell [ref=e5572] [cursor=pointer]:
+                      - checkbox [ref=e5574]
+                  - row "141 Reports ODO Return Report" [ref=e5575]:
+                    - cell "141" [ref=e5576] [cursor=pointer]
+                    - cell "Reports" [ref=e5577] [cursor=pointer]:
+                      - generic [ref=e5578]: Reports
+                    - cell "ODO Return Report" [ref=e5579] [cursor=pointer]:
+                      - generic [ref=e5580]: ODO Return Report
+                    - cell [ref=e5581] [cursor=pointer]:
+                      - checkbox [ref=e5583]
+                    - cell [ref=e5584] [cursor=pointer]:
+                      - checkbox [ref=e5586]
+                    - cell [ref=e5587] [cursor=pointer]:
+                      - checkbox [ref=e5589]
+                    - cell [ref=e5590] [cursor=pointer]:
+                      - checkbox [ref=e5592]
+                    - cell [ref=e5593] [cursor=pointer]:
+                      - checkbox [ref=e5595]
+                    - cell [ref=e5596] [cursor=pointer]:
+                      - checkbox [ref=e5598]
+                    - cell [ref=e5599] [cursor=pointer]:
+                      - checkbox [ref=e5601]
+                    - cell [ref=e5602] [cursor=pointer]:
+                      - checkbox [ref=e5604]
+                    - cell [ref=e5605] [cursor=pointer]:
+                      - checkbox [ref=e5607]
+                    - cell [ref=e5608] [cursor=pointer]:
+                      - checkbox [ref=e5610]
+                    - cell [ref=e5611] [cursor=pointer]:
+                      - checkbox [ref=e5613]
+                  - row "142 Reports Return Invoice Report" [ref=e5614]:
+                    - cell "142" [ref=e5615] [cursor=pointer]
+                    - cell "Reports" [ref=e5616] [cursor=pointer]:
+                      - generic [ref=e5617]: Reports
+                    - cell "Return Invoice Report" [ref=e5618] [cursor=pointer]:
+                      - generic [ref=e5619]: Return Invoice Report
+                    - cell [ref=e5620] [cursor=pointer]:
+                      - checkbox [ref=e5622]
+                    - cell [ref=e5623] [cursor=pointer]:
+                      - checkbox [ref=e5625]
+                    - cell [ref=e5626] [cursor=pointer]:
+                      - checkbox [ref=e5628]
+                    - cell [ref=e5629] [cursor=pointer]:
+                      - checkbox [ref=e5631]
+                    - cell [ref=e5632] [cursor=pointer]:
+                      - checkbox [ref=e5634]
+                    - cell [ref=e5635] [cursor=pointer]:
+                      - checkbox [ref=e5637]
+                    - cell [ref=e5638] [cursor=pointer]:
+                      - checkbox [ref=e5640]
+                    - cell [ref=e5641] [cursor=pointer]:
+                      - checkbox [ref=e5643]
+                    - cell [ref=e5644] [cursor=pointer]:
+                      - checkbox [ref=e5646]
+                    - cell [ref=e5647] [cursor=pointer]:
+                      - checkbox [ref=e5649]
+                    - cell [ref=e5650] [cursor=pointer]:
+                      - checkbox [ref=e5652]
+                  - row "143 Reports Material Issue Against MR Report" [ref=e5653]:
+                    - cell "143" [ref=e5654] [cursor=pointer]
+                    - cell "Reports" [ref=e5655] [cursor=pointer]:
+                      - generic [ref=e5656]: Reports
+                    - cell "Material Issue Against MR Report" [ref=e5657] [cursor=pointer]:
+                      - generic [ref=e5658]: Material Issue Against MR Report
+                    - cell [ref=e5659] [cursor=pointer]:
+                      - checkbox [ref=e5661]
+                    - cell [ref=e5662] [cursor=pointer]:
+                      - checkbox [ref=e5664]
+                    - cell [ref=e5665] [cursor=pointer]:
+                      - checkbox [ref=e5667]
+                    - cell [ref=e5668] [cursor=pointer]:
+                      - checkbox [ref=e5670]
+                    - cell [ref=e5671] [cursor=pointer]:
+                      - checkbox [ref=e5673]
+                    - cell [ref=e5674] [cursor=pointer]:
+                      - checkbox [ref=e5676]
+                    - cell [ref=e5677] [cursor=pointer]:
+                      - checkbox [ref=e5679]
+                    - cell [ref=e5680] [cursor=pointer]:
+                      - checkbox [ref=e5682]
+                    - cell [ref=e5683] [cursor=pointer]:
+                      - checkbox [ref=e5685]
+                    - cell [ref=e5686] [cursor=pointer]:
+                      - checkbox [ref=e5688]
+                    - cell [ref=e5689] [cursor=pointer]:
+                      - checkbox [ref=e5691]
+                  - row "144 Reports Stock Movement Report" [ref=e5692]:
+                    - cell "144" [ref=e5693] [cursor=pointer]
+                    - cell "Reports" [ref=e5694] [cursor=pointer]:
+                      - generic [ref=e5695]: Reports
+                    - cell "Stock Movement Report" [ref=e5696] [cursor=pointer]:
+                      - generic [ref=e5697]: Stock Movement Report
+                    - cell [ref=e5698] [cursor=pointer]:
+                      - checkbox [ref=e5700]
+                    - cell [ref=e5701] [cursor=pointer]:
+                      - checkbox [ref=e5703]
+                    - cell [ref=e5704] [cursor=pointer]:
+                      - checkbox [ref=e5706]
+                    - cell [ref=e5707] [cursor=pointer]:
+                      - checkbox [ref=e5709]
+                    - cell [ref=e5710] [cursor=pointer]:
+                      - checkbox [ref=e5712]
+                    - cell [ref=e5713] [cursor=pointer]:
+                      - checkbox [ref=e5715]
+                    - cell [ref=e5716] [cursor=pointer]:
+                      - checkbox [ref=e5718]
+                    - cell [ref=e5719] [cursor=pointer]:
+                      - checkbox [ref=e5721]
+                    - cell [ref=e5722] [cursor=pointer]:
+                      - checkbox [ref=e5724]
+                    - cell [ref=e5725] [cursor=pointer]:
+                      - checkbox [ref=e5727]
+                    - cell [ref=e5728] [cursor=pointer]:
+                      - checkbox [ref=e5730]
+                  - row "145 Reports OQC Binning Report" [ref=e5731]:
+                    - cell "145" [ref=e5732] [cursor=pointer]
+                    - cell "Reports" [ref=e5733] [cursor=pointer]:
+                      - generic [ref=e5734]: Reports
+                    - cell "OQC Binning Report" [ref=e5735] [cursor=pointer]:
+                      - generic [ref=e5736]: OQC Binning Report
+                    - cell [ref=e5737] [cursor=pointer]:
+                      - checkbox [ref=e5739]
+                    - cell [ref=e5740] [cursor=pointer]:
+                      - checkbox [ref=e5742]
+                    - cell [ref=e5743] [cursor=pointer]:
+                      - checkbox [ref=e5745]
+                    - cell [ref=e5746] [cursor=pointer]:
+                      - checkbox [ref=e5748]
+                    - cell [ref=e5749] [cursor=pointer]:
+                      - checkbox [ref=e5751]
+                    - cell [ref=e5752] [cursor=pointer]:
+                      - checkbox [ref=e5754]
+                    - cell [ref=e5755] [cursor=pointer]:
+                      - checkbox [ref=e5757]
+                    - cell [ref=e5758] [cursor=pointer]:
+                      - checkbox [ref=e5760]
+                    - cell [ref=e5761] [cursor=pointer]:
+                      - checkbox [ref=e5763]
+                    - cell [ref=e5764] [cursor=pointer]:
+                      - checkbox [ref=e5766]
+                    - cell [ref=e5767] [cursor=pointer]:
+                      - checkbox [ref=e5769]
+                  - row "146 Reports Collection Tracker Entry Level Report" [ref=e5770]:
+                    - cell "146" [ref=e5771] [cursor=pointer]
+                    - cell "Reports" [ref=e5772] [cursor=pointer]:
+                      - generic [ref=e5773]: Reports
+                    - cell "Collection Tracker Entry Level Report" [ref=e5774] [cursor=pointer]:
+                      - generic [ref=e5775]: Collection Tracker Entry Level Report
+                    - cell [ref=e5776] [cursor=pointer]:
+                      - checkbox [ref=e5778]
+                    - cell [ref=e5779] [cursor=pointer]:
+                      - checkbox [ref=e5781]
+                    - cell [ref=e5782] [cursor=pointer]:
+                      - checkbox [ref=e5784]
+                    - cell [ref=e5785] [cursor=pointer]:
+                      - checkbox [ref=e5787]
+                    - cell [ref=e5788] [cursor=pointer]:
+                      - checkbox [ref=e5790]
+                    - cell [ref=e5791] [cursor=pointer]:
+                      - checkbox [ref=e5793]
+                    - cell [ref=e5794] [cursor=pointer]:
+                      - checkbox [ref=e5796]
+                    - cell [ref=e5797] [cursor=pointer]:
+                      - checkbox [ref=e5799]
+                    - cell [ref=e5800] [cursor=pointer]:
+                      - checkbox [ref=e5802]
+                    - cell [ref=e5803] [cursor=pointer]:
+                      - checkbox [ref=e5805]
+                    - cell [ref=e5806] [cursor=pointer]:
+                      - checkbox [ref=e5808]
+                  - row "147 Reports Collection Tracker SO Level Report" [ref=e5809]:
+                    - cell "147" [ref=e5810] [cursor=pointer]
+                    - cell "Reports" [ref=e5811] [cursor=pointer]:
+                      - generic [ref=e5812]: Reports
+                    - cell "Collection Tracker SO Level Report" [ref=e5813] [cursor=pointer]:
+                      - generic [ref=e5814]: Collection Tracker SO Level Report
+                    - cell [ref=e5815] [cursor=pointer]:
+                      - checkbox [ref=e5817]
+                    - cell [ref=e5818] [cursor=pointer]:
+                      - checkbox [ref=e5820]
+                    - cell [ref=e5821] [cursor=pointer]:
+                      - checkbox [ref=e5823]
+                    - cell [ref=e5824] [cursor=pointer]:
+                      - checkbox [ref=e5826]
+                    - cell [ref=e5827] [cursor=pointer]:
+                      - checkbox [ref=e5829]
+                    - cell [ref=e5830] [cursor=pointer]:
+                      - checkbox [ref=e5832]
+                    - cell [ref=e5833] [cursor=pointer]:
+                      - checkbox [ref=e5835]
+                    - cell [ref=e5836] [cursor=pointer]:
+                      - checkbox [ref=e5838]
+                    - cell [ref=e5839] [cursor=pointer]:
+                      - checkbox [ref=e5841]
+                    - cell [ref=e5842] [cursor=pointer]:
+                      - checkbox [ref=e5844]
+                    - cell [ref=e5845] [cursor=pointer]:
+                      - checkbox [ref=e5847]
+                  - row "148 Reports Collection Tracker Customer Level Report" [ref=e5848]:
+                    - cell "148" [ref=e5849] [cursor=pointer]
+                    - cell "Reports" [ref=e5850] [cursor=pointer]:
+                      - generic [ref=e5851]: Reports
+                    - cell "Collection Tracker Customer Level Report" [ref=e5852] [cursor=pointer]:
+                      - generic [ref=e5853]: Collection Tracker Customer Level Report
+                    - cell [ref=e5854] [cursor=pointer]:
+                      - checkbox [ref=e5856]
+                    - cell [ref=e5857] [cursor=pointer]:
+                      - checkbox [ref=e5859]
+                    - cell [ref=e5860] [cursor=pointer]:
+                      - checkbox [ref=e5862]
+                    - cell [ref=e5863] [cursor=pointer]:
+                      - checkbox [ref=e5865]
+                    - cell [ref=e5866] [cursor=pointer]:
+                      - checkbox [ref=e5868]
+                    - cell [ref=e5869] [cursor=pointer]:
+                      - checkbox [ref=e5871]
+                    - cell [ref=e5872] [cursor=pointer]:
+                      - checkbox [ref=e5874]
+                    - cell [ref=e5875] [cursor=pointer]:
+                      - checkbox [ref=e5877]
+                    - cell [ref=e5878] [cursor=pointer]:
+                      - checkbox [ref=e5880]
+                    - cell [ref=e5881] [cursor=pointer]:
+                      - checkbox [ref=e5883]
+                    - cell [ref=e5884] [cursor=pointer]:
+                      - checkbox [ref=e5886]
+                  - row "149 Reports FG Costing Report" [ref=e5887]:
+                    - cell "149" [ref=e5888] [cursor=pointer]
+                    - cell "Reports" [ref=e5889] [cursor=pointer]:
+                      - generic [ref=e5890]: Reports
+                    - cell "FG Costing Report" [ref=e5891] [cursor=pointer]:
+                      - generic [ref=e5892]: FG Costing Report
+                    - cell [ref=e5893] [cursor=pointer]:
+                      - checkbox [ref=e5895]
+                    - cell [ref=e5896] [cursor=pointer]:
+                      - checkbox [ref=e5898]
+                    - cell [ref=e5899] [cursor=pointer]:
+                      - checkbox [ref=e5901]
+                    - cell [ref=e5902] [cursor=pointer]:
+                      - checkbox [ref=e5904]
+                    - cell [ref=e5905] [cursor=pointer]:
+                      - checkbox [ref=e5907]
+                    - cell [ref=e5908] [cursor=pointer]:
+                      - checkbox [ref=e5910]
+                    - cell [ref=e5911] [cursor=pointer]:
+                      - checkbox [ref=e5913]
+                    - cell [ref=e5914] [cursor=pointer]:
+                      - checkbox [ref=e5916]
+                    - cell [ref=e5917] [cursor=pointer]:
+                      - checkbox [ref=e5919]
+                    - cell [ref=e5920] [cursor=pointer]:
+                      - checkbox [ref=e5922]
+                    - cell [ref=e5923] [cursor=pointer]:
+                      - checkbox [ref=e5925]
+                  - row "150 Reports Sales SO Summary Report" [ref=e5926]:
+                    - cell "150" [ref=e5927] [cursor=pointer]
+                    - cell "Reports" [ref=e5928] [cursor=pointer]:
+                      - generic [ref=e5929]: Reports
+                    - cell "Sales SO Summary Report" [ref=e5930] [cursor=pointer]:
+                      - generic [ref=e5931]: Sales SO Summary Report
+                    - cell [ref=e5932] [cursor=pointer]:
+                      - checkbox [ref=e5934]
+                    - cell [ref=e5935] [cursor=pointer]:
+                      - checkbox [ref=e5937]
+                    - cell [ref=e5938] [cursor=pointer]:
+                      - checkbox [ref=e5940]
+                    - cell [ref=e5941] [cursor=pointer]:
+                      - checkbox [ref=e5943]
+                    - cell [ref=e5944] [cursor=pointer]:
+                      - checkbox [ref=e5946]
+                    - cell [ref=e5947] [cursor=pointer]:
+                      - checkbox [ref=e5949]
+                    - cell [ref=e5950] [cursor=pointer]:
+                      - checkbox [ref=e5952]
+                    - cell [ref=e5953] [cursor=pointer]:
+                      - checkbox [ref=e5955]
+                    - cell [ref=e5956] [cursor=pointer]:
+                      - checkbox [ref=e5958]
+                    - cell [ref=e5959] [cursor=pointer]:
+                      - checkbox [ref=e5961]
+                    - cell [ref=e5962] [cursor=pointer]:
+                      - checkbox [ref=e5964]
+                  - row "151 Reports SO Monthly Consumption Report" [ref=e5965]:
+                    - cell "151" [ref=e5966] [cursor=pointer]
+                    - cell "Reports" [ref=e5967] [cursor=pointer]:
+                      - generic [ref=e5968]: Reports
+                    - cell "SO Monthly Consumption Report" [ref=e5969] [cursor=pointer]:
+                      - generic [ref=e5970]: SO Monthly Consumption Report
+                    - cell [ref=e5971] [cursor=pointer]:
+                      - checkbox [ref=e5973]
+                    - cell [ref=e5974] [cursor=pointer]:
+                      - checkbox [ref=e5976]
+                    - cell [ref=e5977] [cursor=pointer]:
+                      - checkbox [ref=e5979]
+                    - cell [ref=e5980] [cursor=pointer]:
+                      - checkbox [ref=e5982]
+                    - cell [ref=e5983] [cursor=pointer]:
+                      - checkbox [ref=e5985]
+                    - cell [ref=e5986] [cursor=pointer]:
+                      - checkbox [ref=e5988]
+                    - cell [ref=e5989] [cursor=pointer]:
+                      - checkbox [ref=e5991]
+                    - cell [ref=e5992] [cursor=pointer]:
+                      - checkbox [ref=e5994]
+                    - cell [ref=e5995] [cursor=pointer]:
+                      - checkbox [ref=e5997]
+                    - cell [ref=e5998] [cursor=pointer]:
+                      - checkbox [ref=e6000]
+                    - cell [ref=e6001] [cursor=pointer]:
+                      - checkbox [ref=e6003]
+                  - row "152 Reports ODO Monthly Consumption Report" [ref=e6004]:
+                    - cell "152" [ref=e6005] [cursor=pointer]
+                    - cell "Reports" [ref=e6006] [cursor=pointer]:
+                      - generic [ref=e6007]: Reports
+                    - cell "ODO Monthly Consumption Report" [ref=e6008] [cursor=pointer]:
+                      - generic [ref=e6009]: ODO Monthly Consumption Report
+                    - cell [ref=e6010] [cursor=pointer]:
+                      - checkbox [ref=e6012]
+                    - cell [ref=e6013] [cursor=pointer]:
+                      - checkbox [ref=e6015]
+                    - cell [ref=e6016] [cursor=pointer]:
+                      - checkbox [ref=e6018]
+                    - cell [ref=e6019] [cursor=pointer]:
+                      - checkbox [ref=e6021]
+                    - cell [ref=e6022] [cursor=pointer]:
+                      - checkbox [ref=e6024]
+                    - cell [ref=e6025] [cursor=pointer]:
+                      - checkbox [ref=e6027]
+                    - cell [ref=e6028] [cursor=pointer]:
+                      - checkbox [ref=e6030]
+                    - cell [ref=e6031] [cursor=pointer]:
+                      - checkbox [ref=e6033]
+                    - cell [ref=e6034] [cursor=pointer]:
+                      - checkbox [ref=e6036]
+                    - cell [ref=e6037] [cursor=pointer]:
+                      - checkbox [ref=e6039]
+                    - cell [ref=e6040] [cursor=pointer]:
+                      - checkbox [ref=e6042]
+                  - row "153 Admin Customer sales order report" [ref=e6043]:
+                    - cell "153" [ref=e6044] [cursor=pointer]
+                    - cell "Admin" [ref=e6045] [cursor=pointer]:
+                      - generic [ref=e6046]: Admin
+                    - cell "Customer sales order report" [ref=e6047] [cursor=pointer]:
+                      - generic [ref=e6048]: Customer sales order report
+                    - cell [ref=e6049] [cursor=pointer]:
+                      - checkbox [ref=e6051]
+                    - cell [ref=e6052] [cursor=pointer]:
+                      - checkbox [ref=e6054]
+                    - cell [ref=e6055] [cursor=pointer]:
+                      - checkbox [ref=e6057]
+                    - cell [ref=e6058] [cursor=pointer]:
+                      - checkbox [ref=e6060]
+                    - cell [ref=e6061] [cursor=pointer]:
+                      - checkbox [ref=e6063]
+                    - cell [ref=e6064] [cursor=pointer]:
+                      - checkbox [ref=e6066]
+                    - cell [ref=e6067] [cursor=pointer]:
+                      - checkbox [ref=e6069]
+                    - cell [ref=e6070] [cursor=pointer]:
+                      - checkbox [ref=e6072]
+                    - cell [ref=e6073] [cursor=pointer]:
+                      - checkbox [ref=e6075]
+                    - cell [ref=e6076] [cursor=pointer]:
+                      - checkbox [ref=e6078]
+                    - cell [ref=e6079] [cursor=pointer]:
+                      - checkbox [ref=e6081]
+                  - row "154 Reports Inventory Report" [ref=e6082]:
+                    - cell "154" [ref=e6083] [cursor=pointer]
+                    - cell "Reports" [ref=e6084] [cursor=pointer]:
+                      - generic [ref=e6085]: Reports
+                    - cell "Inventory Report" [ref=e6086] [cursor=pointer]:
+                      - generic [ref=e6087]: Inventory Report
+                    - cell [ref=e6088] [cursor=pointer]:
+                      - checkbox [ref=e6090]
+                    - cell [ref=e6091] [cursor=pointer]:
+                      - checkbox [ref=e6093]
+                    - cell [ref=e6094] [cursor=pointer]:
+                      - checkbox [ref=e6096]
+                    - cell [ref=e6097] [cursor=pointer]:
+                      - checkbox [ref=e6099]
+                    - cell [ref=e6100] [cursor=pointer]:
+                      - checkbox [ref=e6102]
+                    - cell [ref=e6103] [cursor=pointer]:
+                      - checkbox [ref=e6105]
+                    - cell [ref=e6106] [cursor=pointer]:
+                      - checkbox [ref=e6108]
+                    - cell [ref=e6109] [cursor=pointer]:
+                      - checkbox [ref=e6111]
+                    - cell [ref=e6112] [cursor=pointer]:
+                      - checkbox [ref=e6114]
+                    - cell [ref=e6115] [cursor=pointer]:
+                      - checkbox [ref=e6117]
+                    - cell [ref=e6118] [cursor=pointer]:
+                      - checkbox [ref=e6120]
+                  - row "155 Reports inventory not useable report" [ref=e6121]:
+                    - cell "155" [ref=e6122] [cursor=pointer]
+                    - cell "Reports" [ref=e6123] [cursor=pointer]:
+                      - generic [ref=e6124]: Reports
+                    - cell "inventory not useable report" [ref=e6125] [cursor=pointer]:
+                      - generic [ref=e6126]: inventory not useable report
+                    - cell [ref=e6127] [cursor=pointer]:
+                      - checkbox [ref=e6129]
+                    - cell [ref=e6130] [cursor=pointer]:
+                      - checkbox [ref=e6132]
+                    - cell [ref=e6133] [cursor=pointer]:
+                      - checkbox [ref=e6135]
+                    - cell [ref=e6136] [cursor=pointer]:
+                      - checkbox [ref=e6138]
+                    - cell [ref=e6139] [cursor=pointer]:
+                      - checkbox [ref=e6141]
+                    - cell [ref=e6142] [cursor=pointer]:
+                      - checkbox [ref=e6144]
+                    - cell [ref=e6145] [cursor=pointer]:
+                      - checkbox [ref=e6147]
+                    - cell [ref=e6148] [cursor=pointer]:
+                      - checkbox [ref=e6150]
+                    - cell [ref=e6151] [cursor=pointer]:
+                      - checkbox [ref=e6153]
+                    - cell [ref=e6154] [cursor=pointer]:
+                      - checkbox [ref=e6156]
+                    - cell [ref=e6157] [cursor=pointer]:
+                      - checkbox [ref=e6159]
+                  - row "156 Reports oqc and oqc binning report" [ref=e6160]:
+                    - cell "156" [ref=e6161] [cursor=pointer]
+                    - cell "Reports" [ref=e6162] [cursor=pointer]:
+                      - generic [ref=e6163]: Reports
+                    - cell "oqc and oqc binning report" [ref=e6164] [cursor=pointer]:
+                      - generic [ref=e6165]: oqc and oqc binning report
+                    - cell [ref=e6166] [cursor=pointer]:
+                      - checkbox [ref=e6168]
+                    - cell [ref=e6169] [cursor=pointer]:
+                      - checkbox [ref=e6171]
+                    - cell [ref=e6172] [cursor=pointer]:
+                      - checkbox [ref=e6174]
+                    - cell [ref=e6175] [cursor=pointer]:
+                      - checkbox [ref=e6177]
+                    - cell [ref=e6178] [cursor=pointer]:
+                      - checkbox [ref=e6180]
+                    - cell [ref=e6181] [cursor=pointer]:
+                      - checkbox [ref=e6183]
+                    - cell [ref=e6184] [cursor=pointer]:
+                      - checkbox [ref=e6186]
+                    - cell [ref=e6187] [cursor=pointer]:
+                      - checkbox [ref=e6189]
+                    - cell [ref=e6190] [cursor=pointer]:
+                      - checkbox [ref=e6192]
+                    - cell [ref=e6193] [cursor=pointer]:
+                      - checkbox [ref=e6195]
+                    - cell [ref=e6196] [cursor=pointer]:
+                      - checkbox [ref=e6198]
+                  - row "157 Reports invenotry grin iqc report" [ref=e6199]:
+                    - cell "157" [ref=e6200] [cursor=pointer]
+                    - cell "Reports" [ref=e6201] [cursor=pointer]:
+                      - generic [ref=e6202]: Reports
+                    - cell "invenotry grin iqc report" [ref=e6203] [cursor=pointer]:
+                      - generic [ref=e6204]: invenotry grin iqc report
+                    - cell [ref=e6205] [cursor=pointer]:
+                      - checkbox [ref=e6207]
+                    - cell [ref=e6208] [cursor=pointer]:
+                      - checkbox [ref=e6210]
+                    - cell [ref=e6211] [cursor=pointer]:
+                      - checkbox [ref=e6213]
+                    - cell [ref=e6214] [cursor=pointer]:
+                      - checkbox [ref=e6216]
+                    - cell [ref=e6217] [cursor=pointer]:
+                      - checkbox [ref=e6219]
+                    - cell [ref=e6220] [cursor=pointer]:
+                      - checkbox [ref=e6222]
+                    - cell [ref=e6223] [cursor=pointer]:
+                      - checkbox [ref=e6225]
+                    - cell [ref=e6226] [cursor=pointer]:
+                      - checkbox [ref=e6228]
+                    - cell [ref=e6229] [cursor=pointer]:
+                      - checkbox [ref=e6231]
+                    - cell [ref=e6232] [cursor=pointer]:
+                      - checkbox [ref=e6234]
+                    - cell [ref=e6235] [cursor=pointer]:
+                      - checkbox [ref=e6237]
+                  - row "158 Reports inventory warehouse report" [ref=e6238]:
+                    - cell "158" [ref=e6239] [cursor=pointer]
+                    - cell "Reports" [ref=e6240] [cursor=pointer]:
+                      - generic [ref=e6241]: Reports
+                    - cell "inventory warehouse report" [ref=e6242] [cursor=pointer]:
+                      - generic [ref=e6243]: inventory warehouse report
+                    - cell [ref=e6244] [cursor=pointer]:
+                      - checkbox [ref=e6246]
+                    - cell [ref=e6247] [cursor=pointer]:
+                      - checkbox [ref=e6249]
+                    - cell [ref=e6250] [cursor=pointer]:
+                      - checkbox [ref=e6252]
+                    - cell [ref=e6253] [cursor=pointer]:
+                      - checkbox [ref=e6255]
+                    - cell [ref=e6256] [cursor=pointer]:
+                      - checkbox [ref=e6258]
+                    - cell [ref=e6259] [cursor=pointer]:
+                      - checkbox [ref=e6261]
+                    - cell [ref=e6262] [cursor=pointer]:
+                      - checkbox [ref=e6264]
+                    - cell [ref=e6265] [cursor=pointer]:
+                      - checkbox [ref=e6267]
+                    - cell [ref=e6268] [cursor=pointer]:
+                      - checkbox [ref=e6270]
+                    - cell [ref=e6271] [cursor=pointer]:
+                      - checkbox [ref=e6273]
+                    - cell [ref=e6274] [cursor=pointer]:
+                      - checkbox [ref=e6276]
+                  - row "159 Reports inventory wip report" [ref=e6277]:
+                    - cell "159" [ref=e6278] [cursor=pointer]
+                    - cell "Reports" [ref=e6279] [cursor=pointer]:
+                      - generic [ref=e6280]: Reports
+                    - cell "inventory wip report" [ref=e6281] [cursor=pointer]:
+                      - generic [ref=e6282]: inventory wip report
+                    - cell [ref=e6283] [cursor=pointer]:
+                      - checkbox [ref=e6285]
+                    - cell [ref=e6286] [cursor=pointer]:
+                      - checkbox [ref=e6288]
+                    - cell [ref=e6289] [cursor=pointer]:
+                      - checkbox [ref=e6291]
+                    - cell [ref=e6292] [cursor=pointer]:
+                      - checkbox [ref=e6294]
+                    - cell [ref=e6295] [cursor=pointer]:
+                      - checkbox [ref=e6297]
+                    - cell [ref=e6298] [cursor=pointer]:
+                      - checkbox [ref=e6300]
+                    - cell [ref=e6301] [cursor=pointer]:
+                      - checkbox [ref=e6303]
+                    - cell [ref=e6304] [cursor=pointer]:
+                      - checkbox [ref=e6306]
+                    - cell [ref=e6307] [cursor=pointer]:
+                      - checkbox [ref=e6309]
+                    - cell [ref=e6310] [cursor=pointer]:
+                      - checkbox [ref=e6312]
+                    - cell [ref=e6313] [cursor=pointer]:
+                      - checkbox [ref=e6315]
+                  - row "160 Reports inventory cross margin report" [ref=e6316]:
+                    - cell "160" [ref=e6317] [cursor=pointer]
+                    - cell "Reports" [ref=e6318] [cursor=pointer]:
+                      - generic [ref=e6319]: Reports
+                    - cell "inventory cross margin report" [ref=e6320] [cursor=pointer]:
+                      - generic [ref=e6321]: inventory cross margin report
+                    - cell [ref=e6322] [cursor=pointer]:
+                      - checkbox [ref=e6324]
+                    - cell [ref=e6325] [cursor=pointer]:
+                      - checkbox [ref=e6327]
+                    - cell [ref=e6328] [cursor=pointer]:
+                      - checkbox [ref=e6330]
+                    - cell [ref=e6331] [cursor=pointer]:
+                      - checkbox [ref=e6333]
+                    - cell [ref=e6334] [cursor=pointer]:
+                      - checkbox [ref=e6336]
+                    - cell [ref=e6337] [cursor=pointer]:
+                      - checkbox [ref=e6339]
+                    - cell [ref=e6340] [cursor=pointer]:
+                      - checkbox [ref=e6342]
+                    - cell [ref=e6343] [cursor=pointer]:
+                      - checkbox [ref=e6345]
+                    - cell [ref=e6346] [cursor=pointer]:
+                      - checkbox [ref=e6348]
+                    - cell [ref=e6349] [cursor=pointer]:
+                      - checkbox [ref=e6351]
+                    - cell [ref=e6352] [cursor=pointer]:
+                      - checkbox [ref=e6354]
+                  - row "161 Reports quote report" [ref=e6355]:
+                    - cell "161" [ref=e6356] [cursor=pointer]
+                    - cell "Reports" [ref=e6357] [cursor=pointer]:
+                      - generic [ref=e6358]: Reports
+                    - cell "quote report" [ref=e6359] [cursor=pointer]:
+                      - generic [ref=e6360]: quote report
+                    - cell [ref=e6361] [cursor=pointer]:
+                      - checkbox [ref=e6363]
+                    - cell [ref=e6364] [cursor=pointer]:
+                      - checkbox [ref=e6366]
+                    - cell [ref=e6367] [cursor=pointer]:
+                      - checkbox [ref=e6369]
+                    - cell [ref=e6370] [cursor=pointer]:
+                      - checkbox [ref=e6372]
+                    - cell [ref=e6373] [cursor=pointer]:
+                      - checkbox [ref=e6375]
+                    - cell [ref=e6376] [cursor=pointer]:
+                      - checkbox [ref=e6378]
+                    - cell [ref=e6379] [cursor=pointer]:
+                      - checkbox [ref=e6381]
+                    - cell [ref=e6382] [cursor=pointer]:
+                      - checkbox [ref=e6384]
+                    - cell [ref=e6385] [cursor=pointer]:
+                      - checkbox [ref=e6387]
+                    - cell [ref=e6388] [cursor=pointer]:
+                      - checkbox [ref=e6390]
+                    - cell [ref=e6391] [cursor=pointer]:
+                      - checkbox [ref=e6393]
+                  - row "162 Reports rfq report" [ref=e6394]:
+                    - cell "162" [ref=e6395] [cursor=pointer]
+                    - cell "Reports" [ref=e6396] [cursor=pointer]:
+                      - generic [ref=e6397]: Reports
+                    - cell "rfq report" [ref=e6398] [cursor=pointer]:
+                      - generic [ref=e6399]: rfq report
+                    - cell [ref=e6400] [cursor=pointer]:
+                      - checkbox [ref=e6402]
+                    - cell [ref=e6403] [cursor=pointer]:
+                      - checkbox [ref=e6405]
+                    - cell [ref=e6406] [cursor=pointer]:
+                      - checkbox [ref=e6408]
+                    - cell [ref=e6409] [cursor=pointer]:
+                      - checkbox [ref=e6411]
+                    - cell [ref=e6412] [cursor=pointer]:
+                      - checkbox [ref=e6414]
+                    - cell [ref=e6415] [cursor=pointer]:
+                      - checkbox [ref=e6417]
+                    - cell [ref=e6418] [cursor=pointer]:
+                      - checkbox [ref=e6420]
+                    - cell [ref=e6421] [cursor=pointer]:
+                      - checkbox [ref=e6423]
+                    - cell [ref=e6424] [cursor=pointer]:
+                      - checkbox [ref=e6426]
+                    - cell [ref=e6427] [cursor=pointer]:
+                      - checkbox [ref=e6429]
+                    - cell [ref=e6430] [cursor=pointer]:
+                      - checkbox [ref=e6432]
+                  - row "163 Reports stock movement inventory report" [ref=e6433]:
+                    - cell "163" [ref=e6434] [cursor=pointer]
+                    - cell "Reports" [ref=e6435] [cursor=pointer]:
+                      - generic [ref=e6436]: Reports
+                    - cell "stock movement inventory report" [ref=e6437] [cursor=pointer]:
+                      - generic [ref=e6438]: stock movement inventory report
+                    - cell [ref=e6439] [cursor=pointer]:
+                      - checkbox [ref=e6441]
+                    - cell [ref=e6442] [cursor=pointer]:
+                      - checkbox [ref=e6444]
+                    - cell [ref=e6445] [cursor=pointer]:
+                      - checkbox [ref=e6447]
+                    - cell [ref=e6448] [cursor=pointer]:
+                      - checkbox [ref=e6450]
+                    - cell [ref=e6451] [cursor=pointer]:
+                      - checkbox [ref=e6453]
+                    - cell [ref=e6454] [cursor=pointer]:
+                      - checkbox [ref=e6456]
+                    - cell [ref=e6457] [cursor=pointer]:
+                      - checkbox [ref=e6459]
+                    - cell [ref=e6460] [cursor=pointer]:
+                      - checkbox [ref=e6462]
+                    - cell [ref=e6463] [cursor=pointer]:
+                      - checkbox [ref=e6465]
+                    - cell [ref=e6466] [cursor=pointer]:
+                      - checkbox [ref=e6468]
+                    - cell [ref=e6469] [cursor=pointer]:
+                      - checkbox [ref=e6471]
+                  - row "164 Reports so summary quotation report" [ref=e6472]:
+                    - cell "164" [ref=e6473] [cursor=pointer]
+                    - cell "Reports" [ref=e6474] [cursor=pointer]:
+                      - generic [ref=e6475]: Reports
+                    - cell "so summary quotation report" [ref=e6476] [cursor=pointer]:
+                      - generic [ref=e6477]: so summary quotation report
+                    - cell [ref=e6478] [cursor=pointer]:
+                      - checkbox [ref=e6480]
+                    - cell [ref=e6481] [cursor=pointer]:
+                      - checkbox [ref=e6483]
+                    - cell [ref=e6484] [cursor=pointer]:
+                      - checkbox [ref=e6486]
+                    - cell [ref=e6487] [cursor=pointer]:
+                      - checkbox [ref=e6489]
+                    - cell [ref=e6490] [cursor=pointer]:
+                      - checkbox [ref=e6492]
+                    - cell [ref=e6493] [cursor=pointer]:
+                      - checkbox [ref=e6495]
+                    - cell [ref=e6496] [cursor=pointer]:
+                      - checkbox [ref=e6498]
+                    - cell [ref=e6499] [cursor=pointer]:
+                      - checkbox [ref=e6501]
+                    - cell [ref=e6502] [cursor=pointer]:
+                      - checkbox [ref=e6504]
+                    - cell [ref=e6505] [cursor=pointer]:
+                      - checkbox [ref=e6507]
+                    - cell [ref=e6508] [cursor=pointer]:
+                      - checkbox [ref=e6510]
+                  - row "165 Reports customer transaction report" [ref=e6511]:
+                    - cell "165" [ref=e6512] [cursor=pointer]
+                    - cell "Reports" [ref=e6513] [cursor=pointer]:
+                      - generic [ref=e6514]: Reports
+                    - cell "customer transaction report" [ref=e6515] [cursor=pointer]:
+                      - generic [ref=e6516]: customer transaction report
+                    - cell [ref=e6517] [cursor=pointer]:
+                      - checkbox [ref=e6519]
+                    - cell [ref=e6520] [cursor=pointer]:
+                      - checkbox [ref=e6522]
+                    - cell [ref=e6523] [cursor=pointer]:
+                      - checkbox [ref=e6525]
+                    - cell [ref=e6526] [cursor=pointer]:
+                      - checkbox [ref=e6528]
+                    - cell [ref=e6529] [cursor=pointer]:
+                      - checkbox [ref=e6531]
+                    - cell [ref=e6532] [cursor=pointer]:
+                      - checkbox [ref=e6534]
+                    - cell [ref=e6535] [cursor=pointer]:
+                      - checkbox [ref=e6537]
+                    - cell [ref=e6538] [cursor=pointer]:
+                      - checkbox [ref=e6540]
+                    - cell [ref=e6541] [cursor=pointer]:
+                      - checkbox [ref=e6543]
+                    - cell [ref=e6544] [cursor=pointer]:
+                      - checkbox [ref=e6546]
+                    - cell [ref=e6547] [cursor=pointer]:
+                      - checkbox [ref=e6549]
+                  - row "166 Reports quotation report" [ref=e6550]:
+                    - cell "166" [ref=e6551] [cursor=pointer]
+                    - cell "Reports" [ref=e6552] [cursor=pointer]:
+                      - generic [ref=e6553]: Reports
+                    - cell "quotation report" [ref=e6554] [cursor=pointer]:
+                      - generic [ref=e6555]: quotation report
+                    - cell [ref=e6556] [cursor=pointer]:
+                      - checkbox [ref=e6558]
+                    - cell [ref=e6559] [cursor=pointer]:
+                      - checkbox [ref=e6561]
+                    - cell [ref=e6562] [cursor=pointer]:
+                      - checkbox [ref=e6564]
+                    - cell [ref=e6565] [cursor=pointer]:
+                      - checkbox [ref=e6567]
+                    - cell [ref=e6568] [cursor=pointer]:
+                      - checkbox [ref=e6570]
+                    - cell [ref=e6571] [cursor=pointer]:
+                      - checkbox [ref=e6573]
+                    - cell [ref=e6574] [cursor=pointer]:
+                      - checkbox [ref=e6576]
+                    - cell [ref=e6577] [cursor=pointer]:
+                      - checkbox [ref=e6579]
+                    - cell [ref=e6580] [cursor=pointer]:
+                      - checkbox [ref=e6582]
+                    - cell [ref=e6583] [cursor=pointer]:
+                      - checkbox [ref=e6585]
+                    - cell [ref=e6586] [cursor=pointer]:
+                      - checkbox [ref=e6588]
+                  - row "167 Reports customer sales order room wise report" [ref=e6589]:
+                    - cell "167" [ref=e6590] [cursor=pointer]
+                    - cell "Reports" [ref=e6591] [cursor=pointer]:
+                      - generic [ref=e6592]: Reports
+                    - cell "customer sales order room wise report" [ref=e6593] [cursor=pointer]:
+                      - generic [ref=e6594]: customer sales order room wise report
+                    - cell [ref=e6595] [cursor=pointer]:
+                      - checkbox [ref=e6597]
+                    - cell [ref=e6598] [cursor=pointer]:
+                      - checkbox [ref=e6600]
+                    - cell [ref=e6601] [cursor=pointer]:
+                      - checkbox [ref=e6603]
+                    - cell [ref=e6604] [cursor=pointer]:
+                      - checkbox [ref=e6606]
+                    - cell [ref=e6607] [cursor=pointer]:
+                      - checkbox [ref=e6609]
+                    - cell [ref=e6610] [cursor=pointer]:
+                      - checkbox [ref=e6612]
+                    - cell [ref=e6613] [cursor=pointer]:
+                      - checkbox [ref=e6615]
+                    - cell [ref=e6616] [cursor=pointer]:
+                      - checkbox [ref=e6618]
+                    - cell [ref=e6619] [cursor=pointer]:
+                      - checkbox [ref=e6621]
+                    - cell [ref=e6622] [cursor=pointer]:
+                      - checkbox [ref=e6624]
+                    - cell [ref=e6625] [cursor=pointer]:
+                      - checkbox [ref=e6627]
+                  - row "168 Reports transaction kpn report" [ref=e6628]:
+                    - cell "168" [ref=e6629] [cursor=pointer]
+                    - cell "Reports" [ref=e6630] [cursor=pointer]:
+                      - generic [ref=e6631]: Reports
+                    - cell "transaction kpn report" [ref=e6632] [cursor=pointer]:
+                      - generic [ref=e6633]: transaction kpn report
+                    - cell [ref=e6634] [cursor=pointer]:
+                      - checkbox [ref=e6636]
+                    - cell [ref=e6637] [cursor=pointer]:
+                      - checkbox [ref=e6639]
+                    - cell [ref=e6640] [cursor=pointer]:
+                      - checkbox [ref=e6642]
+                    - cell [ref=e6643] [cursor=pointer]:
+                      - checkbox [ref=e6645]
+                    - cell [ref=e6646] [cursor=pointer]:
+                      - checkbox [ref=e6648]
+                    - cell [ref=e6649] [cursor=pointer]:
+                      - checkbox [ref=e6651]
+                    - cell [ref=e6652] [cursor=pointer]:
+                      - checkbox [ref=e6654]
+                    - cell [ref=e6655] [cursor=pointer]:
+                      - checkbox [ref=e6657]
+                    - cell [ref=e6658] [cursor=pointer]:
+                      - checkbox [ref=e6660]
+                    - cell [ref=e6661] [cursor=pointer]:
+                      - checkbox [ref=e6663]
+                    - cell [ref=e6664] [cursor=pointer]:
+                      - checkbox [ref=e6666]
+                  - row "169 Reports stock movement history report" [ref=e6667]:
+                    - cell "169" [ref=e6668] [cursor=pointer]
+                    - cell "Reports" [ref=e6669] [cursor=pointer]:
+                      - generic [ref=e6670]: Reports
+                    - cell "stock movement history report" [ref=e6671] [cursor=pointer]:
+                      - generic [ref=e6672]: stock movement history report
+                    - cell [ref=e6673] [cursor=pointer]:
+                      - checkbox [ref=e6675]
+                    - cell [ref=e6676] [cursor=pointer]:
+                      - checkbox [ref=e6678]
+                    - cell [ref=e6679] [cursor=pointer]:
+                      - checkbox [ref=e6681]
+                    - cell [ref=e6682] [cursor=pointer]:
+                      - checkbox [ref=e6684]
+                    - cell [ref=e6685] [cursor=pointer]:
+                      - checkbox [ref=e6687]
+                    - cell [ref=e6688] [cursor=pointer]:
+                      - checkbox [ref=e6690]
+                    - cell [ref=e6691] [cursor=pointer]:
+                      - checkbox [ref=e6693]
+                    - cell [ref=e6694] [cursor=pointer]:
+                      - checkbox [ref=e6696]
+                    - cell [ref=e6697] [cursor=pointer]:
+                      - checkbox [ref=e6699]
+                    - cell [ref=e6700] [cursor=pointer]:
+                      - checkbox [ref=e6702]
+                    - cell [ref=e6703] [cursor=pointer]:
+                      - checkbox [ref=e6705]
+                  - row "170 Master1 currencyconversionrate" [ref=e6706]:
+                    - cell "170" [ref=e6707] [cursor=pointer]
+                    - cell "Master1" [ref=e6708] [cursor=pointer]:
+                      - generic [ref=e6709]: Master1
+                    - cell "currencyconversionrate" [ref=e6710] [cursor=pointer]:
+                      - generic [ref=e6711]: currencyconversionrate
+                    - cell [ref=e6712] [cursor=pointer]:
+                      - checkbox [ref=e6714]
+                    - cell [ref=e6715] [cursor=pointer]:
+                      - checkbox [ref=e6717]
+                    - cell [ref=e6718] [cursor=pointer]:
+                      - checkbox [ref=e6720]
+                    - cell [ref=e6721] [cursor=pointer]:
+                      - checkbox [ref=e6723]
+                    - cell [ref=e6724] [cursor=pointer]:
+                      - checkbox [ref=e6726]
+                    - cell [ref=e6727] [cursor=pointer]:
+                      - checkbox [ref=e6729]
+                    - cell [ref=e6730] [cursor=pointer]:
+                      - checkbox [ref=e6732]
+                    - cell [ref=e6733] [cursor=pointer]:
+                      - checkbox [ref=e6735]
+                    - cell [ref=e6736] [cursor=pointer]:
+                      - checkbox [ref=e6738]
+                    - cell [ref=e6739] [cursor=pointer]:
+                      - checkbox [ref=e6741]
+                    - cell [ref=e6742] [cursor=pointer]:
+                      - checkbox [ref=e6744]
+                  - row "171 Master1 numberOf room" [ref=e6745]:
+                    - cell "171" [ref=e6746] [cursor=pointer]
+                    - cell "Master1" [ref=e6747] [cursor=pointer]:
+                      - generic [ref=e6748]: Master1
+                    - cell "numberOf room" [ref=e6749] [cursor=pointer]:
+                      - generic [ref=e6750]: numberOf room
+                    - cell [ref=e6751] [cursor=pointer]:
+                      - checkbox [ref=e6753]
+                    - cell [ref=e6754] [cursor=pointer]:
+                      - checkbox [ref=e6756]
+                    - cell [ref=e6757] [cursor=pointer]:
+                      - checkbox [ref=e6759]
+                    - cell [ref=e6760] [cursor=pointer]:
+                      - checkbox [ref=e6762]
+                    - cell [ref=e6763] [cursor=pointer]:
+                      - checkbox [ref=e6765]
+                    - cell [ref=e6766] [cursor=pointer]:
+                      - checkbox [ref=e6768]
+                    - cell [ref=e6769] [cursor=pointer]:
+                      - checkbox [ref=e6771]
+                    - cell [ref=e6772] [cursor=pointer]:
+                      - checkbox [ref=e6774]
+                    - cell [ref=e6775] [cursor=pointer]:
+                      - checkbox [ref=e6777]
+                    - cell [ref=e6778] [cursor=pointer]:
+                      - checkbox [ref=e6780]
+                    - cell [ref=e6781] [cursor=pointer]:
+                      - checkbox [ref=e6783]
+                  - row "172 Master1 typeOf room" [ref=e6784]:
+                    - cell "172" [ref=e6785] [cursor=pointer]
+                    - cell "Master1" [ref=e6786] [cursor=pointer]:
+                      - generic [ref=e6787]: Master1
+                    - cell "typeOf room" [ref=e6788] [cursor=pointer]:
+                      - generic [ref=e6789]: typeOf room
+                    - cell [ref=e6790] [cursor=pointer]:
+                      - checkbox [ref=e6792]
+                    - cell [ref=e6793] [cursor=pointer]:
+                      - checkbox [ref=e6795]
+                    - cell [ref=e6796] [cursor=pointer]:
+                      - checkbox [ref=e6798]
+                    - cell [ref=e6799] [cursor=pointer]:
+                      - checkbox [ref=e6801]
+                    - cell [ref=e6802] [cursor=pointer]:
+                      - checkbox [ref=e6804]
+                    - cell [ref=e6805] [cursor=pointer]:
+                      - checkbox [ref=e6807]
+                    - cell [ref=e6808] [cursor=pointer]:
+                      - checkbox [ref=e6810]
+                    - cell [ref=e6811] [cursor=pointer]:
+                      - checkbox [ref=e6813]
+                    - cell [ref=e6814] [cursor=pointer]:
+                      - checkbox [ref=e6816]
+                    - cell [ref=e6817] [cursor=pointer]:
+                      - checkbox [ref=e6819]
+                    - cell [ref=e6820] [cursor=pointer]:
+                      - checkbox [ref=e6822]
+                  - row "173 Master1 custom field data" [ref=e6823]:
+                    - cell "173" [ref=e6824] [cursor=pointer]
+                    - cell "Master1" [ref=e6825] [cursor=pointer]:
+                      - generic [ref=e6826]: Master1
+                    - cell "custom field data" [ref=e6827] [cursor=pointer]:
+                      - generic [ref=e6828]: custom field data
+                    - cell [ref=e6829] [cursor=pointer]:
+                      - checkbox [ref=e6831]
+                    - cell [ref=e6832] [cursor=pointer]:
+                      - checkbox [ref=e6834]
+                    - cell [ref=e6835] [cursor=pointer]:
+                      - checkbox [ref=e6837]
+                    - cell [ref=e6838] [cursor=pointer]:
+                      - checkbox [ref=e6840]
+                    - cell [ref=e6841] [cursor=pointer]:
+                      - checkbox [ref=e6843]
+                    - cell [ref=e6844] [cursor=pointer]:
+                      - checkbox [ref=e6846]
+                    - cell [ref=e6847] [cursor=pointer]:
+                      - checkbox [ref=e6849]
+                    - cell [ref=e6850] [cursor=pointer]:
+                      - checkbox [ref=e6852]
+                    - cell [ref=e6853] [cursor=pointer]:
+                      - checkbox [ref=e6855]
+                    - cell [ref=e6856] [cursor=pointer]:
+                      - checkbox [ref=e6858]
+                    - cell [ref=e6859] [cursor=pointer]:
+                      - checkbox [ref=e6861]
+                  - row "174 Reports inventory two report" [ref=e6862]:
+                    - cell "174" [ref=e6863] [cursor=pointer]
+                    - cell "Reports" [ref=e6864] [cursor=pointer]:
+                      - generic [ref=e6865]: Reports
+                    - cell "inventory two report" [ref=e6866] [cursor=pointer]:
+                      - generic [ref=e6867]: inventory two report
+                    - cell [ref=e6868] [cursor=pointer]:
+                      - checkbox [ref=e6870]
+                    - cell [ref=e6871] [cursor=pointer]:
+                      - checkbox [ref=e6873]
+                    - cell [ref=e6874] [cursor=pointer]:
+                      - checkbox [ref=e6876]
+                    - cell [ref=e6877] [cursor=pointer]:
+                      - checkbox [ref=e6879]
+                    - cell [ref=e6880] [cursor=pointer]:
+                      - checkbox [ref=e6882]
+                    - cell [ref=e6883] [cursor=pointer]:
+                      - checkbox [ref=e6885]
+                    - cell [ref=e6886] [cursor=pointer]:
+                      - checkbox [ref=e6888]
+                    - cell [ref=e6889] [cursor=pointer]:
+                      - checkbox [ref=e6891]
+                    - cell [ref=e6892] [cursor=pointer]:
+                      - checkbox [ref=e6894]
+                    - cell [ref=e6895] [cursor=pointer]:
+                      - checkbox [ref=e6897]
+                    - cell [ref=e6898] [cursor=pointer]:
+                      - checkbox [ref=e6900]
+                  - row "175 Reports inventory transaction report" [ref=e6901]:
+                    - cell "175" [ref=e6902] [cursor=pointer]
+                    - cell "Reports" [ref=e6903] [cursor=pointer]:
+                      - generic [ref=e6904]: Reports
+                    - cell "inventory transaction report" [ref=e6905] [cursor=pointer]:
+                      - generic [ref=e6906]: inventory transaction report
+                    - cell [ref=e6907] [cursor=pointer]:
+                      - checkbox [ref=e6909]
+                    - cell [ref=e6910] [cursor=pointer]:
+                      - checkbox [ref=e6912]
+                    - cell [ref=e6913] [cursor=pointer]:
+                      - checkbox [ref=e6915]
+                    - cell [ref=e6916] [cursor=pointer]:
+                      - checkbox [ref=e6918]
+                    - cell [ref=e6919] [cursor=pointer]:
+                      - checkbox [ref=e6921]
+                    - cell [ref=e6922] [cursor=pointer]:
+                      - checkbox [ref=e6924]
+                    - cell [ref=e6925] [cursor=pointer]:
+                      - checkbox [ref=e6927]
+                    - cell [ref=e6928] [cursor=pointer]:
+                      - checkbox [ref=e6930]
+                    - cell [ref=e6931] [cursor=pointer]:
+                      - checkbox [ref=e6933]
+                    - cell [ref=e6934] [cursor=pointer]:
+                      - checkbox [ref=e6936]
+                    - cell [ref=e6937] [cursor=pointer]:
+                      - checkbox [ref=e6939]
+                  - row "176 Transactions PR Approval 1" [ref=e6940]:
+                    - cell "176" [ref=e6941] [cursor=pointer]
+                    - cell "Transactions" [ref=e6942] [cursor=pointer]:
+                      - generic [ref=e6943]: Transactions
+                    - cell "PR Approval 1" [ref=e6944] [cursor=pointer]:
+                      - generic [ref=e6945]: PR Approval 1
+                    - cell [ref=e6946] [cursor=pointer]:
+                      - checkbox [ref=e6948]
+                    - cell [ref=e6949] [cursor=pointer]:
+                      - checkbox [ref=e6951]
+                    - cell [ref=e6952] [cursor=pointer]:
+                      - checkbox [ref=e6954]
+                    - cell [ref=e6955] [cursor=pointer]:
+                      - checkbox [ref=e6957]
+                    - cell [ref=e6958] [cursor=pointer]:
+                      - checkbox [ref=e6960]
+                    - cell [ref=e6961] [cursor=pointer]:
+                      - checkbox [ref=e6963]
+                    - cell [ref=e6964] [cursor=pointer]:
+                      - checkbox [ref=e6966]
+                    - cell [ref=e6967] [cursor=pointer]:
+                      - checkbox [ref=e6969]
+                    - cell [ref=e6970] [cursor=pointer]:
+                      - checkbox [ref=e6972]
+                    - cell [ref=e6973] [cursor=pointer]:
+                      - checkbox [ref=e6975]
+                    - cell [ref=e6976] [cursor=pointer]:
+                      - checkbox [ref=e6978]
+                  - row "177 Transactions PR Approval 2" [ref=e6979]:
+                    - cell "177" [ref=e6980] [cursor=pointer]
+                    - cell "Transactions" [ref=e6981] [cursor=pointer]:
+                      - generic [ref=e6982]: Transactions
+                    - cell "PR Approval 2" [ref=e6983] [cursor=pointer]:
+                      - generic [ref=e6984]: PR Approval 2
+                    - cell [ref=e6985] [cursor=pointer]:
+                      - checkbox [ref=e6987]
+                    - cell [ref=e6988] [cursor=pointer]:
+                      - checkbox [ref=e6990]
+                    - cell [ref=e6991] [cursor=pointer]:
+                      - checkbox [ref=e6993]
+                    - cell [ref=e6994] [cursor=pointer]:
+                      - checkbox [ref=e6996]
+                    - cell [ref=e6997] [cursor=pointer]:
+                      - checkbox [ref=e6999]
+                    - cell [ref=e7000] [cursor=pointer]:
+                      - checkbox [ref=e7002]
+                    - cell [ref=e7003] [cursor=pointer]:
+                      - checkbox [ref=e7005]
+                    - cell [ref=e7006] [cursor=pointer]:
+                      - checkbox [ref=e7008]
+                    - cell [ref=e7009] [cursor=pointer]:
+                      - checkbox [ref=e7011]
+                    - cell [ref=e7012] [cursor=pointer]:
+                      - checkbox [ref=e7014]
+                    - cell [ref=e7015] [cursor=pointer]:
+                      - checkbox [ref=e7017]
+                  - row "178 Transactions PO Approval 1" [ref=e7018]:
+                    - cell "178" [ref=e7019] [cursor=pointer]
+                    - cell "Transactions" [ref=e7020] [cursor=pointer]:
+                      - generic [ref=e7021]: Transactions
+                    - cell "PO Approval 1" [ref=e7022] [cursor=pointer]:
+                      - generic [ref=e7023]: PO Approval 1
+                    - cell [ref=e7024] [cursor=pointer]:
+                      - checkbox [ref=e7026]
+                    - cell [ref=e7027] [cursor=pointer]:
+                      - checkbox [ref=e7029]
+                    - cell [ref=e7030] [cursor=pointer]:
+                      - checkbox [ref=e7032]
+                    - cell [ref=e7033] [cursor=pointer]:
+                      - checkbox [ref=e7035]
+                    - cell [ref=e7036] [cursor=pointer]:
+                      - checkbox [ref=e7038]
+                    - cell [ref=e7039] [cursor=pointer]:
+                      - checkbox [ref=e7041]
+                    - cell [ref=e7042] [cursor=pointer]:
+                      - checkbox [ref=e7044]
+                    - cell [ref=e7045] [cursor=pointer]:
+                      - checkbox [ref=e7047]
+                    - cell [ref=e7048] [cursor=pointer]:
+                      - checkbox [ref=e7050]
+                    - cell [ref=e7051] [cursor=pointer]:
+                      - checkbox [ref=e7053]
+                    - cell [ref=e7054] [cursor=pointer]:
+                      - checkbox [ref=e7056]
+                  - row "179 Transactions PO Approval 2" [ref=e7057]:
+                    - cell "179" [ref=e7058] [cursor=pointer]
+                    - cell "Transactions" [ref=e7059] [cursor=pointer]:
+                      - generic [ref=e7060]: Transactions
+                    - cell "PO Approval 2" [ref=e7061] [cursor=pointer]:
+                      - generic [ref=e7062]: PO Approval 2
+                    - cell [ref=e7063] [cursor=pointer]:
+                      - checkbox [ref=e7065]
+                    - cell [ref=e7066] [cursor=pointer]:
+                      - checkbox [ref=e7068]
+                    - cell [ref=e7069] [cursor=pointer]:
+                      - checkbox [ref=e7071]
+                    - cell [ref=e7072] [cursor=pointer]:
+                      - checkbox [ref=e7074]
+                    - cell [ref=e7075] [cursor=pointer]:
+                      - checkbox [ref=e7077]
+                    - cell [ref=e7078] [cursor=pointer]:
+                      - checkbox [ref=e7080]
+                    - cell [ref=e7081] [cursor=pointer]:
+                      - checkbox [ref=e7083]
+                    - cell [ref=e7084] [cursor=pointer]:
+                      - checkbox [ref=e7086]
+                    - cell [ref=e7087] [cursor=pointer]:
+                      - checkbox [ref=e7089]
+                    - cell [ref=e7090] [cursor=pointer]:
+                      - checkbox [ref=e7092]
+                    - cell [ref=e7093] [cursor=pointer]:
+                      - checkbox [ref=e7095]
+                  - row "180 Reports inventory date sum report" [ref=e7096]:
+                    - cell "180" [ref=e7097] [cursor=pointer]
+                    - cell "Reports" [ref=e7098] [cursor=pointer]:
+                      - generic [ref=e7099]: Reports
+                    - cell "inventory date sum report" [ref=e7100] [cursor=pointer]:
+                      - generic [ref=e7101]: inventory date sum report
+                    - cell [ref=e7102] [cursor=pointer]:
+                      - checkbox [ref=e7104]
+                    - cell [ref=e7105] [cursor=pointer]:
+                      - checkbox [ref=e7107]
+                    - cell [ref=e7108] [cursor=pointer]:
+                      - checkbox [ref=e7110]
+                    - cell [ref=e7111] [cursor=pointer]:
+                      - checkbox [ref=e7113]
+                    - cell [ref=e7114] [cursor=pointer]:
+                      - checkbox [ref=e7116]
+                    - cell [ref=e7117] [cursor=pointer]:
+                      - checkbox [ref=e7119]
+                    - cell [ref=e7120] [cursor=pointer]:
+                      - checkbox [ref=e7122]
+                    - cell [ref=e7123] [cursor=pointer]:
+                      - checkbox [ref=e7125]
+                    - cell [ref=e7126] [cursor=pointer]:
+                      - checkbox [ref=e7128]
+                    - cell [ref=e7129] [cursor=pointer]:
+                      - checkbox [ref=e7131]
+                    - cell [ref=e7132] [cursor=pointer]:
+                      - checkbox [ref=e7134]
+                  - row "181 Finance recievables" [ref=e7135]:
+                    - cell "181" [ref=e7136] [cursor=pointer]
+                    - cell "Finance" [ref=e7137] [cursor=pointer]:
+                      - generic [ref=e7138]: Finance
+                    - cell "recievables" [ref=e7139] [cursor=pointer]:
+                      - generic [ref=e7140]: recievables
+                    - cell [ref=e7141] [cursor=pointer]:
+                      - checkbox [ref=e7143]
+                    - cell [ref=e7144] [cursor=pointer]:
+                      - checkbox [ref=e7146]
+                    - cell [ref=e7147] [cursor=pointer]:
+                      - checkbox [ref=e7149]
+                    - cell [ref=e7150] [cursor=pointer]:
+                      - checkbox [ref=e7152]
+                    - cell [ref=e7153] [cursor=pointer]:
+                      - checkbox [ref=e7155]
+                    - cell [ref=e7156] [cursor=pointer]:
+                      - checkbox [ref=e7158]
+                    - cell [ref=e7159] [cursor=pointer]:
+                      - checkbox [ref=e7161]
+                    - cell [ref=e7162] [cursor=pointer]:
+                      - checkbox [ref=e7164]
+                    - cell [ref=e7165] [cursor=pointer]:
+                      - checkbox [ref=e7167]
+                    - cell [ref=e7168] [cursor=pointer]:
+                      - checkbox [ref=e7170]
+                    - cell [ref=e7171] [cursor=pointer]:
+                      - checkbox [ref=e7173]
+                  - row "182 Finance payables" [ref=e7174]:
+                    - cell "182" [ref=e7175] [cursor=pointer]
+                    - cell "Finance" [ref=e7176] [cursor=pointer]:
+                      - generic [ref=e7177]: Finance
+                    - cell "payables" [ref=e7178] [cursor=pointer]:
+                      - generic [ref=e7179]: payables
+                    - cell [ref=e7180] [cursor=pointer]:
+                      - checkbox [ref=e7182]
+                    - cell [ref=e7183] [cursor=pointer]:
+                      - checkbox [ref=e7185]
+                    - cell [ref=e7186] [cursor=pointer]:
+                      - checkbox [ref=e7188]
+                    - cell [ref=e7189] [cursor=pointer]:
+                      - checkbox [ref=e7191]
+                    - cell [ref=e7192] [cursor=pointer]:
+                      - checkbox [ref=e7194]
+                    - cell [ref=e7195] [cursor=pointer]:
+                      - checkbox [ref=e7197]
+                    - cell [ref=e7198] [cursor=pointer]:
+                      - checkbox [ref=e7200]
+                    - cell [ref=e7201] [cursor=pointer]:
+                      - checkbox [ref=e7203]
+                    - cell [ref=e7204] [cursor=pointer]:
+                      - checkbox [ref=e7206]
+                    - cell [ref=e7207] [cursor=pointer]:
+                      - checkbox [ref=e7209]
+                    - cell [ref=e7210] [cursor=pointer]:
+                      - checkbox [ref=e7212]
+                  - row "183 Reports receivable report" [ref=e7213]:
+                    - cell "183" [ref=e7214] [cursor=pointer]
+                    - cell "Reports" [ref=e7215] [cursor=pointer]:
+                      - generic [ref=e7216]: Reports
+                    - cell "receivable report" [ref=e7217] [cursor=pointer]:
+                      - generic [ref=e7218]: receivable report
+                    - cell [ref=e7219] [cursor=pointer]:
+                      - checkbox [ref=e7221]
+                    - cell [ref=e7222] [cursor=pointer]:
+                      - checkbox [ref=e7224]
+                    - cell [ref=e7225] [cursor=pointer]:
+                      - checkbox [ref=e7227]
+                    - cell [ref=e7228] [cursor=pointer]:
+                      - checkbox [ref=e7230]
+                    - cell [ref=e7231] [cursor=pointer]:
+                      - checkbox [ref=e7233]
+                    - cell [ref=e7234] [cursor=pointer]:
+                      - checkbox [ref=e7236]
+                    - cell [ref=e7237] [cursor=pointer]:
+                      - checkbox [ref=e7239]
+                    - cell [ref=e7240] [cursor=pointer]:
+                      - checkbox [ref=e7242]
+                    - cell [ref=e7243] [cursor=pointer]:
+                      - checkbox [ref=e7245]
+                    - cell [ref=e7246] [cursor=pointer]:
+                      - checkbox [ref=e7248]
+                    - cell [ref=e7249] [cursor=pointer]:
+                      - checkbox [ref=e7251]
+                  - row "184 Transactions si Grin" [ref=e7252]:
+                    - cell "184" [ref=e7253] [cursor=pointer]
+                    - cell "Transactions" [ref=e7254] [cursor=pointer]:
+                      - generic [ref=e7255]: Transactions
+                    - cell "si Grin" [ref=e7256] [cursor=pointer]:
+                      - generic [ref=e7257]: si Grin
+                    - cell [ref=e7258] [cursor=pointer]:
+                      - checkbox [ref=e7260]
+                    - cell [ref=e7261] [cursor=pointer]:
+                      - checkbox [ref=e7263]
+                    - cell [ref=e7264] [cursor=pointer]:
+                      - checkbox [ref=e7266]
+                    - cell [ref=e7267] [cursor=pointer]:
+                      - checkbox [ref=e7269]
+                    - cell [ref=e7270] [cursor=pointer]:
+                      - checkbox [ref=e7272]
+                    - cell [ref=e7273] [cursor=pointer]:
+                      - checkbox [ref=e7275]
+                    - cell [ref=e7276] [cursor=pointer]:
+                      - checkbox [ref=e7278]
+                    - cell [ref=e7279] [cursor=pointer]:
+                      - checkbox [ref=e7281]
+                    - cell [ref=e7282] [cursor=pointer]:
+                      - checkbox [ref=e7284]
+                    - cell [ref=e7285] [cursor=pointer]:
+                      - checkbox [ref=e7287]
+                    - cell [ref=e7288] [cursor=pointer]:
+                      - checkbox [ref=e7290]
+                  - row "185 Transactions si Iqc" [ref=e7291]:
+                    - cell "185" [ref=e7292] [cursor=pointer]
+                    - cell "Transactions" [ref=e7293] [cursor=pointer]:
+                      - generic [ref=e7294]: Transactions
+                    - cell "si Iqc" [ref=e7295] [cursor=pointer]:
+                      - generic [ref=e7296]: si Iqc
+                    - cell [ref=e7297] [cursor=pointer]:
+                      - checkbox [ref=e7299]
+                    - cell [ref=e7300] [cursor=pointer]:
+                      - checkbox [ref=e7302]
+                    - cell [ref=e7303] [cursor=pointer]:
+                      - checkbox [ref=e7305]
+                    - cell [ref=e7306] [cursor=pointer]:
+                      - checkbox [ref=e7308]
+                    - cell [ref=e7309] [cursor=pointer]:
+                      - checkbox [ref=e7311]
+                    - cell [ref=e7312] [cursor=pointer]:
+                      - checkbox [ref=e7314]
+                    - cell [ref=e7315] [cursor=pointer]:
+                      - checkbox [ref=e7317]
+                    - cell [ref=e7318] [cursor=pointer]:
+                      - checkbox [ref=e7320]
+                    - cell [ref=e7321] [cursor=pointer]:
+                      - checkbox [ref=e7323]
+                    - cell [ref=e7324] [cursor=pointer]:
+                      - checkbox [ref=e7326]
+                    - cell [ref=e7327] [cursor=pointer]:
+                      - checkbox [ref=e7329]
+                  - row "186 Reports grin service report" [ref=e7330]:
+                    - cell "186" [ref=e7331] [cursor=pointer]
+                    - cell "Reports" [ref=e7332] [cursor=pointer]:
+                      - generic [ref=e7333]: Reports
+                    - cell "grin service report" [ref=e7334] [cursor=pointer]:
+                      - generic [ref=e7335]: grin service report
+                    - cell [ref=e7336] [cursor=pointer]:
+                      - checkbox [ref=e7338]
+                    - cell [ref=e7339] [cursor=pointer]:
+                      - checkbox [ref=e7341]
+                    - cell [ref=e7342] [cursor=pointer]:
+                      - checkbox [ref=e7344]
+                    - cell [ref=e7345] [cursor=pointer]:
+                      - checkbox [ref=e7347]
+                    - cell [ref=e7348] [cursor=pointer]:
+                      - checkbox [ref=e7350]
+                    - cell [ref=e7351] [cursor=pointer]:
+                      - checkbox [ref=e7353]
+                    - cell [ref=e7354] [cursor=pointer]:
+                      - checkbox [ref=e7356]
+                    - cell [ref=e7357] [cursor=pointer]:
+                      - checkbox [ref=e7359]
+                    - cell [ref=e7360] [cursor=pointer]:
+                      - checkbox [ref=e7362]
+                    - cell [ref=e7363] [cursor=pointer]:
+                      - checkbox [ref=e7365]
+                    - cell [ref=e7366] [cursor=pointer]:
+                      - checkbox [ref=e7368]
+                  - row "187 Reports iqc service report" [ref=e7369]:
+                    - cell "187" [ref=e7370] [cursor=pointer]
+                    - cell "Reports" [ref=e7371] [cursor=pointer]:
+                      - generic [ref=e7372]: Reports
+                    - cell "iqc service report" [ref=e7373] [cursor=pointer]:
+                      - generic [ref=e7374]: iqc service report
+                    - cell [ref=e7375] [cursor=pointer]:
+                      - checkbox [ref=e7377]
+                    - cell [ref=e7378] [cursor=pointer]:
+                      - checkbox [ref=e7380]
+                    - cell [ref=e7381] [cursor=pointer]:
+                      - checkbox [ref=e7383]
+                    - cell [ref=e7384] [cursor=pointer]:
+                      - checkbox [ref=e7386]
+                    - cell [ref=e7387] [cursor=pointer]:
+                      - checkbox [ref=e7389]
+                    - cell [ref=e7390] [cursor=pointer]:
+                      - checkbox [ref=e7392]
+                    - cell [ref=e7393] [cursor=pointer]:
+                      - checkbox [ref=e7395]
+                    - cell [ref=e7396] [cursor=pointer]:
+                      - checkbox [ref=e7398]
+                    - cell [ref=e7399] [cursor=pointer]:
+                      - checkbox [ref=e7401]
+                    - cell [ref=e7402] [cursor=pointer]:
+                      - checkbox [ref=e7404]
+                    - cell [ref=e7405] [cursor=pointer]:
+                      - checkbox [ref=e7407]
+                  - row "188 Reports receivable day wise report" [ref=e7408]:
+                    - cell "188" [ref=e7409] [cursor=pointer]
+                    - cell "Reports" [ref=e7410] [cursor=pointer]:
+                      - generic [ref=e7411]: Reports
+                    - cell "receivable day wise report" [ref=e7412] [cursor=pointer]:
+                      - generic [ref=e7413]: receivable day wise report
+                    - cell [ref=e7414] [cursor=pointer]:
+                      - checkbox [ref=e7416]
+                    - cell [ref=e7417] [cursor=pointer]:
+                      - checkbox [ref=e7419]
+                    - cell [ref=e7420] [cursor=pointer]:
+                      - checkbox [ref=e7422]
+                    - cell [ref=e7423] [cursor=pointer]:
+                      - checkbox [ref=e7425]
+                    - cell [ref=e7426] [cursor=pointer]:
+                      - checkbox [ref=e7428]
+                    - cell [ref=e7429] [cursor=pointer]:
+                      - checkbox [ref=e7431]
+                    - cell [ref=e7432] [cursor=pointer]:
+                      - checkbox [ref=e7434]
+                    - cell [ref=e7435] [cursor=pointer]:
+                      - checkbox [ref=e7437]
+                    - cell [ref=e7438] [cursor=pointer]:
+                      - checkbox [ref=e7440]
+                    - cell [ref=e7441] [cursor=pointer]:
+                      - checkbox [ref=e7443]
+                    - cell [ref=e7444] [cursor=pointer]:
+                      - checkbox [ref=e7446]
+                  - row "189 Reports lead wise sales report" [ref=e7447]:
+                    - cell "189" [ref=e7448] [cursor=pointer]
+                    - cell "Reports" [ref=e7449] [cursor=pointer]:
+                      - generic [ref=e7450]: Reports
+                    - cell "lead wise sales report" [ref=e7451] [cursor=pointer]:
+                      - generic [ref=e7452]: lead wise sales report
+                    - cell [ref=e7453] [cursor=pointer]:
+                      - checkbox [ref=e7455]
+                    - cell [ref=e7456] [cursor=pointer]:
+                      - checkbox [ref=e7458]
+                    - cell [ref=e7459] [cursor=pointer]:
+                      - checkbox [ref=e7461]
+                    - cell [ref=e7462] [cursor=pointer]:
+                      - checkbox [ref=e7464]
+                    - cell [ref=e7465] [cursor=pointer]:
+                      - checkbox [ref=e7467]
+                    - cell [ref=e7468] [cursor=pointer]:
+                      - checkbox [ref=e7470]
+                    - cell [ref=e7471] [cursor=pointer]:
+                      - checkbox [ref=e7473]
+                    - cell [ref=e7474] [cursor=pointer]:
+                      - checkbox [ref=e7476]
+                    - cell [ref=e7477] [cursor=pointer]:
+                      - checkbox [ref=e7479]
+                    - cell [ref=e7480] [cursor=pointer]:
+                      - checkbox [ref=e7482]
+                    - cell [ref=e7483] [cursor=pointer]:
+                      - checkbox [ref=e7485]
+                  - row "190 Reports sales invoice report" [ref=e7486]:
+                    - cell "190" [ref=e7487] [cursor=pointer]
+                    - cell "Reports" [ref=e7488] [cursor=pointer]:
+                      - generic [ref=e7489]: Reports
+                    - cell "sales invoice report" [ref=e7490] [cursor=pointer]:
+                      - generic [ref=e7491]: sales invoice report
+                    - cell [ref=e7492] [cursor=pointer]:
+                      - checkbox [ref=e7494]
+                    - cell [ref=e7495] [cursor=pointer]:
+                      - checkbox [ref=e7497]
+                    - cell [ref=e7498] [cursor=pointer]:
+                      - checkbox [ref=e7500]
+                    - cell [ref=e7501] [cursor=pointer]:
+                      - checkbox [ref=e7503]
+                    - cell [ref=e7504] [cursor=pointer]:
+                      - checkbox [ref=e7506]
+                    - cell [ref=e7507] [cursor=pointer]:
+                      - checkbox [ref=e7509]
+                    - cell [ref=e7510] [cursor=pointer]:
+                      - checkbox [ref=e7512]
+                    - cell [ref=e7513] [cursor=pointer]:
+                      - checkbox [ref=e7515]
+                    - cell [ref=e7516] [cursor=pointer]:
+                      - checkbox [ref=e7518]
+                    - cell [ref=e7519] [cursor=pointer]:
+                      - checkbox [ref=e7521]
+                    - cell [ref=e7522] [cursor=pointer]:
+                      - checkbox [ref=e7524]
+                  - row "191 Reports purchase inventory report" [ref=e7525]:
+                    - cell "191" [ref=e7526] [cursor=pointer]
+                    - cell "Reports" [ref=e7527] [cursor=pointer]:
+                      - generic [ref=e7528]: Reports
+                    - cell "purchase inventory report" [ref=e7529] [cursor=pointer]:
+                      - generic [ref=e7530]: purchase inventory report
+                    - cell [ref=e7531] [cursor=pointer]:
+                      - checkbox [ref=e7533]
+                    - cell [ref=e7534] [cursor=pointer]:
+                      - checkbox [ref=e7536]
+                    - cell [ref=e7537] [cursor=pointer]:
+                      - checkbox [ref=e7539]
+                    - cell [ref=e7540] [cursor=pointer]:
+                      - checkbox [ref=e7542]
+                    - cell [ref=e7543] [cursor=pointer]:
+                      - checkbox [ref=e7545]
+                    - cell [ref=e7546] [cursor=pointer]:
+                      - checkbox [ref=e7548]
+                    - cell [ref=e7549] [cursor=pointer]:
+                      - checkbox [ref=e7551]
+                    - cell [ref=e7552] [cursor=pointer]:
+                      - checkbox [ref=e7554]
+                    - cell [ref=e7555] [cursor=pointer]:
+                      - checkbox [ref=e7557]
+                    - cell [ref=e7558] [cursor=pointer]:
+                      - checkbox [ref=e7560]
+                    - cell [ref=e7561] [cursor=pointer]:
+                      - checkbox [ref=e7563]
+                  - row "192 Reports first advance receivable report" [ref=e7564]:
+                    - cell "192" [ref=e7565] [cursor=pointer]
+                    - cell "Reports" [ref=e7566] [cursor=pointer]:
+                      - generic [ref=e7567]: Reports
+                    - cell "first advance receivable report" [ref=e7568] [cursor=pointer]:
+                      - generic [ref=e7569]: first advance receivable report
+                    - cell [ref=e7570] [cursor=pointer]:
+                      - checkbox [ref=e7572]
+                    - cell [ref=e7573] [cursor=pointer]:
+                      - checkbox [ref=e7575]
+                    - cell [ref=e7576] [cursor=pointer]:
+                      - checkbox [ref=e7578]
+                    - cell [ref=e7579] [cursor=pointer]:
+                      - checkbox [ref=e7581]
+                    - cell [ref=e7582] [cursor=pointer]:
+                      - checkbox [ref=e7584]
+                    - cell [ref=e7585] [cursor=pointer]:
+                      - checkbox [ref=e7587]
+                    - cell [ref=e7588] [cursor=pointer]:
+                      - checkbox [ref=e7590]
+                    - cell [ref=e7591] [cursor=pointer]:
+                      - checkbox [ref=e7593]
+                    - cell [ref=e7594] [cursor=pointer]:
+                      - checkbox [ref=e7596]
+                    - cell [ref=e7597] [cursor=pointer]:
+                      - checkbox [ref=e7599]
+                    - cell [ref=e7600] [cursor=pointer]:
+                      - checkbox [ref=e7602]
+                  - row "193 Reports latest advance received report" [ref=e7603]:
+                    - cell "193" [ref=e7604] [cursor=pointer]
+                    - cell "Reports" [ref=e7605] [cursor=pointer]:
+                      - generic [ref=e7606]: Reports
+                    - cell "latest advance received report" [ref=e7607] [cursor=pointer]:
+                      - generic [ref=e7608]: latest advance received report
+                    - cell [ref=e7609] [cursor=pointer]:
+                      - checkbox [ref=e7611]
+                    - cell [ref=e7612] [cursor=pointer]:
+                      - checkbox [ref=e7614]
+                    - cell [ref=e7615] [cursor=pointer]:
+                      - checkbox [ref=e7617]
+                    - cell [ref=e7618] [cursor=pointer]:
+                      - checkbox [ref=e7620]
+                    - cell [ref=e7621] [cursor=pointer]:
+                      - checkbox [ref=e7623]
+                    - cell [ref=e7624] [cursor=pointer]:
+                      - checkbox [ref=e7626]
+                    - cell [ref=e7627] [cursor=pointer]:
+                      - checkbox [ref=e7629]
+                    - cell [ref=e7630] [cursor=pointer]:
+                      - checkbox [ref=e7632]
+                    - cell [ref=e7633] [cursor=pointer]:
+                      - checkbox [ref=e7635]
+                    - cell [ref=e7636] [cursor=pointer]:
+                      - checkbox [ref=e7638]
+                    - cell [ref=e7639] [cursor=pointer]:
+                      - checkbox [ref=e7641]
+                  - row "194 Reports \"quote revision report \"" [ref=e7642]:
+                    - cell "194" [ref=e7643] [cursor=pointer]
+                    - cell "Reports" [ref=e7644] [cursor=pointer]:
+                      - generic [ref=e7645]: Reports
+                    - cell "\"quote revision report \"" [ref=e7646] [cursor=pointer]:
+                      - generic [ref=e7647]: "\"quote revision report \""
+                    - cell [ref=e7648] [cursor=pointer]:
+                      - checkbox [ref=e7650]
+                    - cell [ref=e7651] [cursor=pointer]:
+                      - checkbox [ref=e7653]
+                    - cell [ref=e7654] [cursor=pointer]:
+                      - checkbox [ref=e7656]
+                    - cell [ref=e7657] [cursor=pointer]:
+                      - checkbox [ref=e7659]
+                    - cell [ref=e7660] [cursor=pointer]:
+                      - checkbox [ref=e7662]
+                    - cell [ref=e7663] [cursor=pointer]:
+                      - checkbox [ref=e7665]
+                    - cell [ref=e7666] [cursor=pointer]:
+                      - checkbox [ref=e7668]
+                    - cell [ref=e7669] [cursor=pointer]:
+                      - checkbox [ref=e7671]
+                    - cell [ref=e7672] [cursor=pointer]:
+                      - checkbox [ref=e7674]
+                    - cell [ref=e7675] [cursor=pointer]:
+                      - checkbox [ref=e7677]
+                    - cell [ref=e7678] [cursor=pointer]:
+                      - checkbox [ref=e7680]
+                  - row "195 Reports sales revision report" [ref=e7681]:
+                    - cell "195" [ref=e7682] [cursor=pointer]
+                    - cell "Reports" [ref=e7683] [cursor=pointer]:
+                      - generic [ref=e7684]: Reports
+                    - cell "sales revision report" [ref=e7685] [cursor=pointer]:
+                      - generic [ref=e7686]: sales revision report
+                    - cell [ref=e7687] [cursor=pointer]:
+                      - checkbox [ref=e7689]
+                    - cell [ref=e7690] [cursor=pointer]:
+                      - checkbox [ref=e7692]
+                    - cell [ref=e7693] [cursor=pointer]:
+                      - checkbox [ref=e7695]
+                    - cell [ref=e7696] [cursor=pointer]:
+                      - checkbox [ref=e7698]
+                    - cell [ref=e7699] [cursor=pointer]:
+                      - checkbox [ref=e7701]
+                    - cell [ref=e7702] [cursor=pointer]:
+                      - checkbox [ref=e7704]
+                    - cell [ref=e7705] [cursor=pointer]:
+                      - checkbox [ref=e7707]
+                    - cell [ref=e7708] [cursor=pointer]:
+                      - checkbox [ref=e7710]
+                    - cell [ref=e7711] [cursor=pointer]:
+                      - checkbox [ref=e7713]
+                    - cell [ref=e7714] [cursor=pointer]:
+                      - checkbox [ref=e7716]
+                    - cell [ref=e7717] [cursor=pointer]:
+                      - checkbox [ref=e7719]
+                  - row "196 Reports sales order so report" [ref=e7720]:
+                    - cell "196" [ref=e7721] [cursor=pointer]
+                    - cell "Reports" [ref=e7722] [cursor=pointer]:
+                      - generic [ref=e7723]: Reports
+                    - cell "sales order so report" [ref=e7724] [cursor=pointer]:
+                      - generic [ref=e7725]: sales order so report
+                    - cell [ref=e7726] [cursor=pointer]:
+                      - checkbox [ref=e7728]
+                    - cell [ref=e7729] [cursor=pointer]:
+                      - checkbox [ref=e7731]
+                    - cell [ref=e7732] [cursor=pointer]:
+                      - checkbox [ref=e7734]
+                    - cell [ref=e7735] [cursor=pointer]:
+                      - checkbox [ref=e7737]
+                    - cell [ref=e7738] [cursor=pointer]:
+                      - checkbox [ref=e7740]
+                    - cell [ref=e7741] [cursor=pointer]:
+                      - checkbox [ref=e7743]
+                    - cell [ref=e7744] [cursor=pointer]:
+                      - checkbox [ref=e7746]
+                    - cell [ref=e7747] [cursor=pointer]:
+                      - checkbox [ref=e7749]
+                    - cell [ref=e7750] [cursor=pointer]:
+                      - checkbox [ref=e7752]
+                    - cell [ref=e7753] [cursor=pointer]:
+                      - checkbox [ref=e7755]
+                    - cell [ref=e7756] [cursor=pointer]:
+                      - checkbox [ref=e7758]
+                  - row "197 Reports advance receivable report" [ref=e7759]:
+                    - cell "197" [ref=e7760] [cursor=pointer]
+                    - cell "Reports" [ref=e7761] [cursor=pointer]:
+                      - generic [ref=e7762]: Reports
+                    - cell "advance receivable report" [ref=e7763] [cursor=pointer]:
+                      - generic [ref=e7764]: advance receivable report
+                    - cell [ref=e7765] [cursor=pointer]:
+                      - checkbox [ref=e7767]
+                    - cell [ref=e7768] [cursor=pointer]:
+                      - checkbox [ref=e7770]
+                    - cell [ref=e7771] [cursor=pointer]:
+                      - checkbox [ref=e7773]
+                    - cell [ref=e7774] [cursor=pointer]:
+                      - checkbox [ref=e7776]
+                    - cell [ref=e7777] [cursor=pointer]:
+                      - checkbox [ref=e7779]
+                    - cell [ref=e7780] [cursor=pointer]:
+                      - checkbox [ref=e7782]
+                    - cell [ref=e7783] [cursor=pointer]:
+                      - checkbox [ref=e7785]
+                    - cell [ref=e7786] [cursor=pointer]:
+                      - checkbox [ref=e7788]
+                    - cell [ref=e7789] [cursor=pointer]:
+                      - checkbox [ref=e7791]
+                    - cell [ref=e7792] [cursor=pointer]:
+                      - checkbox [ref=e7794]
+                    - cell [ref=e7795] [cursor=pointer]:
+                      - checkbox [ref=e7797]
+                  - row "198 Reports fq report" [ref=e7798]:
+                    - cell "198" [ref=e7799] [cursor=pointer]
+                    - cell "Reports" [ref=e7800] [cursor=pointer]:
+                      - generic [ref=e7801]: Reports
+                    - cell "fq report" [ref=e7802] [cursor=pointer]:
+                      - generic [ref=e7803]: fq report
+                    - cell [ref=e7804] [cursor=pointer]:
+                      - checkbox [ref=e7806]
+                    - cell [ref=e7807] [cursor=pointer]:
+                      - checkbox [ref=e7809]
+                    - cell [ref=e7810] [cursor=pointer]:
+                      - checkbox [ref=e7812]
+                    - cell [ref=e7813] [cursor=pointer]:
+                      - checkbox [ref=e7815]
+                    - cell [ref=e7816] [cursor=pointer]:
+                      - checkbox [ref=e7818]
+                    - cell [ref=e7819] [cursor=pointer]:
+                      - checkbox [ref=e7821]
+                    - cell [ref=e7822] [cursor=pointer]:
+                      - checkbox [ref=e7824]
+                    - cell [ref=e7825] [cursor=pointer]:
+                      - checkbox [ref=e7827]
+                    - cell [ref=e7828] [cursor=pointer]:
+                      - checkbox [ref=e7830]
+                    - cell [ref=e7831] [cursor=pointer]:
+                      - checkbox [ref=e7833]
+                    - cell [ref=e7834] [cursor=pointer]:
+                      - checkbox [ref=e7836]
+                  - row "199 Reports initial advance report" [ref=e7837]:
+                    - cell "199" [ref=e7838] [cursor=pointer]
+                    - cell "Reports" [ref=e7839] [cursor=pointer]:
+                      - generic [ref=e7840]: Reports
+                    - cell "initial advance report" [ref=e7841] [cursor=pointer]:
+                      - generic [ref=e7842]: initial advance report
+                    - cell [ref=e7843] [cursor=pointer]:
+                      - checkbox [ref=e7845]
+                    - cell [ref=e7846] [cursor=pointer]:
+                      - checkbox [ref=e7848]
+                    - cell [ref=e7849] [cursor=pointer]:
+                      - checkbox [ref=e7851]
+                    - cell [ref=e7852] [cursor=pointer]:
+                      - checkbox [ref=e7854]
+                    - cell [ref=e7855] [cursor=pointer]:
+                      - checkbox [ref=e7857]
+                    - cell [ref=e7858] [cursor=pointer]:
+                      - checkbox [ref=e7860]
+                    - cell [ref=e7861] [cursor=pointer]:
+                      - checkbox [ref=e7863]
+                    - cell [ref=e7864] [cursor=pointer]:
+                      - checkbox [ref=e7866]
+                    - cell [ref=e7867] [cursor=pointer]:
+                      - checkbox [ref=e7869]
+                    - cell [ref=e7870] [cursor=pointer]:
+                      - checkbox [ref=e7872]
+                    - cell [ref=e7873] [cursor=pointer]:
+                      - checkbox [ref=e7875]
+                  - row "200 Reports advance receivable entry level report" [ref=e7876]:
+                    - cell "200" [ref=e7877] [cursor=pointer]
+                    - cell "Reports" [ref=e7878] [cursor=pointer]:
+                      - generic [ref=e7879]: Reports
+                    - cell "advance receivable entry level report" [ref=e7880] [cursor=pointer]:
+                      - generic [ref=e7881]: advance receivable entry level report
+                    - cell [ref=e7882] [cursor=pointer]:
+                      - checkbox [ref=e7884]
+                    - cell [ref=e7885] [cursor=pointer]:
+                      - checkbox [ref=e7887]
+                    - cell [ref=e7888] [cursor=pointer]:
+                      - checkbox [ref=e7890]
+                    - cell [ref=e7891] [cursor=pointer]:
+                      - checkbox [ref=e7893]
+                    - cell [ref=e7894] [cursor=pointer]:
+                      - checkbox [ref=e7896]
+                    - cell [ref=e7897] [cursor=pointer]:
+                      - checkbox [ref=e7899]
+                    - cell [ref=e7900] [cursor=pointer]:
+                      - checkbox [ref=e7902]
+                    - cell [ref=e7903] [cursor=pointer]:
+                      - checkbox [ref=e7905]
+                    - cell [ref=e7906] [cursor=pointer]:
+                      - checkbox [ref=e7908]
+                    - cell [ref=e7909] [cursor=pointer]:
+                      - checkbox [ref=e7911]
+                    - cell [ref=e7912] [cursor=pointer]:
+                      - checkbox [ref=e7914]
+                  - row "201 Reports first advance receivable report" [ref=e7915]:
+                    - cell "201" [ref=e7916] [cursor=pointer]
+                    - cell "Reports" [ref=e7917] [cursor=pointer]:
+                      - generic [ref=e7918]: Reports
+                    - cell "first advance receivable report" [ref=e7919] [cursor=pointer]:
+                      - generic [ref=e7920]: first advance receivable report
+                    - cell [ref=e7921] [cursor=pointer]:
+                      - checkbox [ref=e7923]
+                    - cell [ref=e7924] [cursor=pointer]:
+                      - checkbox [ref=e7926]
+                    - cell [ref=e7927] [cursor=pointer]:
+                      - checkbox [ref=e7929]
+                    - cell [ref=e7930] [cursor=pointer]:
+                      - checkbox [ref=e7932]
+                    - cell [ref=e7933] [cursor=pointer]:
+                      - checkbox [ref=e7935]
+                    - cell [ref=e7936] [cursor=pointer]:
+                      - checkbox [ref=e7938]
+                    - cell [ref=e7939] [cursor=pointer]:
+                      - checkbox [ref=e7941]
+                    - cell [ref=e7942] [cursor=pointer]:
+                      - checkbox [ref=e7944]
+                    - cell [ref=e7945] [cursor=pointer]:
+                      - checkbox [ref=e7947]
+                    - cell [ref=e7948] [cursor=pointer]:
+                      - checkbox [ref=e7950]
+                    - cell [ref=e7951] [cursor=pointer]:
+                      - checkbox [ref=e7953]
+                  - row "202 Reports fq to fs report" [ref=e7954]:
+                    - cell "202" [ref=e7955] [cursor=pointer]
+                    - cell "Reports" [ref=e7956] [cursor=pointer]:
+                      - generic [ref=e7957]: Reports
+                    - cell "fq to fs report" [ref=e7958] [cursor=pointer]:
+                      - generic [ref=e7959]: fq to fs report
+                    - cell [ref=e7960] [cursor=pointer]:
+                      - checkbox [ref=e7962]
+                    - cell [ref=e7963] [cursor=pointer]:
+                      - checkbox [ref=e7965]
+                    - cell [ref=e7966] [cursor=pointer]:
+                      - checkbox [ref=e7968]
+                    - cell [ref=e7969] [cursor=pointer]:
+                      - checkbox [ref=e7971]
+                    - cell [ref=e7972] [cursor=pointer]:
+                      - checkbox [ref=e7974]
+                    - cell [ref=e7975] [cursor=pointer]:
+                      - checkbox [ref=e7977]
+                    - cell [ref=e7978] [cursor=pointer]:
+                      - checkbox [ref=e7980]
+                    - cell [ref=e7981] [cursor=pointer]:
+                      - checkbox [ref=e7983]
+                    - cell [ref=e7984] [cursor=pointer]:
+                      - checkbox [ref=e7986]
+                    - cell [ref=e7987] [cursor=pointer]:
+                      - checkbox [ref=e7989]
+                    - cell [ref=e7990] [cursor=pointer]:
+                      - checkbox [ref=e7992]
+          - button "Save" [ref=e7994] [cursor=pointer]
+      - contentinfo [ref=e7996]:
+        - generic [ref=e7998]: Copyright © 2026 Wyzmindz PVT LTD. ALL Rights Reserved
+```
