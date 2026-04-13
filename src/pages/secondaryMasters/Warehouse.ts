@@ -2,6 +2,7 @@ import BasePage from "../../base/BasePage";
 import { expect, Locator, Page } from "@playwright/test";
 import { warehouseData } from "../../utils/propertiesReader";
 import { faker } from '@faker-js/faker';
+import { SecondaryMasterFaker } from "../../utils/SecondaryMasterFakerUtils";
 
 export class Warehouse extends BasePage {
     private warehousePlusIcon: Locator;
@@ -23,35 +24,23 @@ export class Warehouse extends BasePage {
     // Methods To Create Warehouse
     //========================================
     async createWarehouse() {
-        await this.tablePageUtil.clickAddIcon();
+        await this.clickAddIcon();
         await this.warehouseNameTextField.fill(warehouseData.name);
         await this.descriptionTextarea.fill(warehouseData.description);
-        await this.secondaryMasterFakerUtils.generateActiveStatus();
-        const toastText = await this.toastUtil.getToastMessage(this.page);
-        expect(await this.toastUtil.verifyToastMessage(this.page, toastText));
-        //await this.toastUtil.verifyToastMessage(this.page, 'Warehouse created successfully');
-        // if (await this.toastUtil.getToastMessage(this.page) === toastText) {
-        //     console.log('Name already exists.');
-        // }else{
-        //     await this.saveButton.click();
-        // }
-        if (await this.toastUtil.getToastMessage(this.page) === toastText) {
-            console.log('🔔 Toast Message: ', toastText);
-        } else {
-            await this.saveButton.click();
-        }
-
-    }
-
-    async navigateToWarehouseCreatePage() {
-        await this.tablePageUtil.clickAddIcon();
+        await SecondaryMasterFaker.generateActiveStatus();
+        await this.toastContainer().waitFor({ state: 'hidden', timeout: 5000 });
+        await this.saveButton.click();
+        await this.verifyToast(['created', 'successfully']);
+        await this.page.waitForURL(/table/);
     }
     async createRandomWarehouse() {
-        await this.tablePageUtil.clickAddIcon();
-        await this.warehouseNameTextField.fill(this.secondaryMasterFakerUtils.generateName('Warehouse'));
-        await this.descriptionTextarea.fill(this.secondaryMasterFakerUtils.generateDescription());
-        await this.secondaryMasterFakerUtils.generateActiveStatus();
+        await this.clickAddIcon();
+        await this.warehouseNameTextField.fill(SecondaryMasterFaker.generateName('Warehouse'));
+        await this.descriptionTextarea.fill(SecondaryMasterFaker.generateDescription());
+        await SecondaryMasterFaker.generateActiveStatus();
+        await this.toastContainer().waitFor({ state: 'hidden', timeout: 5000 });
         await this.saveButton.click();
+        await this.verifyToast(['created', 'successfully']);
+        await this.page.waitForURL(/table/);
     }
-
 }   

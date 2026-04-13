@@ -1,10 +1,26 @@
-import { ENV_CONFIG } from '../config/env.config';
+import { ENV_CONFIG, type EnvName } from '../config/env.config';
 
-type EnvKey = keyof typeof ENV_CONFIG;
+type EnvConfig = (typeof ENV_CONFIG)[EnvName];
+
 
 export class EnvUtils {
-    static getBaseUrl(): string {
-        const env = (process.env.TEST_ENV || 'demo_tras') as EnvKey;
-        return ENV_CONFIG[env].baseUrl;
-    }
+  // Get env name
+  static getEnv(): EnvName {
+    return (process.env.TEST_ENV || 'demo_tras') as EnvName;
+  }
+
+  // Get full config for the env 
+  static getEnvConfig(): EnvConfig {
+    return ENV_CONFIG[this.getEnv()];
+  }
+
+  // Get base URL
+  static getBaseUrl(): string {
+    return this.getEnvConfig().baseUrl;
+  }
+
+  // Get login credentials
+  static getCredentials() {
+    return this.getEnvConfig().credentials;
+  }
 }

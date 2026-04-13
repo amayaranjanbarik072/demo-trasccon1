@@ -1,5 +1,6 @@
 import BasePage from "../../base/BasePage";
 import { Page, expect, Locator } from "@playwright/test";
+import { SecondaryMasterFaker } from "../../utils/SecondaryMasterFakerUtils";
 
 export class Uom extends BasePage {
     private uomPlusIcon: Locator;
@@ -20,15 +21,14 @@ export class Uom extends BasePage {
     }
 
     async createUom() {
-        await this.tablePageUtil.clickAddIcon();
-        await this.uomNameTextField.fill(this.secondaryMasterFakerUtils.generateName('Uom'));
-        await this.descriptionTextarea.fill(this.secondaryMasterFakerUtils.generateDescription());
-        await this.remarksTextarea.fill(this.secondaryMasterFakerUtils.generateRemarks());
-        await this.secondaryMasterFakerUtils.generateActiveStatus();
+        await this.clickAddIcon();
+        await this.uomNameTextField.fill(SecondaryMasterFaker.generateName('Uom'));
+        await this.descriptionTextarea.fill(SecondaryMasterFaker.generateDescription());
+        await this.remarksTextarea.fill(SecondaryMasterFaker.generateRemarks());
+        await SecondaryMasterFaker.generateActiveStatus();
+        await this.toastContainer().waitFor({ state: 'hidden', timeout: 5000 });
         await this.saveButton.click();
-    }
-
-    async navigateToUomCreatePage() {
-        await this.tablePageUtil.clickAddIcon();
+        await this.verifyToast(['created', 'successfully']);
+        await this.page.waitForURL(/table/);
     }
 }   

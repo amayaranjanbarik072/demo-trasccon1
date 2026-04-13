@@ -1,6 +1,7 @@
 import { faker } from '@faker-js/faker';
 import BasePage from '../../base/BasePage';
 import { Page, Locator } from 'playwright';
+import { SecondaryMasterFaker } from '../../utils/SecondaryMasterFakerUtils';
 
 export default class AdditionalCharges extends BasePage {
 
@@ -68,20 +69,20 @@ export default class AdditionalCharges extends BasePage {
 
 
     async createAdditionalCharges() {
-        // await this.additionalChargesPlusIcon.click();
-        await this.tablePageUtil.clickAddIcon();
-        await this.additionalChargesNameTextField.fill(this.secondaryMasterFakerUtils.generateName('Additional Charges'));
+        await this.clickAddIcon();
+        await this.additionalChargesNameTextField.fill(SecondaryMasterFaker.generateName('Additional Charges'));
         await this.additionalChargesValueTypePercentageRadioButton.click();
         await this.additionalChargesAmountTextField.fill(AdditionalCharges.generateAdditionalChargesAmount());
         await this.igstTextField.fill(AdditionalCharges.generateIGST());
         await this.cgstTextField.fill(AdditionalCharges.generateCGST());
         await this.sgstTextField.fill(AdditionalCharges.generateSGST());
         await this.utgstTextField.fill(AdditionalCharges.generateUTGST());
-        await this.descriptionTextarea.fill(this.secondaryMasterFakerUtils.generateDescription());
-        await this.remarksTextarea.fill(this.secondaryMasterFakerUtils.generateRemarks());
-        await this.activeStatusToggle.click();
+        await this.descriptionTextarea.fill(SecondaryMasterFaker.generateDescription());
+        await this.remarksTextarea.fill(SecondaryMasterFaker.generateRemarks());
+        await SecondaryMasterFaker.generateActiveStatus();
+        await this.toastContainer().waitFor({ state: 'hidden', timeout: 5000 });
         await this.saveButton.click();
-        console.log(await this.page.url());
-        await this.page.waitForTimeout(2000);
+        await this.verifyToast(['created', 'successfully']);
+        await this.page.waitForURL(/table/);
     }
 }

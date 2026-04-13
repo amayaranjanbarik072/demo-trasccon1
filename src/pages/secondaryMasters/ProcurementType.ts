@@ -1,6 +1,7 @@
 import BasePage from "../../base/BasePage";
 import { Page, expect, Locator } from "@playwright/test";
 import { procurementData } from "../../utils/propertiesReader";
+import { SecondaryMasterFaker } from "../../utils/SecondaryMasterFakerUtils";
 
 export class ProcurementType extends BasePage {
     private procurementTypePlusIcon: Locator;
@@ -21,19 +22,23 @@ export class ProcurementType extends BasePage {
     // Methods To Create Procurement Type
     //========================================
     async createProcurementType() {
-        await this.tablePageUtil.clickAddIcon();
+        await this.clickAddIcon();
         await this.procurementTypeNameTextField.fill(procurementData.name);
         await this.descriptionTextarea.fill(procurementData.description);
-        await this.secondaryMasterFakerUtils.generateActiveStatus();
-        const toastText = await this.toastUtil.getToastMessage(this.page);
-        if (await this.toastUtil.getToastMessage(this.page) === toastText) {
-            console.log('Toast Text: ' + toastText);
-        } else {
-            await this.saveButton.click();
-        }
+        await SecondaryMasterFaker.generateActiveStatus();
+        await this.toastContainer().waitFor({ state: 'hidden', timeout: 5000 });
+        await this.saveButton.click();
+        await this.verifyToast('× Created Successfully !!');
     }
 
-    async navigateToProcurementTypeCreatePage() {
-        await this.tablePageUtil.clickAddIcon();
+    async createRandomProcurementType() {
+        await this.clickAddIcon();
+        await this.procurementTypeNameTextField.fill(SecondaryMasterFaker.generateName('Procurement Type'));
+        await this.descriptionTextarea.fill(SecondaryMasterFaker.generateDescription());
+        await SecondaryMasterFaker.generateActiveStatus();
+        await this.toastContainer().waitFor({ state: 'hidden', timeout: 5000 });
+        await this.saveButton.click();
+        await this.verifyToast(['created', 'successfully']);
+        await this.page.waitForURL(/table/);
     }
 }

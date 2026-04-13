@@ -1,24 +1,15 @@
-import { BaseTest } from "../../base/BaseTest";
-import { DashboardPage } from "../../pages/dashboard/DashboardPage";
-import LoginPage from "../../pages/login/LoginPage";
-import { test, expect } from "@playwright/test";
+import { test, expect } from '../../base/fixture';
+import LoginPage from '../../pages/login/LoginPage';
 
-let baseTest: BaseTest;
-let loginPage: LoginPage;
 
-test.beforeEach(async () => {
-  baseTest = new BaseTest();
-  await baseTest.launchBrowser();
+test.beforeEach(async ({ page }) => {
+  await page.goto('/login');
 
 });
-test("Valid Login Test", async () => {
-  loginPage = new LoginPage(baseTest.page);
+test("Valid Login Test", async ({ loginPage }) => {
   await loginPage.secondValidLogin();
 });
 
-test("Invalid Login Test", async () => {
-  loginPage = new LoginPage(baseTest.page);
+test("Invalid Login Test", async ({ loginPage }) => {
   await loginPage.InvalidLogin();
-  //await page.waitForTimeout(2000);
-  //console.log('Dashboard Page URL: ' + await page.url());
 });

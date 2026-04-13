@@ -1,6 +1,7 @@
 import BasePage from "../../base/BasePage";
 import { Page, Locator } from "@playwright/test";
 import { warehouseData } from "../../utils/propertiesReader";
+import { SecondaryMasterFaker } from "../../utils/SecondaryMasterFakerUtils";
 
 export default class LocationWarehouse extends BasePage {
     private locationPlusIcon: Locator;
@@ -22,11 +23,12 @@ export default class LocationWarehouse extends BasePage {
         this.saveButton = page.locator('xpath = //button[.="Save"]');
     }
     async createLocation() {
-        await this.tablePageUtil.clickAddIcon();
+        await this.clickAddIcon();
         await this.selectWarehouseDropdown.click();
 
         // Type from properties/config
-        await this.page.keyboard.type(warehouseData.name, { delay: 50 });
+        //await this.page.keyboard.type(warehouseData.name, { delay: 50 });
+        await this.page.keyboard.type('Warehouse', { delay: 50 });
 
         // Wait for filter to apply
         await this.page.waitForTimeout(300);
@@ -34,11 +36,14 @@ export default class LocationWarehouse extends BasePage {
         // Select first matched result
         await this.page.keyboard.press('Enter');
         await this.page.waitForTimeout(300);
-        await this.locationTextfield.fill(this.secondaryMasterFakerUtils.generateName('Location'));
-        await this.descriptionTextarea.fill(this.secondaryMasterFakerUtils.generateDescription());
-        await this.remarksTextarea.fill(this.secondaryMasterFakerUtils.generateRemarks());
-        await this.secondaryMasterFakerUtils.generateActiveStatus();
+        await this.locationTextfield.fill(SecondaryMasterFaker.generateName('Location'));
+        await this.descriptionTextarea.fill(SecondaryMasterFaker.generateDescription());
+        await this.remarksTextarea.fill(SecondaryMasterFaker.generateRemarks());
+        await SecondaryMasterFaker.generateActiveStatus();
+        await this.toastContainer().waitFor({ state: 'hidden', timeout: 5000 });
         await this.saveButton.click();
+        await this.verifyToast(['created', 'successfully']);
+        await this.page.waitForURL(/table/);
     }
 
 }

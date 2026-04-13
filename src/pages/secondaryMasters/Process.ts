@@ -1,5 +1,6 @@
 import BasePage from "../../base/BasePage";
 import { Page, expect, Locator } from "@playwright/test";
+import { SecondaryMasterFaker } from "../../utils/SecondaryMasterFakerUtils";
 
 export class Process extends BasePage {
     private processPlusIcon: Locator;
@@ -20,15 +21,14 @@ export class Process extends BasePage {
     }
 
     async createProcess() {
-        await this.tablePageUtil.clickAddIcon();
-        await this.processNameTextField.fill(this.secondaryMasterFakerUtils.generateName('Process'));
-        await this.descriptionTextarea.fill(this.secondaryMasterFakerUtils.generateDescription());
-        await this.remarksTextarea.fill(this.secondaryMasterFakerUtils.generateRemarks());
-        await this.secondaryMasterFakerUtils.generateActiveStatus();
+        await this.clickAddIcon();
+        await this.processNameTextField.fill(SecondaryMasterFaker.generateName('Process'));
+        await this.descriptionTextarea.fill(SecondaryMasterFaker.generateDescription());
+        await this.remarksTextarea.fill(SecondaryMasterFaker.generateRemarks());
+        await SecondaryMasterFaker.generateActiveStatus();
+        await this.toastContainer().waitFor({ state: 'hidden', timeout: 5000 });
         await this.saveButton.click();
-    }
-
-    async navigateToProcessCreatePage() {
-        await this.tablePageUtil.clickAddIcon();
+        await this.verifyToast(['created', 'successfully']);
+        await this.page.waitForURL(/table/);
     }
 }

@@ -10,7 +10,7 @@ export class PartType extends BasePage {
     }
 
     async navigateToPartTypeCreatePage() {
-        await this.tablePageUtil.clickAddIcon();
+        await this.clickAddIcon();
     }
 }
 

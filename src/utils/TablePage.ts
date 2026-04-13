@@ -16,8 +16,6 @@ export class TablePage {
 
   //*---------------Locators-----------------*//(robust & reusable)
   createPlusIcon(): Locator {
-    // return this.page.locator('xpath= //i[@class="mdi mdi-plus-box-outline edit-table-icon"]');
-    // return this.page.locator('xpath= //i[@class="mdi mdi-plus-box-outline edit-icon"] ');
     return this.page.locator('xpath= //i[contains(@class,"mdi-plus-box-outline")]');
   }
 
@@ -34,7 +32,7 @@ export class TablePage {
   }
 
   searchIcon(): Locator {
-    return this.page.locator('xpath= //button[@class="btn btn_primary search_btn"]')
+    return this.page.locator('xpath= //i[@class="mdi mdi-magnify search_icon"]')
   }
 
   pageSizeDropdown(): Locator {
@@ -83,6 +81,7 @@ export class TablePage {
     await this.createPlusIcon().click();
   }
 
+  //*---------------Table Actions-----------------*//
   async verifyRecordPresent(text: string) {
     await expect(this.rowByText(text)).toBeVisible();
   }
@@ -91,9 +90,11 @@ export class TablePage {
   async clickView(text: string) {
     await this.rowByText(text).locator('i.mdi-eye').click();
   }
-
   async clickEdit(text: string) {
     await this.rowByText(text).locator('i.mdi-pencil').click();
+  }
+  async clickExcelDownload(text: string) {
+    await this.rowByText(text).locator('i.mdi-microsoft-excel').click();
   }
 
   //*---------------Search Actions-----------------*//

@@ -1,5 +1,5 @@
 export const CREDENTIALS = {
-    amayaAdmin: {
+    demoTras: {
         username: 'amaya@mail.com',
         password: 'amaya@123',
         unit: 'Bangalore',
@@ -10,6 +10,16 @@ export const CREDENTIALS = {
         unit: 'Bangalore',
     },
     keusAmaya: {
+        username: 'amaya@mail.com',
+        password: 'amaya@123',
+        unit: 'Bangalore',
+    },
+    trascconGetapcs: {
+        username: 'james_chn',
+        password: 'Qwerty@123',
+        unit: 'Chennai',
+    },
+    vsol: {
         username: 'amaya@mail.com',
         password: 'amaya@123',
         unit: 'Bangalore',

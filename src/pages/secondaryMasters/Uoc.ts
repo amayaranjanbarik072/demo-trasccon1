@@ -1,6 +1,7 @@
 import BasePage from "../../base/BasePage";
 import { expect, Locator, Page } from "@playwright/test";
 import { uocData } from "../../utils/propertiesReader";
+import { SecondaryMasterFaker } from "../../utils/SecondaryMasterFakerUtils";
 export class Uoc extends BasePage {
     private uocPlusIcon: Locator;
     private uocTypeTextField: Locator;
@@ -22,21 +23,24 @@ export class Uoc extends BasePage {
 
     }
     async createUoc() {
-        await this.page.waitForTimeout(2000);
-        await this.tablePageUtil.clickAddIcon();
+        await this.clickAddIcon();
         await this.uocTypeTextField.fill(uocData.name);
         await this.descriptionTextarea.fill(uocData.description);
         await this.remarksTextarea.fill(uocData.remarks);
-        await this.secondaryMasterFakerUtils.generateActiveStatus();
-        const toastText = await this.toastUtil.getToastMessage(this.page);
-        if (await this.toastUtil.getToastMessage(this.page) === toastText) {
-            console.log('🔔 Toast Message: ', toastText);
-        } else {
-            await this.saveButton.click();
-        }
-
+        await SecondaryMasterFaker.generateActiveStatus();
+        await this.toastContainer().waitFor({ state: 'hidden', timeout: 5000 });
+        await this.saveButton.click();
+        await this.verifyToast('× Created Successfully !!');
     }
-    async navigateToUocCreatePage() {
-        await this.tablePageUtil.clickAddIcon();
+    async createRandomUoc() {
+        await this.clickAddIcon();
+        await this.uocTypeTextField.fill(SecondaryMasterFaker.generateName('Uoc'));
+        await this.descriptionTextarea.fill(SecondaryMasterFaker.generateDescription());
+        await this.remarksTextarea.fill(SecondaryMasterFaker.generateRemarks());
+        await SecondaryMasterFaker.generateActiveStatus();
+        await this.toastContainer().waitFor({ state: 'hidden', timeout: 5000 });
+        await this.saveButton.click();
+        await this.verifyToast(['created', 'successfully']);
+        await this.page.waitForURL(/table/);
     }
-}   
+} 

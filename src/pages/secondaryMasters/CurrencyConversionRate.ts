@@ -1,6 +1,8 @@
 import BasePage from "../../base/BasePage";
 import { Page, Locator, expect } from "@playwright/test";
 import { uocData } from "../../utils/propertiesReader";
+import { SecondaryMasterFaker } from "../../utils/SecondaryMasterFakerUtils";
+import { DateUtil } from "../../utils/DateUtil";
 
 
 
@@ -21,28 +23,26 @@ export default class CurrencyConversionRate extends BasePage {
     }
 
     async createCurrencyConversionRate() {
-        await this.tablePageUtil.clickAddIcon();
+        await this.clickAddIcon();
         await this.uocDropdown.click();
 
         // Type from properties/config
-        await this.page.keyboard.type(uocData.name, { delay: 50 });
+        //await this.page.keyboard.type(uocData.name, { delay: 50 });
+        await this.page.keyboard.type('uoc', { delay: 50 });
 
         // Wait for filter to apply
         await this.page.waitForTimeout(300);
 
-        // Select first matched result
+        // Select first matched result 
         await this.page.keyboard.press('Enter');
-        const toastText = await this.toastUtil.getToastMessage(this.page);
-
-        if (await this.toastUtil.getToastMessage(this.page) === toastText) {
-            console.log('Toast Text: ' + toastText);
-        } else {
-            await this.conversionRateTextfield.fill('1');
-            const date = await this.dateUtil.setDateByFormControl(this.page, 'date', new Date(2026, 1, 7));
-            console.log('Date: ' + date);
-            // await this.dateTextfield.fill(date);
-            await this.secondaryMasterFakerUtils.generateActiveStatus();
-            await this.saveButton.click();
-        }
+        await this.conversionRateTextfield.fill('1');
+        const date = await DateUtil.getFormattedDate(0);
+        await DateUtil.selectDate(this.dateTextfield, date);
+        await SecondaryMasterFaker.generateActiveStatus();
+        await this.toastContainer().waitFor({ state: 'hidden', timeout: 5000 });
+        await this.saveButton.click();
+        await this.verifyToast(['created', 'successfully']);
+        await this.page.waitForURL(/table/);
     }
+
 }

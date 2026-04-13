@@ -1,5 +1,6 @@
 import BasePage from "../../base/BasePage";
 import { Page, Locator, expect } from "@playwright/test";
+import { SecondaryMasterFaker } from "../../utils/SecondaryMasterFakerUtils";
 
 export default class RiskCategory extends BasePage {
     private riskCategoryPlusIcon: Locator;
@@ -23,11 +24,13 @@ export default class RiskCategory extends BasePage {
     }
 
     async createRiskCategory() {
-        await this.tablePageUtil.clickAddIcon();
-        await this.riskCategoryTextField.fill(this.secondaryMasterFakerUtils.generateName('Risk Category'));
-        await this.descriptionTextarea.fill(this.secondaryMasterFakerUtils.generateDescription());
-        await this.secondaryMasterFakerUtils.generateActiveStatus();
+        await this.clickAddIcon();
+        await this.riskCategoryTextField.fill(SecondaryMasterFaker.generateName('Risk Category'));
+        await this.descriptionTextarea.fill(SecondaryMasterFaker.generateDescription());
+        await SecondaryMasterFaker.generateActiveStatus();
+        await this.toastContainer().waitFor({ state: 'hidden', timeout: 5000 });
         await this.saveButton.click();
+        await this.verifyToast(['created', 'successfully']);
+        await this.page.waitForURL(/table/);
     }
-
 }   

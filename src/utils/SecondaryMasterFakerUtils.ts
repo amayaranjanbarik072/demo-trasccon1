@@ -1,11 +1,8 @@
 import { faker } from '@faker-js/faker';
 
 export class SecondaryMasterFaker {
-    // generateActiveStatusToggle() {
-    //     throw new Error("Method not implemented.");
-    // }
 
-    generateName(prefix: string): string {
+    static generateName(prefix: string): string {
         const date = new Date();
 
         const dd = String(date.getDate()).padStart(2, '0');
@@ -30,15 +27,15 @@ export class SecondaryMasterFaker {
         return `${prefix}_${dd}-${mm}-${yyyy}_${randomValue}`;
     }
 
-    generateDescription(): string {
+    static generateDescription(): string {
         return faker.lorem.sentence(6);
     }
 
-    generateRemarks(): string {
+    static generateRemarks(): string {
         return faker.lorem.words(4);
     }
 
-    generateActiveStatus(): boolean {
+    static generateActiveStatus(): boolean {
         return true; // Default active
     }
 }

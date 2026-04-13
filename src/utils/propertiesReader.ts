@@ -1,4 +1,5 @@
 import PropertiesReader from 'properties-reader';
+import path from 'path';
 
 const warehouseProperties = PropertiesReader('./src/testData/warehouse.properties');
 const procurementProperties = PropertiesReader('./src/testData/procurement.properties');
@@ -20,4 +21,9 @@ export const uocData = {
     remarks: uocProperties.get('uoc.remarks') as string,
     active: uocProperties.get('uoc.active') === 'true',
 };
+
+function loadProperties(fileName: string) {
+    const filePath = path.join(process.cwd(), 'src', 'testData', fileName);
+    return PropertiesReader(filePath);
+}
 

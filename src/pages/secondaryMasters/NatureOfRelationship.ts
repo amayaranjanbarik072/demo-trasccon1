@@ -1,5 +1,6 @@
 import BasePage from "../../base/BasePage";
 import { Page, Locator } from "@playwright/test";
+import { SecondaryMasterFaker } from "../../utils/SecondaryMasterFakerUtils";
 
 export default class NatureOfRelationship extends BasePage {
     private natureOfRelationshipPlusIcon: Locator;
@@ -20,11 +21,14 @@ export default class NatureOfRelationship extends BasePage {
     }
 
     async createNatureOfRelationship() {
-        await this.tablePageUtil.clickAddIcon();
-        await this.natureOfRelationshipTextField.fill(this.secondaryMasterFakerUtils.generateName('Nature Of Relationship'));
-        await this.descriptionTextarea.fill(this.secondaryMasterFakerUtils.generateDescription());
-        await this.remarksTextarea.fill(this.secondaryMasterFakerUtils.generateRemarks());
-        await this.secondaryMasterFakerUtils.generateActiveStatus();
+        await this.clickAddIcon();
+        await this.natureOfRelationshipTextField.fill(SecondaryMasterFaker.generateName('Nature Of Relationship'));
+        await this.descriptionTextarea.fill(SecondaryMasterFaker.generateDescription());
+        await this.remarksTextarea.fill(SecondaryMasterFaker.generateRemarks());
+        await SecondaryMasterFaker.generateActiveStatus();
+        await this.toastContainer().waitFor({ state: 'hidden', timeout: 5000 });
         await this.saveButton.click();
+        await this.verifyToast(['created', 'successfully']);
+        await this.page.waitForURL(/table/);
     }
 }

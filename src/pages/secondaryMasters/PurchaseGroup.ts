@@ -1,5 +1,6 @@
 import { Locator, Page } from "@playwright/test";
 import BasePage from "../../base/BasePage";
+import { SecondaryMasterFaker } from "../../utils/SecondaryMasterFakerUtils";
 
 export default class PurchaseGroup extends BasePage {
     private purchaseGroupPlusIcon: Locator;
@@ -20,11 +21,14 @@ export default class PurchaseGroup extends BasePage {
     }
 
     async createPurchaseGroup() {
-        await this.tablePageUtil.clickAddIcon();
-        await this.purchaseGroupNameTextField.fill(this.secondaryMasterFakerUtils.generateName('Purchase Group'));
-        await this.descriptionTextarea.fill(this.secondaryMasterFakerUtils.generateDescription());
-        await this.remarksTextarea.fill(this.secondaryMasterFakerUtils.generateRemarks());
-        await this.secondaryMasterFakerUtils.generateActiveStatus();
+        await this.clickAddIcon();
+        await this.purchaseGroupNameTextField.fill(SecondaryMasterFaker.generateName('Purchase Group'));
+        await this.descriptionTextarea.fill(SecondaryMasterFaker.generateDescription());
+        await this.remarksTextarea.fill(SecondaryMasterFaker.generateRemarks());
+        await SecondaryMasterFaker.generateActiveStatus();
+        await this.toastContainer().waitFor({ state: 'hidden', timeout: 5000 });
         await this.saveButton.click();
+        await this.verifyToast(['created', 'successfully']);
+        await this.page.waitForURL(/table/);
     }
 }

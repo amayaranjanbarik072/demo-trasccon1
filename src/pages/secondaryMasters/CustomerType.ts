@@ -1,5 +1,6 @@
 import BasePage from "../../base/BasePage";
 import { Page, Locator, expect } from "@playwright/test";
+import { SecondaryMasterFaker } from "../../utils/SecondaryMasterFakerUtils";
 
 export class CustomerType extends BasePage {
     private customerTypeTextField: Locator;
@@ -18,11 +19,14 @@ export class CustomerType extends BasePage {
     }
 
     async createCustomerType() {
-        await this.tablePageUtil.clickAddIcon();
-        await this.customerTypeTextField.fill(this.secondaryMasterFakerUtils.generateName('Customer Type'));
-        await this.descriptionTextarea.fill(this.secondaryMasterFakerUtils.generateDescription());
-        await this.remarksTextarea.fill(this.secondaryMasterFakerUtils.generateRemarks());
-        await this.secondaryMasterFakerUtils.generateActiveStatus();
+        await this.clickAddIcon();
+        await this.customerTypeTextField.fill(SecondaryMasterFaker.generateName('Customer Type'));
+        await this.descriptionTextarea.fill(SecondaryMasterFaker.generateDescription());
+        await this.remarksTextarea.fill(SecondaryMasterFaker.generateRemarks());
+        await SecondaryMasterFaker.generateActiveStatus();
+        await this.toastContainer().waitFor({ state: 'hidden', timeout: 5000 });
         await this.saveButton.click();
+        await this.verifyToast(['created', 'successfully']);
+        await this.page.waitForURL(/table/);
     }
 }

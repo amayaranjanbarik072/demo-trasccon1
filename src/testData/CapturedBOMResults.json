@@ -1,0 +1,20 @@
+{
+  "FG": [
+    {
+      "itemNumber": "100-2375",
+      "description": "Conveyor, 51 Mahindra - Spencer - Miller, Industrial Grade",
+      "itemType": "FG",
+      "revNumber": "1",
+      "timestamp": "2026-04-08T16:54:32.242Z"
+    }
+  ],
+  "SA": [
+    {
+      "itemNumber": "200-9527",
+      "description": "Gearbox Sub-Assembly, Wired",
+      "itemType": "SA",
+      "revNumber": "1",
+      "timestamp": "2026-04-08T16:54:09.765Z"
+    }
+  ]
+}

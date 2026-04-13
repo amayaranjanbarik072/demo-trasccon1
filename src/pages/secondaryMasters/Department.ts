@@ -1,5 +1,6 @@
 import BasePage from "../../base/BasePage";
 import { Locator, Page, expect } from "@playwright/test";
+import { SecondaryMasterFaker } from "../../utils/SecondaryMasterFakerUtils";
 
 export class Department extends BasePage {
     private departmentPlusIcon: Locator;
@@ -20,11 +21,14 @@ export class Department extends BasePage {
     }
 
     async createDepartment() {
-        await this.tablePageUtil.clickAddIcon();
-        await this.departmentNameTextField.fill(this.secondaryMasterFakerUtils.generateName('Department'));
-        await this.descriptionTextarea.fill(this.secondaryMasterFakerUtils.generateDescription());
-        await this.remarksTextarea.fill(this.secondaryMasterFakerUtils.generateRemarks());
-        await this.secondaryMasterFakerUtils.generateActiveStatus();
+        await this.clickAddIcon();
+        await this.departmentNameTextField.fill(SecondaryMasterFaker.generateName('Department'));
+        await this.descriptionTextarea.fill(SecondaryMasterFaker.generateDescription());
+        await this.remarksTextarea.fill(SecondaryMasterFaker.generateRemarks());
+        await SecondaryMasterFaker.generateActiveStatus();
+        await this.toastContainer().waitFor({ state: 'hidden', timeout: 5000 });
         await this.saveButton.click();
+        await this.verifyToast(['created', 'successfully']);
+        await this.page.waitForURL(/table/);
     }
 }

@@ -9,7 +9,7 @@ export class ToastUtils {
    async getToastMessage(
     page: Page,
     timeout: number = 5000
-  ): Promise<string | null> {
+  ): Promise<any | null> {
 
     const toast = page.locator(ToastUtils.toastMessage);
 

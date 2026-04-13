@@ -1,5 +1,6 @@
 import BasePage from "../../base/BasePage";
 import { expect, Locator, Page } from "@playwright/test";
+import { SecondaryMasterFaker } from "../../utils/SecondaryMasterFakerUtils";
 
 export class MaterialType extends BasePage {
     private materialTypePlusIcon: Locator;
@@ -20,11 +21,14 @@ export class MaterialType extends BasePage {
     }
 
     async createMaterialType() {
-        await this.tablePageUtil.clickAddIcon();
-        await this.materialTypeNameTextField.fill(this.secondaryMasterFakerUtils.generateName('MaterialType'));
-        await this.descriptionTextarea.fill(this.secondaryMasterFakerUtils.generateDescription());
-        await this.remarksTextarea.fill(this.secondaryMasterFakerUtils.generateRemarks());
-        await this.secondaryMasterFakerUtils.generateActiveStatus();
+        await this.clickAddIcon();
+        await this.materialTypeNameTextField.fill(SecondaryMasterFaker.generateName('MaterialType'));
+        await this.descriptionTextarea.fill(SecondaryMasterFaker.generateDescription());
+        await this.remarksTextarea.fill(SecondaryMasterFaker.generateRemarks());
+        await SecondaryMasterFaker.generateActiveStatus();
+        await this.toastContainer().waitFor({ state: 'hidden', timeout: 5000 });
         await this.saveButton.click();
+        await this.verifyToast(['created', 'successfully']);
+        await this.page.waitForURL(/table/);
     }
 }   

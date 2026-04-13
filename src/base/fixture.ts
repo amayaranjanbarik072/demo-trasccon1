@@ -1,10 +1,7 @@
-console.log('✅ FIXTURE FILE LOADED');
-
-
-import { test as base, expect } from '@playwright/test';
+import { test as base, expect, Page } from '@playwright/test';
 import LoginPage from '../pages/login/LoginPage';
 import { DashboardPage } from '../pages/dashboard/DashboardPage';
-import { OrgConfigPage } from '../pages/orgConfig/OrgConfigPage';
+
 //=============All the Secondary Master Pages to be imported here==================//
 import AdditionalCharges from '../pages/secondaryMasters/AdditionalCharges';
 import { ApprovalRange } from '../pages/secondaryMasters/ApprovalRange';
@@ -53,17 +50,26 @@ import { Uoc } from '../pages/secondaryMasters/Uoc';
 import { Uom } from '../pages/secondaryMasters/Uom';
 import VendorCategory from '../pages/secondaryMasters/VendorCategory';
 import { Warehouse } from '../pages/secondaryMasters/Warehouse';
-import { SalesAndMarketingPage } from '../pages/salesAndMarketing/SalesAndMarketingPage';
 import VendorType from '../pages/secondaryMasters/VendorType';
-
-
-
+import { CompanyMaster } from '../pages/orgConfig/CompanyMaster';
+import { CustomerMaster } from '../pages/salesAndMarketing/CustomerMaster';
+import { ItemMaster } from '../pages/engineering/ItemMaster';
+import { VendorMaster } from '../pages/procurement/VendorMaster';
+import { ReleaseBOM } from '../pages/engineering/ReleaseBOM';
+import { RFQ } from '../pages/salesAndMarketing/RFQ';
+import { ItemPriceList } from '../pages/salesAndMarketing/ItemPriceList';
 
 type AppFixtures = {
   loginPage: LoginPage;
   dashboardPage: DashboardPage;
-  orgConfigPage: OrgConfigPage;
-  salesAndMarketingPage: SalesAndMarketingPage;
+  itemMaster: ItemMaster;
+  releseBOM: ReleaseBOM;
+  companyMaster: CompanyMaster;
+  customerMaster: CustomerMaster;
+  vendorMaster: VendorMaster;
+  rfq: RFQ;
+  itemPriceList: ItemPriceList;
+
 
   //All the secondary master pages to be added here
   additionalCharges: AdditionalCharges;
@@ -124,19 +130,51 @@ export const test = base.extend<AppFixtures>({
     await page.goto('/login');
     //await loginPage.secondValidLogin();
     await use(loginPage);
+
+    // 🔴 Cleanup (runs after test finishes)
+    await page.context().clearCookies();
+    await page.close();
   },
 
+  // Dashboard
   dashboardPage: async ({ page }, use) => {
     await use(new DashboardPage(page));
   },
-  orgConfigPage: async ({ page }, use) => {
-    await use(new OrgConfigPage(page));
-  },
-  salesAndMarketingPage: async ({ page }, use) => {
-    await use(new SalesAndMarketingPage(page));
+
+  //Org Config
+  companyMaster: async ({ page }, use) => {
+    await use(new CompanyMaster(page));
   },
 
-  // All the secondary masters objects to be created here
+  // Engineering
+  itemMaster: async ({ page }, use) => {
+    await use(new ItemMaster(page));
+  },
+  releseBOM: async ({ page }, use) => {
+    await use(new ReleaseBOM(page));
+  },
+
+
+
+  //Sales and marketing
+  customerMaster: async ({ page }, use) => {
+    await use(new CustomerMaster(page));
+  },
+  rfq: async ({ page }, use) => {
+    await use(new RFQ(page));
+  },
+  itemPriceList: async ({ page }, use) => {
+    await use(new ItemPriceList(page));
+  },
+
+
+  //Procurement
+  vendorMaster: async ({ page }, use) => {
+    await use(new VendorMaster(page));
+  },
+
+  //===========All the secondary masters objects to be created here============//
+  //===========================================================================//
   additionalCharges: async ({ page }, use) => {
     await use(new AdditionalCharges(page));
   },

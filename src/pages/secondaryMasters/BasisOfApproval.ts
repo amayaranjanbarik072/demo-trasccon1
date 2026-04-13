@@ -1,5 +1,6 @@
 import BasePage from "../../base/BasePage";
 import { Page, Locator } from "@playwright/test";
+import { SecondaryMasterFaker } from "../../utils/SecondaryMasterFakerUtils";
 
 export default class BasisOfApproval extends BasePage {
     private basisOfApprovalPlusIcon: Locator;
@@ -20,11 +21,14 @@ export default class BasisOfApproval extends BasePage {
     }
 
     async createBasisOfApproval() {
-        await this.tablePageUtil.clickAddIcon();
-        await this.basisOfApprovalTextField.fill(this.secondaryMasterFakerUtils.generateName('Basis Of Approval'));
-        await this.descriptionTextarea.fill(this.secondaryMasterFakerUtils.generateDescription());
-        await this.remarksTextarea.fill(this.secondaryMasterFakerUtils.generateRemarks());
-        await this.secondaryMasterFakerUtils.generateActiveStatus();
+        await this.clickAddIcon();
+        await this.basisOfApprovalTextField.fill(SecondaryMasterFaker.generateName('Basis Of Approval'));
+        await this.descriptionTextarea.fill(SecondaryMasterFaker.generateDescription());
+        await this.remarksTextarea.fill(SecondaryMasterFaker.generateRemarks());
+        await SecondaryMasterFaker.generateActiveStatus();
+        await this.toastContainer().waitFor({ state: 'hidden', timeout: 5000 });
         await this.saveButton.click();
+        await this.verifyToast(['created', 'successfully']);
+        await this.page.waitForURL(/table/);
     }
 }

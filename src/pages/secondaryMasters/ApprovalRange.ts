@@ -1,6 +1,7 @@
 import BasePage from "../../base/BasePage";
 import { expect, Locator, Page } from "@playwright/test";
 import { procurementData } from "../../utils/propertiesReader";
+import { SecondaryMasterFaker } from "../../utils/SecondaryMasterFakerUtils";
 
 
 export class ApprovalRange extends BasePage {
@@ -42,7 +43,7 @@ export class ApprovalRange extends BasePage {
     }
 
     async createApprovalRangeForThreeAndFourTogether() {
-        await this.tablePageUtil.clickAddIcon();
+        await this.clickAddIcon();
         await this.procurementTypeDropdown.click();
         const options = this.page.getByRole('option');
         const count = await options.count();
@@ -53,12 +54,18 @@ export class ApprovalRange extends BasePage {
             const text = await options.nth(i).innerText();
             console.log(`Option ${i + 1}: ${text}`);
         }
+        await this.page.keyboard.type(procurementData.name, { delay: 50 });
+        // Wait for filter to apply
+        await this.page.waitForTimeout(300);
+        // Select first matched result
+        await this.page.keyboard.press('Enter');
+        await this.page.waitForTimeout(300);
         //Select Option
         //const valueToSelect = ' Service';
         //await this.procurementType.getByRole('option', { name: 'Service' }).click();
 
         //Select option by index
-        await options.nth(10).click();
+        //await options.nth(10).click();
 
         //Select first option
         // await options.first().click();
@@ -66,76 +73,49 @@ export class ApprovalRange extends BasePage {
         //Select last option
         // await options.last().click();
 
-        await this.descriptionTextarea.fill(this.secondaryMasterFakerUtils.generateDescription());
-        await this.remarksTextarea.fill(this.secondaryMasterFakerUtils.generateRemarks());
-        //Check Approval 3 and 4 together
+        await this.descriptionTextarea.fill(SecondaryMasterFaker.generateDescription());
+        await this.remarksTextarea.fill(SecondaryMasterFaker.generateRemarks());
+        //Check Approval 3 and 4 together 
         await this.doYouWantApproval3And4TogetherCheckbox.click();
         await this.rangeToTextfield.fill('100');
-        //await this.saveButton.click();
+        await this.toastContainer().waitFor({ state: 'hidden', timeout: 5000 });
+        await this.saveButton.click();
+        await this.verifyToast(['created', 'successfully']);
+        await this.page.waitForURL(/table/);
     }
-    async createApprovalRangeforThree() {
-        await this.tablePageUtil.clickAddIcon();
+    async createApprovalRangeForThree() {
+        await this.clickAddIcon();
         await this.procurementTypeDropdown.click();
-        // const options = this.page.getByRole('option');
-        // await options.nth(10).click();
         await this.page.keyboard.type(procurementData.name, { delay: 50 });
-        // Wait for filter to apply
         await this.page.waitForTimeout(300);
-        // Select first matched result
         await this.page.keyboard.press('Enter');
         await this.page.waitForTimeout(300);
-        await this.descriptionTextarea.fill(this.secondaryMasterFakerUtils.generateDescription());
-        await this.remarksTextarea.fill(this.secondaryMasterFakerUtils.generateRemarks());
+        await this.descriptionTextarea.fill(SecondaryMasterFaker.generateDescription());
+        await this.remarksTextarea.fill(SecondaryMasterFaker.generateRemarks());
         //Check Approval 3
         await this.doYouWantApproval3Checkbox.click();
         await this.rangeToTextfield.fill('100');
-        //await this.saveButton.click();    
+        await this.toastContainer().waitFor({ state: 'hidden', timeout: 5000 });
+        await this.saveButton.click();
+        await this.verifyToast(['created', 'successfully']);
+        await this.page.waitForURL(/table/);
     }
     async createApprovalRangeForFour() {
-        await this.tablePageUtil.clickAddIcon();
+        await this.clickAddIcon();
         await this.procurementTypeDropdown.click();
-        const options = this.page.getByRole('option');
-        await options.nth(10).click();
-        await this.descriptionTextarea.fill(this.secondaryMasterFakerUtils.generateDescription());
-        await this.remarksTextarea.fill(this.secondaryMasterFakerUtils.generateRemarks());
+        //await this.page.keyboard.type(procurementData.name, { delay: 50 });
+        await this.page.keyboard.type('Procurement Type', { delay: 50 });
+        await this.page.waitForTimeout(300);
+        await this.page.keyboard.press('Enter');
+        await this.descriptionTextarea.fill(SecondaryMasterFaker.generateDescription());
+        await this.remarksTextarea.fill(SecondaryMasterFaker.generateRemarks());
         await this.doYouWantApproval3Checkbox.click();
         await this.doYouWantApproval4Checkbox.click();
         await this.rangeToTextfield.fill('100');
         await this.secondRangeToTextfield.fill('150');
+        await this.toastContainer().waitFor({ state: 'hidden', timeout: 5000 });
         await this.saveButton.click();
+        await this.verifyToast(['created', 'successfully']);
+        await this.page.waitForURL(/table/);
     }
-    async pagination() {
-        await this.tablePageUtil.goToNextPage();
-        await this.page.waitForTimeout(2000);
-        await this.tablePageUtil.goToPreviousPage();
-        await this.page.waitForTimeout(2000);
-        await this.tablePageUtil.goToLastPage();
-        await this.page.waitForTimeout(2000);
-        await this.tablePageUtil.goToFirstPage();
-        await this.page.waitForTimeout(2000);
-        await this.tablePageUtil.goToAnyPage(1);
-        await this.page.waitForTimeout(2000);
-    }
-    async viewApprovalRange() {
-        await this.tablePageUtil.clickView('Procurement_17-12-2025');
-    }
-
-    async searchApprovalRange() {
-        await this.tablePageUtil.searchBox().fill('Procurement_17-12-2025');
-        await this.page.waitForTimeout(2000);
-        await this.tablePageUtil.searchIcon().click();
-        await this.page.waitForTimeout(4000);
-    }
-    async editApprovalRange() {
-        await this.tablePageUtil.clickEdit('Procurement_17-12-2025');
-        await this.page.waitForTimeout(2000);
-        await this.descriptionTextarea.fill(this.secondaryMasterFakerUtils.generateDescription());
-        await this.remarksTextarea.fill(this.secondaryMasterFakerUtils.generateRemarks());
-        //await this.saveButton.click();
-    }
-    async selectPageSize() {
-        await this.tablePageUtil.pageSizeDropdown().click();
-        await this.tablePageUtil.changePageSize('50');
-        await this.page.waitForTimeout(2000);
-    }
-}
+} 

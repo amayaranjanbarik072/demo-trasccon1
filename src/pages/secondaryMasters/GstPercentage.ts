@@ -1,5 +1,6 @@
 import BasePage from "../../base/BasePage";
 import { Page, Locator } from "@playwright/test";
+import { SecondaryMasterFaker } from "../../utils/SecondaryMasterFakerUtils";
 
 export default class GstPercentage extends BasePage {
     private gstPercentagePlusIcon: Locator;
@@ -18,10 +19,13 @@ export default class GstPercentage extends BasePage {
     }
 
     async createGstPercentage() {
-        await this.tablePageUtil.clickAddIcon();
-        await this.gstPercentageTextField.fill(this.secondaryMasterFakerUtils.generateName('GST Percentage'));
-        await this.descriptionTextarea.fill(this.secondaryMasterFakerUtils.generateDescription());
-        await this.secondaryMasterFakerUtils.generateActiveStatus();
+        await this.clickAddIcon();
+        await this.gstPercentageTextField.fill(SecondaryMasterFaker.generateName('GST Percentage'));
+        await this.descriptionTextarea.fill(SecondaryMasterFaker.generateDescription());
+        await SecondaryMasterFaker.generateActiveStatus();
+        await this.toastContainer().waitFor({ state: 'hidden', timeout: 5000 });
         await this.saveButton.click();
+        await this.verifyToast(['created', 'successfully']);
+        await this.page.waitForURL(/table/);
     }
 }
